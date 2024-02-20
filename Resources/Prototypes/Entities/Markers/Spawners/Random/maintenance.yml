@@ -164,6 +164,9 @@
       - id: ClothingUniformJumpsuitFamilyGuy
       - id: WristwatchGold
       - id: RubberStampGreytide
+      - id: ClothingShoesRobocop
+      - id: ClothingHeadHatRobocop
+      - id: ClothingOuterSuitRobocop
 
 - type: entity
   name: Maint Loot Spawner
