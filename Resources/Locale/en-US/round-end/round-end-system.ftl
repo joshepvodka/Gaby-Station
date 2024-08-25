@@ -7,5 +7,9 @@ round-end-system-shuttle-auto-called-announcement = An automatic crew shift chan
 round-end-system-shuttle-recalled-announcement = The emergency shuttle has been recalled.
 round-end-system-round-restart-eta-announcement = Restarting the round in {$time} {$units}...
 
-eta-units-minutes = minutos
-eta-units-seconds = segundos
+eta-units-minutes = minutes
+eta-units-seconds = seconds
+
+round-end-system-shuttle-reminder = The emergency shuttle will be sent soon.
+
+round-end-system-station-name = station
