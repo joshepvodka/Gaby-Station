@@ -375,10 +375,8 @@ namespace Content.Server.Communications
         }
         private void OnCallShuttleMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleCallEmergencyShuttleMessage message)
         {
-            if (!EntityManager.TryGetComponent(message.Actor, out ActorComponent? actor))
-                return;
-
-            if (!CanCallOrRecall(comp))
+            if (!EntityManager.TryGetComponent(message.Actor, out ActorComponent? actor)
+                || !CanCallOrRecall(comp))
                 return;
 
             var mob = message.Actor;
