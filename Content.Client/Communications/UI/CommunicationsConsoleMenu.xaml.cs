@@ -72,13 +72,11 @@ namespace Content.Client.Communications.UI
 
             MaintEmergencyButton.OnPressed += (_) => Owner.MaintEmergencyButtonPressed();
 
-            EmergencyShuttleButton.OnPressed += _ => OnEmergencyLevel?.Invoke();
-            EmergencyShuttleButton.Disabled = !CanCall;
-        }
+            //CentComnButton.OnPressed += (_) => _consolePopUp.OpenCentered();
 
-        protected override void FrameUpdate(FrameEventArgs args)
-        {
-            base.FrameUpdate(args);
+            EmergencyShuttleButton.OnPressed += (_) => Owner.EmergencyShuttleButtonPressed();
+            EmergencyShuttleButton.Disabled = !owner.CanCall;
+
             UpdateCountdown();
         }
 
