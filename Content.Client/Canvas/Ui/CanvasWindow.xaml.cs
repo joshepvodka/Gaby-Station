@@ -191,6 +191,7 @@ namespace Content.Client.Canvas.Ui
             Grids.RemoveAllChildren();
 
             int index = 0; // Index to track the position in the painting code
+            bool isDrawing = false; // Tracks if the mouse button is held down for drawing
 
             // Iterate over rows
             for (int row = 0; row < _height; row++)
@@ -223,19 +224,30 @@ namespace Content.Client.Canvas.Ui
                     {
                         MinSize = new Vector2(ButtonSize, ButtonSize),
                         MaxSize = new Vector2(ButtonSize, ButtonSize),
-                        StyleClasses = { "squareButton" }, // Optional: Add a style class for custom styling
+                        StyleClasses = { "OpenBoth" }, // Optional: Add a style class for custom styling
                         ModulateSelfOverride = initialColor // Set the background color
                     };
 
-                    // Add event to change color on click
-                    if (string.IsNullOrEmpty(_artist))
+                    // Handle mouse-down events for starting the drawing process
+                    button.OnButtonDown += _ =>
                     {
-                        button.OnPressed += _ =>
+                        isDrawing = true;
+                        button.ModulateSelfOverride = _color;
+                        UpdatePaintingCode(currentRow, currentCol, _color); // Update the painting code
+                    };
+
+                    // Handle mouse-enter events for drawing while holding the mouse button
+                    button.OnMouseEntered += _ =>
+                    {
+                        if (isDrawing)
                         {
                             button.ModulateSelfOverride = _color;
-                            UpdatePaintingCode(currentRow, currentCol, _color); // Use the local variables
-                        };
-                    }
+                            UpdatePaintingCode(currentRow, currentCol, _color); // Update the painting code
+                        }
+                    };
+
+                    // Handle mouse-up events to stop drawing
+                    button.OnButtonUp += _ => isDrawing = false;
 
                     // Add the button to the current row container
                     rowContainer.AddChild(button);
@@ -244,16 +256,19 @@ namespace Content.Client.Canvas.Ui
                 // Add the row container to the Grids container
                 Grids.AddChild(rowContainer);
             }
+
+            // Display artist name if present
             if (!string.IsNullOrEmpty(_artist))
             {
-                var button = new Button
+                var artistButton = new Button
                 {
-                    Text = _artist, // Optional: Add a style class for custom styling
-                    ModulateSelfOverride = Color.Black // Set the background color
+                    Text = _artist,
+                    ModulateSelfOverride = Color.Black
                 };
-                Grids.AddChild(button);
+                Grids.AddChild(artistButton);
             }
         }
+
 
         /// <summary>
         /// Updates the painting code when a button's color changes.
