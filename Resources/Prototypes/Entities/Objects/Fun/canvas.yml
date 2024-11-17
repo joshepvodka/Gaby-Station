@@ -1,0 +1,34 @@
+- type: entity
+  parent: BaseItem
+  id: Canvas
+  name: canvas
+  description: Um quadro para você pintar.
+  Canvas:
+    Height: 16
+    Width: 16
+    PaintingCode: "RRGGWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/artstuff.rsi
+    state: icon
+  - type: Tag
+    tags:
+      - Payload
+  - type: Item
+    sprite: Objects/Misc/artstuff.rsi
+  - type: EmitSoundOnUse
+    sound:
+      collection: Skub
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: Skub
+  - type: UseDelay
+    delay: 2.0
+  - type: ActivatableUI
+    key: enum.CanvasUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.CanvasUiKey.Key:
+        type: CanvasBoundUserInterface  
+  - type: Canvas
+    paintingCode: "RRBBYY"
