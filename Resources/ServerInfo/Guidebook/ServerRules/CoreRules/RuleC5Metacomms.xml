@@ -1,18 +1,18 @@
 ﻿<Document>
-  # Core Rule 5 - Do not use out of game methods to communicate with other players
-  This is a zero tolerance rule.
+  # Regra Básica 5 - Não use métodos de fora do jogo (como Discord) para se comunicar com outros jogadores.
+  Essa é uma regra de tolerância zero.
 
-  Do not utilize any external means of communication to talk to other players who are connected to the same server, or who were connected to the same server during the current round. This is referred to as "metacomming" and includes any means of communication including text, voice, images, and video. This includes applications such as Discord, Steam, and other platforms, along with in-person communication.
+  Não utilize qualquer meio externo de comunição para conversar com outros jogadores que estão nesse mesmo servidor, ou que estavam no servidor durante o round atual. Isso é referido como "Metacomm" e inclui qualquer meio de comunicação, seja por texto, voz, imagens ou vídeo. Isso inclui plataformas como Discord, Steam e outras.
 
-  Even if information is not being shared or abused, it may still be considered a violation of this rule. Due to the difficulty of determining if information is being shared, it will almost always be presumed that people who message another player they are in a round with, or who are in a voice call with another player during a round are sharing round information. Due to the difficulty of determining if users are abusing information that they are sharing, it will almost always be presumed that the information is being abused.
+  Mesmo se nenhuma informação estiver sendo compartilhada ou abusada, a comunicação ainda pode ser considerada uma violação dessa regra. Por conta da dificuldade de determinar se alguma informação está sendo compartilhada, será presumido que jogadores conversando com outros jogadores no mesmo round, seja por call ou texto, estão compartilhando e abusando de informações. 
 
-  The only exemption to this rule is when [color=#a4885c]all[/color] players are in the server lobby.
+  A única exceção para essa regra é quando [color=#a4885c]todos[/color] os jogadores estiverem no Lobby.
 
-  ## Teaching new players
-  Teaching players is not exempt from this rule. If you want to teach a new player, it is recommended to either watch a stream of them playing the game while not playing yourself, or communicate with them using only in-game methods of communication.
+  ## Ensinando Novos Jogadores
+  Ensinar novos jogadores não se isenta dessa regra. Se você deseja ensinar um novo jogador, é recomendado que você assista uma transmissão dele jogando o jogo enquanto você não joga, comunicar diretamente in-game ou utilizar nossos canais de voz oficiais do Discord enquanto um(a) Moderador(a) esteja supervisionando.
 
-  ## Streaming
-  Public livestreams are not exempt from this rule, but have different liability. Using information from a public live stream of the game (stream sniping) is a violation of this rule. Watching a public live stream of the game while connected to the same server is a violation of this rule. Allowing people watching a public live stream to share information about the current round, for example through the stream's chat, is a violation of this rule. Using that information is also a violation of this rule. Sharing information about the current round with a streamer is a violation of this rule if that information was obtained from any source but the stream. The stream's moderators are expected to enforce this on the streaming platform in addition to any in-game enforcement done by game admins.
+  ## Transmissões
+  Lives públicas não estão isentas dessa regra, mas tem um peso diferente. Usar informações de uma live pública do jogo (stream sniping) é uma violação dessa regra. Assistir uma live pública enquanto estiver conectado no mesmo servidor é uma violação dessa regra. Permitir que as pessoas assistam sua live apenas para compartilhar informações do round atual, como por exemplo através do Chat da live, é uma violação da regra. Usar a informação também é uma violação dessa regra. Os moderadores da Live são esperados de reforçar essa regra em qualquer plataforma de Lives que seja.
 
-  Public livestreaming by itself is not a violation of the rule as long as the stream is sufficiently moderated. Streamers are encouraged, but not required, to use a stream delay.
+  Fazer Lives públicas por si só não é uma violação dessa regra caso a Live seja suficientemente moderada. Streamers são encorajados, mas não exigidos, a usar stream delay.
 </Document>
