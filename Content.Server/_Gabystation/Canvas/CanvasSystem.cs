@@ -1,6 +1,6 @@
 using Content.Server.Administration.Logs;
 using Content.Server.Popups;
-using Content.Shared.Canvas;
+using Content.Shared._Gabystation.Canvas;
 using Robust.Shared.Prototypes;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;

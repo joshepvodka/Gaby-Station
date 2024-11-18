@@ -1,5 +1,5 @@
 using Content.Server.UserInterface;
-using Content.Shared.Canvas;
+using Content.Shared._Gabystation.Canvas;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 

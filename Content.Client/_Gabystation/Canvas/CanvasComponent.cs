@@ -1,5 +1,5 @@
 using Content.Client.Canvas.Ui;
-using Content.Shared.Canvas;
+using Content.Shared._Gabystation.Canvas;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Shared.GameObjects;

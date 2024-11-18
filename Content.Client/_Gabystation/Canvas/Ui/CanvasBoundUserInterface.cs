@@ -1,6 +1,6 @@
 using Content.Client.UserInterface;
 using Content.Shared.Ame.Components;
-using Content.Shared.Canvas;
+using Content.Shared._Gabystation.Canvas;
 using Content.Shared.Medical.CrewMonitoring;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;

@@ -1,7 +1,7 @@
 using Content.Client.Items;
 using Content.Client.Message;
 using Content.Client.Stylesheets;
-using Content.Shared.Canvas;
+using Content.Shared._Gabystation.Canvas;
 using Mono.Cecil.Cil;
 using Robust.Client.GameObjects;
 using Robust.Client.UserInterface;
