@@ -6,7 +6,7 @@ using Robust.Shared.GameObjects;
 using static Content.Shared.Canvas.SharedCanvasComponent;
 using Robust.Shared.GameStates;
 
-namespace Content.Shared.Canvas
+namespace Content.Shared._Gabystation.Canvas
 {
     [Virtual]
     public abstract partial class SharedCanvasSystem : EntitySystem

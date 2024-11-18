@@ -9,7 +9,7 @@ using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using Color = Robust.Shared.Maths.Color;
 
-namespace Content.Client.Canvas
+namespace Content.Client._Gabystation.Canvas
 {
     [RegisterComponent]
     public sealed partial class CanvasComponent : SharedCanvasComponent

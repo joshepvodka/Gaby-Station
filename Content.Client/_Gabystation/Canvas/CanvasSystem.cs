@@ -12,11 +12,11 @@ using Robust.Shared.Localization;
 using Robust.Shared.Timing;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp;
-using static Content.Shared.Canvas.SharedCanvasComponent;
+using static Content.Shared._Gabystation.Canvas.SharedCanvasComponent;
 using Color = Robust.Shared.Maths.Color;
 using Robust.Client.Graphics;
 
-namespace Content.Client.Canvas
+namespace Content.Client._Gabystation.Canvas
 {
     public sealed class CanvasSystem : SharedCanvasSystem
     {

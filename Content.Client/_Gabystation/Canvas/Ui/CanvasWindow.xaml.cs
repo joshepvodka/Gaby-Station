@@ -15,10 +15,10 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
-using static Content.Shared.Canvas.SharedCanvasComponent;
+using static Content.Shared._Gabystation.Canvas.SharedCanvasComponent;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
 
-namespace Content.Client.Canvas.Ui
+namespace Content.Client._Gabystation.Canvas.Ui
 {
     [GenerateTypedNameReferences]
     public sealed partial class CanvasWindow : FancyWindow

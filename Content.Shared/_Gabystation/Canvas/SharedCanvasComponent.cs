@@ -4,7 +4,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using System;
 
-namespace Content.Shared.Canvas;
+namespace Content.Shared._Gabystation.Canvas;
 
 [NetworkedComponent, ComponentProtoName("Canvas"), Access(typeof(SharedCanvasSystem))]
 public abstract partial class SharedCanvasComponent : Component
@@ -53,7 +53,7 @@ public abstract partial class SharedCanvasComponent : Component
         }
     }
     [DataField("artist")]
-    private string _artist = string.Empty;    
+    private string _artist = string.Empty;
     public string Artist
     {
         get => _artist;

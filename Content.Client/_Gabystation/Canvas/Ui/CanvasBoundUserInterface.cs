@@ -9,12 +9,12 @@ using Robust.Shared.GameObjects;
 using Robust.Shared.Prototypes;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp;
-using static Content.Shared.Canvas.SharedCanvasComponent;
+using static Content.Shared._Gabystation.Canvas.SharedCanvasComponent;
 using static Robust.Client.UserInterface.Controls.MenuBar;
 using System.ComponentModel;
 using Color = Robust.Shared.Maths.Color;
 
-namespace Content.Client.Canvas.Ui
+namespace Content.Client._Gabystation.Canvas.Ui
 {
     public sealed class CanvasBoundUserInterface : BoundUserInterface
     {

@@ -13,9 +13,9 @@ using Content.Shared.Decals;
 using Robust.Shared.Audio;
 using System.Linq;
 using System.Numerics;
-using static Content.Shared.Canvas.SharedCanvasComponent;
+using static Content.Shared._Gabystation.Canvas.SharedCanvasComponent;
 
-namespace Content.Server.Canvas
+namespace Content.Server._Gabystation.Canvas
 {
     public sealed class CanvasSystem : SharedCanvasSystem
     {
