@@ -50,16 +50,10 @@ namespace Content.Server.Communications
         [Dependency] private readonly IChatManager _chatManager = default!; // avbiso admin
         [Dependency] private readonly IGameTiming _timing = default!; // cooldown
 
-
-
-
         private const float UIUpdateInterval = 5.0f;
 
         // array dos prototypes que vao ficar em manutenção
         private ArrayList _maintDoorPrototypeList = new ArrayList();
-
-        //audios ref
-        private static readonly SoundSpecifier? AnnouncementChime = new SoundPathSpecifier("/Audio/Misc/notice1.ogg");
 
         public override void Initialize()
         {
@@ -358,7 +352,7 @@ namespace Content.Server.Communications
             }
             _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has toggle the station maintance access."); //bota log de admin em ingles por que sou muito estadunidense slk
 
-            _chatSystem.DispatchStationAnnouncement(uid, Loc.GetString("comms-console-announcement-content-maint"), Loc.GetString("comms-console-announcement-title-station"), true, AnnouncementChime, colorOverride: comp.Color);
+            _chatSystem.DispatchGlobalAnnouncement(Loc.GetString("comms-console-announcement-content-maint"), Loc.GetString("comms-console-announcement-title-station"), announcementSound: comp.Sound, colorOverride: comp.Color);
 
             // itera as portas DO PROTOTYPE de maint da estação
             var query = EntityQueryEnumerator<DoorComponent>();
