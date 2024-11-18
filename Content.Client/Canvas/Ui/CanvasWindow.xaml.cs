@@ -96,6 +96,10 @@ namespace Content.Client.Canvas.Ui
             FinalizeButton.OnPressed += _ =>
             {
                 _artist = "Nome do artista";
+                if(_entManager.TryGetComponent(_owner, out MetaDataComponent? metaData))
+                {
+                    _artist = metaData.EntityName;
+                }
                 OnFinalize?.Invoke(_artist);
             };
             //FixPaintingCode();
@@ -118,7 +122,7 @@ namespace Content.Client.Canvas.Ui
 
         public void UpdateState(BoundUserInterfaceState state)
         {
-            var castState = (CanvasBoundUserInterfaceState)state;
+            var castState = (CanvasBoundUserInterfaceState) state;
             _selected = castState.Selected;
             ColorSelector.Visible = castState.SelectableColor;
             _color = castState.Color;
@@ -169,12 +173,26 @@ namespace Content.Client.Canvas.Ui
                     ModulateSelfOverride = color, // Set the button background to the color
                 };
 
+
                 // Attach an event to handle color selection
                 colorButton.OnPressed += _ => HandleColorSelected(color);
 
                 // Add the button to the ColorSelector
                 ColorSelector.AddChild(colorButton);
             }
+            // Add a button specifically for transparency
+            var transparencyButton = new Button
+            {
+                MinSize = new Vector2(ButtonSize, ButtonSize),
+                MaxSize = new Vector2(ButtonSize, ButtonSize),
+                Text = "Transparent",
+            };
+
+            // Attach an event to handle transparency selection
+            transparencyButton.OnPressed += _ => HandleColorSelected(Color.Transparent);
+
+            // Add the transparency button to the ColorSelector
+            ColorSelector.AddChild(transparencyButton);
         }
 
         public void SetPaintingCode(string code)
@@ -184,6 +202,14 @@ namespace Content.Client.Canvas.Ui
         public void SetArtist(string artist)
         {
             _artist = artist;
+        }
+        public void SetHeight(int height)
+        {
+            _height = height;
+        }
+        public void SetWidth(int width)
+        {
+            _width = width;
         }
         public void PopulatePaintingGrid()
         {
@@ -277,7 +303,7 @@ namespace Content.Client.Canvas.Ui
         {
             if (!string.IsNullOrEmpty(_artist))
                 return;
-            Logger.ErrorS("canvas", $"pitando {row} {col}");
+            //Logger.ErrorS("canvas", $"pitando {row} {col}");
 
             // Ensure _paintingCode is properly initialized
             FixPaintingCode();
@@ -309,6 +335,7 @@ namespace Content.Client.Canvas.Ui
         {
             return code switch
             {
+                'Z' => Color.Transparent,
                 'R' => Color.Red,
                 'G' => Color.Green,
                 'B' => Color.Blue,
@@ -318,11 +345,18 @@ namespace Content.Client.Canvas.Ui
                 'O' => new Color(1.0f, 0.65f, 0.0f), // Orange
                 'P' => new Color(0.75f, 0.0f, 0.75f), // Purple
                 'T' => new Color(0.33f, 0.55f, 0.2f), // Teal
+                'N' => new Color(0.6f, 0.3f, 0.1f),   // Brown
+                'E' => new Color(0.9f, 0.8f, 0.7f),   // Beige
                 'L' => Color.LightGray,
                 'D' => Color.DarkGray,
+                'F' => new Color(0.5f, 0.5f, 1.0f),   // Pastel Blue
+                'I' => new Color(1.0f, 0.5f, 0.5f),   // Pastel Pink
+                'Q' => new Color(0.0f, 0.5f, 0.5f),   // Dark Cyan
+                'H' => new Color(0.4f, 0.2f, 0.6f),   // Deep Purple
                 'K' => Color.Black,
                 _ => Color.White, // Default to white
             };
+
         }
 
         /// <summary>
@@ -330,6 +364,7 @@ namespace Content.Client.Canvas.Ui
         /// </summary>
         private char GetCodeFromColor(Color color)
         {
+            if (color == Color.Transparent) return 'Z';
             if (color == Color.Red) return 'R';
             if (color == Color.Green) return 'G';
             if (color == Color.Blue) return 'B';
@@ -339,11 +374,18 @@ namespace Content.Client.Canvas.Ui
             if (color == new Color(1.0f, 0.65f, 0.0f)) return 'O'; // Orange
             if (color == new Color(0.75f, 0.0f, 0.75f)) return 'P'; // Purple
             if (color == new Color(0.33f, 0.55f, 0.2f)) return 'T'; // Teal
+            if (color == new Color(0.6f, 0.3f, 0.1f)) return 'N'; // Brown
+            if (color == new Color(0.9f, 0.8f, 0.7f)) return 'E'; // Beige
             if (color == Color.LightGray) return 'L';
             if (color == Color.DarkGray) return 'D';
+            if (color == new Color(0.5f, 0.5f, 1.0f)) return 'F'; // Pastel Blue
+            if (color == new Color(1.0f, 0.5f, 0.5f)) return 'I'; // Pastel Pink
+            if (color == new Color(0.0f, 0.5f, 0.5f)) return 'Q'; // Dark Cyan
+            if (color == new Color(0.4f, 0.2f, 0.6f)) return 'H'; // Deep Purple
             if (color == Color.Black) return 'K';
             return 'W'; // Default to white
         }
+
 
         public void InitializeFromYaml(string paintingCode)
         {

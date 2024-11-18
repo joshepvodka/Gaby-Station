@@ -23,7 +23,7 @@ namespace Content.Client.Canvas.Ui
         [ViewVariables]
         private CanvasWindow? _window;
 
-        public CanvasBoundUserInterface(EntityUid owner, object uiKey) : base(owner, (Enum)uiKey)
+        public CanvasBoundUserInterface(EntityUid owner, object uiKey) : base(owner, (Enum) uiKey)
         {
         }
 
@@ -45,6 +45,7 @@ namespace Content.Client.Canvas.Ui
             // Example: A set of predefined colors
             var colors = new List<Color>
             {
+                Color.Transparent,
                 Color.Red,
                 Color.Blue,
                 Color.Green,
@@ -54,20 +55,31 @@ namespace Content.Client.Canvas.Ui
                 new Color(1.0f, 0.65f, 0.0f), // Orange
                 new Color(0.75f, 0.0f, 0.75f), // Purple
                 new Color(0.33f, 0.55f, 0.2f), // Teal
+                new Color(0.6f, 0.3f, 0.1f),   // Brown
+                new Color(0.9f, 0.8f, 0.7f),   // Beige
                 Color.LightGray,
                 Color.DarkGray,
+                new Color(0.5f, 0.5f, 1.0f),   // Pastel Blue
+                new Color(1.0f, 0.5f, 0.5f),   // Pastel Pink
+                new Color(0.0f, 0.5f, 0.5f),   // Dark Cyan
+                new Color(0.4f, 0.2f, 0.6f),   // Deep Purple
                 Color.Black,
                 Color.White // Ensure white is last for consistency
             };
 
+
             EntMan.TryGetComponent<CanvasComponent>(Owner, out var canvasComponent);
-            var paintingCode = canvasComponent?.PaintingCode;
-            if (paintingCode != null)
-                _window?.SetPaintingCode(paintingCode);
-            var artist = canvasComponent?.Artist;
-            if (!string.IsNullOrEmpty(artist))
+            if (canvasComponent == null || _window == null)
+                return;
+
+            // Set properties from canvasComponent to the window
+            _window.SetPaintingCode(canvasComponent?.PaintingCode ?? string.Empty);
+            _window.SetHeight(canvasComponent?.Height ?? 16);
+            _window.SetWidth(canvasComponent?.Width ?? 16);
+
+            if (!string.IsNullOrEmpty(canvasComponent?.Artist))
             {
-                _window?.SetArtist(artist);
+                _window.SetArtist(canvasComponent.Artist);
             }
             _window?.PopulateColorSelector(colors);
             _window?.PopulatePaintingGrid();
@@ -78,7 +90,7 @@ namespace Content.Client.Canvas.Ui
         {
             base.OnProtoReload(args);
 
-            //if (!args.WasModified<DecalPrototype>())
+            //if (!args.WasModified<>())
             //    return;
 
             //PopulateCanvas();
@@ -99,7 +111,7 @@ namespace Content.Client.Canvas.Ui
             base.UpdateState(state);
 
 
-            var castState = (CanvasBoundUserInterfaceState)state;
+            var castState = (CanvasBoundUserInterfaceState) state;
 
             _window?.UpdateState(castState);
         }

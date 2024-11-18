@@ -70,9 +70,6 @@ namespace Content.Server.Canvas
 
         private void OnCanvasBoundUI(EntityUid uid, CanvasComponent component, CanvasSelectMessage args)
         {
-            // Check if the selected state is valid
-            //if (!_prototypeManager.TryIndex<DecalPrototype>(args.State, out var prototype) || !prototype.Tags.Contains("Canvas"))
-            //    return;
 
             component.SelectedState = args.State;
             component.PaintingCode = args.State;
@@ -81,7 +78,7 @@ namespace Content.Server.Canvas
 
         private void OnCanvasBoundFinalize(EntityUid uid, CanvasComponent component, CanvasFinalizeMessage args)
         {
-            Logger.ErrorS("canvas", $"Finalizado {args.State}.");
+            Logger.Info($"Canvas: Finalizado {args.State}.");
             component.Artist = args.State;
             Dirty(uid, component);
         }
@@ -112,59 +109,6 @@ namespace Content.Server.Canvas
         {
             _popup.PopupEntity(Loc.GetString("Canvas-interact-used-up-text", ("owner", uid)), user, user);
             EntityManager.QueueDeleteEntity(uid);
-        }
-
-        /// <summary>
-        /// Generates a dynamic texture based on the CanvasComponent data.
-        /// </summary>
-        /// <param name="component">The canvas component with art data.</param>
-        /// <returns>A generated texture representing the canvas art.</returns>
-        //private Texture GenerateCanvasTexture(CanvasComponent component)
-        //{
-        //    // Canvas dimensions
-        //    var width = component.Width;
-        //    var height = component.Height;
-
-        //    // Create a blank Image using ImageSharp
-        //    using var image = new Image<Rgba32>(width, height);
-
-        //    // Draw on the image using the PaintingCode
-        //    for (var x = 0; x < width; x++)
-        //    {
-        //        for (var y = 0; y < height; y++)
-        //        {
-        //            // Get the color from the PaintingCode or default
-        //            var color = GetColorFromCode(component.PaintingCode[x + y * width]);
-        //            image[x, y] = new Rgba32(color.R, color.G, color.B, color.A);
-        //        }
-        //    }
-
-        //    // Convert the image to a texture
-        //    var texture = Texture.LoadFromImage(image, "DynamicCanvas");
-        //    return texture;
-        //}
-
-        /// <summary>
-        /// Converts a character from PaintingCode into a Color.
-        /// </summary>
-        private Color GetColorFromCode(char code)
-        {
-            return code switch
-            {
-                'R' => Color.Red,
-                'G' => Color.Green,
-                'B' => Color.Blue,
-                'Y' => Color.Yellow,
-                'C' => Color.Cyan,
-                'M' => Color.Magenta,
-                'O' => new Color(1.0f, 0.65f, 0.0f), // Orange
-                'P' => new Color(0.75f, 0.0f, 0.75f), // Purple
-                'T' => new Color(0.33f, 0.55f, 0.2f), // Teal
-                'L' => Color.LightGray,
-                'D' => Color.DarkGray,
-                'K' => Color.Black,
-                _ => Color.White, // Default to white
-            };
         }
     }
 }

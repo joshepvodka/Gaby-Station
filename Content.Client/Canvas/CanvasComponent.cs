@@ -16,6 +16,5 @@ namespace Content.Client.Canvas
     {
         [ViewVariables(VVAccess.ReadWrite)]
         public bool UIUpdateNeeded;
-
     }
 }

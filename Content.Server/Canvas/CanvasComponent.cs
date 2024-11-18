@@ -14,9 +14,6 @@ namespace Content.Server.Canvas
         [DataField("selectableColor")]
         public bool SelectableColor { get; set; }
 
-
-
-
         [ViewVariables(VVAccess.ReadWrite)]
         [DataField("deleteEmpty")]
         public bool DeleteEmpty = true;

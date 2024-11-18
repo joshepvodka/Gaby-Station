@@ -47,7 +47,7 @@ namespace Content.Client.Canvas
             }
         }
 
-        public void UpdateSprite(EntityUid uid, string code,int height = 16, int width = 16)
+        public void UpdateSprite(EntityUid uid, string code, int height = 16, int width = 16)
         {
             Logger.Info($"gerando arte system.");
             if (string.IsNullOrEmpty(code))
@@ -98,19 +98,26 @@ namespace Content.Client.Canvas
         {
             return code switch
             {
+                'Z' => Color.Transparent,
                 'R' => Color.Red,
                 'G' => Color.Green,
                 'B' => Color.Blue,
                 'Y' => Color.Yellow,
                 'C' => Color.Cyan,
                 'M' => Color.Magenta,
-                'O' => new Color(1.0f, 0.65f, 0.0f),
-                'P' => new Color(0.75f, 0.0f, 0.75f),
-                'T' => new Color(0.33f, 0.55f, 0.2f),
+                'O' => new Color(1.0f, 0.65f, 0.0f), // Orange
+                'P' => new Color(0.75f, 0.0f, 0.75f), // Purple
+                'T' => new Color(0.33f, 0.55f, 0.2f), // Teal
+                'N' => new Color(0.6f, 0.3f, 0.1f),   // Brown
+                'E' => new Color(0.9f, 0.8f, 0.7f),   // Beige
                 'L' => Color.LightGray,
                 'D' => Color.DarkGray,
+                'F' => new Color(0.5f, 0.5f, 1.0f),   // Pastel Blue
+                'I' => new Color(1.0f, 0.5f, 0.5f),   // Pastel Pink
+                'Q' => new Color(0.0f, 0.5f, 0.5f),   // Dark Cyan
+                'H' => new Color(0.4f, 0.2f, 0.6f),   // Deep Purple
                 'K' => Color.Black,
-                _ => Color.White,
+                _ => Color.White, // Default to white
             };
         }
 

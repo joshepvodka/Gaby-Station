@@ -9,9 +9,6 @@ namespace Content.Shared.Canvas;
 [NetworkedComponent, ComponentProtoName("Canvas"), Access(typeof(SharedCanvasSystem))]
 public abstract partial class SharedCanvasComponent : Component
 {
-    /// <summary>
-    /// The ID of currently selected prototype that will be placed
-    /// </summary>
     private string _selectedState = string.Empty;
     public string SelectedState
     {
@@ -26,11 +23,8 @@ public abstract partial class SharedCanvasComponent : Component
         }
     }
 
-    /// <summary>
-    /// Color with which the Canvas will draw
-    /// </summary>
-    private Color _color;
     [DataField("color")]
+    private Color _color;
     public Color Color
     {
         get => _color;
@@ -44,9 +38,8 @@ public abstract partial class SharedCanvasComponent : Component
         }
     }
 
-    // Backing field for PaintingCode
+    [DataField("paintingCode")]
     private string _paintingCode = string.Empty;
-    [DataField("PaintingCode")]
     public string PaintingCode
     {
         get => _paintingCode;
@@ -56,13 +49,11 @@ public abstract partial class SharedCanvasComponent : Component
                 return;
 
             _paintingCode = value;
-            Logger.ErrorS("canvas", $"received update {_paintingCode}.");
             Dirty();
         }
     }
-
-    private string _artist = string.Empty;
-    [DataField("Artist")]
+    [DataField("artist")]
+    private string _artist = string.Empty;    
     public string Artist
     {
         get => _artist;
@@ -72,13 +63,11 @@ public abstract partial class SharedCanvasComponent : Component
                 return;
 
             _artist = value;
-            Logger.ErrorS("canvas", $"received update {_artist}.");
             Dirty();
         }
     }
-
+    [DataField("height")]
     private int _height = 16;
-    [DataField("Height")]
     public int Height
     {
         get => _height;
@@ -92,8 +81,8 @@ public abstract partial class SharedCanvasComponent : Component
         }
     }
 
+    [DataField("width")]
     private int _width = 16;
-    [DataField("Width")]
     public int Width
     {
         get => _width;
@@ -103,6 +92,7 @@ public abstract partial class SharedCanvasComponent : Component
                 return;
 
             _width = value;
+            //Nwidth = value;
             Dirty();
         }
     }
