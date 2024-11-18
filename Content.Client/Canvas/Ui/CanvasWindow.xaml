@@ -12,7 +12,7 @@
             <Button Name="ColorPreview" Text="Cor" Margin="8 0 0 0" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal" Margin="0 0 0 8">
-            <LineEdit Name="Search" PlaceHolder="Código da pintura" HorizontalExpand="True" />
+            <LineEdit Name="Search" PlaceHolder="Paint Code" HorizontalExpand="True" />
             <Button Name="ImportButton" Text="Import" Margin="8 0 0 0" />
             <Button Name="ExportButton" Text="Export" Margin="8 0 0 0" />
             <Button Name="FinalizeButton" Text="Finalize" Margin="8 0 0 0" />

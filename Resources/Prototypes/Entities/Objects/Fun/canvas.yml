@@ -2,7 +2,7 @@
   parent: BaseItem
   id: CanvasBase
   name: Canvas
-  description: Um quadro para você pintar.
+  description: A canvas to Paint.
   Canvas:
     Height: 16
     Width: 16
@@ -37,7 +37,7 @@
   parent: CanvasBase
   id: CanvasMedium
   name: Medium Canvas
-  description: Um quadro médio para você pintar.
+  description: A medium sized canvas to paint.
   Canvas:
     Height: 16
     Width: 16
@@ -46,16 +46,28 @@
     height: 16
     width: 16
   
-
 - type: entity
   parent: CanvasBase
   id: CanvasLarge
   name: Large Canvas
-  description: Um grande quadro para você pintar.
+  description: A big sized canvas to paint.
   Canvas:
     Height: 16
     Width: 32
   components:
   - type: Canvas
     height: 16
+    width: 32
+
+- type: entity
+  parent: CanvasBase
+  id: CanvasGiant
+  name: Giant Canvas
+  description: A giant sized canvas to paint.
+  Canvas:
+    Height: 16
+    Width: 32
+  components:
+  - type: Canvas
+    height: 32
     width: 32
