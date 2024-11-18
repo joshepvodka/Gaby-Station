@@ -1,2 +1,2 @@
 sandbox-title = Sandbox
-sandbox-description = No stress, build something!
+sandbox-description = Hora de encarnar o bob o construtor!

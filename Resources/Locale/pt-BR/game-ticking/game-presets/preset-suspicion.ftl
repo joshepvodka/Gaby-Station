@@ -1,2 +1,2 @@
-suspicion-title = Suspicion
-suspicion-description = Suspicion on the Space Station. There are traitors on board... Can you kill them before they kill you?
+suspicion-title = Suspeita
+suspicion-description = Suspeita na Estação 14. Existem traidores a bordo... Você consegue eliminá-los antes que eles eliminem você?

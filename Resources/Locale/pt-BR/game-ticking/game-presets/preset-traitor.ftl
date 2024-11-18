@@ -1,52 +1,52 @@
 ## Traitor
-## GOOB EDITED
+## goob edit
 
-traitor-round-end-codewords = The codewords were: [color=White]{$codewords}[/color]
-traitor-round-end-agent-name = traitor
+traitor-round-end-codewords = As palavras chave eram: [color=White]{$codewords}[/color]
+traitor-round-end-agent-name = traidor
 
-objective-issuer-syndicate = [color=crimson]The Syndicate[/color]
-objective-issuer-unknown = Unknown
+objective-issuer-syndicate = [color=crimson]O Sindicato[/color]
+objective-issuer-unknown = Desconhecido
 
-# Shown at the end of a round of Traitor
+# final de rodada
 
-traitor-title = Traitor
-traitor-description = There are traitors among us...
-traitor-not-enough-ready-players = Not enough players readied up for the game! There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start Traitor.
-traitor-no-one-ready = No players readied up! Can't start Traitor.
+traitor-title = Traidor
+traitor-description = Existem traidores entre nós...
+traitor-not-enough-ready-players = Jogadores prontos insuficientes para iniciar o jogo! {$readyPlayersCount} jogadores estavam prontos de um total de {$minimumPlayers} necessário(s). Não é possível iniciar Traidor.
+traitor-no-one-ready = Nenhum jogador está pronto! Não é possível iniciar Traidor.
 
 ## TraitorDeathMatch
-traitor-death-match-title = Traitor Deathmatch
-traitor-death-match-description = Everyone's a traitor. Everyone wants each other dead.
-traitor-death-match-station-is-too-unsafe-announcement = The station is too unsafe to continue. You have one minute.
-traitor-death-match-end-round-description-first-line = The PDAs recovered afterwards...
-traitor-death-match-end-round-description-entry = {$originalName}'s PDA, with {$tcBalance} TC
+traitor-death-match-title = Morte de Traidores
+traitor-death-match-description = Todos são traidores. Todos querem ver os outros mortos.
+traitor-death-match-station-is-too-unsafe-announcement = A estação está insegura demais para continuar. Você tem um minuto.
+traitor-death-match-end-round-description-first-line = Os PDAs recuperados posteriormente...
+traitor-death-match-end-round-description-entry = PDA de {$originalName}, com {$tcBalance} TC
 
 ## TraitorRole
 
 # TraitorRole
 traitor-role-codewords =
-    The codewords are: [color = lightgray]
+    As palavras chave são: [color = lightgray]
     {$codewords}.[/color]
-    Codewords can be used in regular conversation to identify yourself discretely to other syndicate agents.
-    Listen for them, and keep them secret.
+    As palavras chave podem ser usadas em conversas normais para se identificar discretamente a outros agentes do Sindicato.
+    Escute por elas e mantenha-as em segredo. Fique atento!
 traitor-role-uplink-code =
-    Set your ringtone to the notes [color = lightgray]{$code}[/color] to lock or unlock your uplink.
-    Remember to lock it after, or the stations crew will easily open it too!
+    Defina seu toque de chamada para as notas: [color = lightgray]{$code}[/color] para bloquear ou desbloquear seu uplink.
+    Lembre-se de bloqueá-lo depois, ou a tripulação da estação poderá abri-lo facilmente!
 
 traitor-role-moreinfo =
-    Find more information about your role in the character menu.
+    Encontre mais informações sobre seu papel no menu de personagem.
 
 traitor-role-nouplink =
-    You do not have a syndicate uplink. Make it count.
+    Você não possui um uplink do Sindicato. Faça valer a pena.
 
 traitor-role-allegiances =
-    Your allegiances:
+    Suas alianças:
 
 traitor-role-notes =
-    Notes from your employer:
+    Notas da sua empresa:
 
-# don't need all the flavour text for character menu
+# menu de personagem
 traitor-role-codewords-short =
-    The codewords are:
+    As palavras chave são:
     {$codewords}.
-traitor-role-uplink-code-short = Your uplink code is {$code}. Set it as your PDA ringtone to access uplink.
+traitor-role-uplink-code-short = Seu código do uplink é {$code}. Defina-o como toque do seu PDA para acessar o uplink.

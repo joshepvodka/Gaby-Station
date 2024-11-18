@@ -1,2 +1,2 @@
-secret-title = Secret
-secret-description = It's a secret to everyone. The threats you encounter are randomized.
+secret-title = Secreto
+secret-description = É um segredo para todos. As ameaças que você encontrará são aleatórias.

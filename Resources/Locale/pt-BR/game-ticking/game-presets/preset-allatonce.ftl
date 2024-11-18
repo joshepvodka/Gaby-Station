@@ -1,5 +1,5 @@
-all-at-once-title = All at once
-all-at-once-description = It's just not your day...
+all-at-once-title = Tudo de uma vez
+all-at-once-description = Eu odeio segunda-feira.
 
-aller-at-once-title = Aller at once
-aller-at-once-description = You have fucked up now. You *have* fucked up now.
+aller-at-once-title = TODOS ao mesmo tempo
+aller-at-once-description = Agora você se fudeu. Você *realmente* se fudeu.

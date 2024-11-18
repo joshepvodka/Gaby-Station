@@ -1,2 +1,2 @@
-greenshift-title = Greenshift
-greenshift-description = An event-less preset for admin events to play through without interference.
+greenshift-title = Turno Verde Cannabis
+greenshift-description = Um turno sem eventos, ideal para os administradores realizarem eventos sem interferências.
