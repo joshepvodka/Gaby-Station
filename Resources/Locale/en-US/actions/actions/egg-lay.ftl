@@ -1,3 +1,3 @@
-﻿action-popup-lay-egg-user = Você põe um ovo.
-action-popup-lay-egg-others = {CAPITALIZE(THE($entity))} põe um ovo.
-action-popup-lay-egg-too-hungry = Você precisa de mais comida antes de botar outro ovo!
+﻿action-popup-lay-egg-user = You lay an egg.
+action-popup-lay-egg-others = {CAPITALIZE(THE($entity))} lays an egg.
+action-popup-lay-egg-too-hungry = You need more food before you can lay another egg!

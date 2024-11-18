@@ -1,2 +1,2 @@
-ui-actionslot-charges = Usos restantes: {$charges}
-ui-actionslot-duration = [color=#a10505] {$duration} Tempo de espera ({$timeLeft} Tempo restante)[/color]
+ui-actionslot-charges = Uses left: {$charges}
+ui-actionslot-duration = [color=#a10505] {$duration} sec cooldown ({$timeLeft} sec remaining)[/color]
