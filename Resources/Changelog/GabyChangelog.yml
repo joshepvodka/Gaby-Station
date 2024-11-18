@@ -16,5 +16,30 @@ Entries:
   changes:
     - type: Add
       message: Tradução ao lobby
+- author: AgentePanela
+  time: '2024-11-18T12:01:00.0000000+00:00'
+  changes:
+    - type: Add
+      message: Console de energia portatil
+- author: AgentePanela
+  time: '2024-11-18T12:01:00.0000000+00:00'
+  changes:
+    - type: Tweak
+      message: Revenant
+- author: AgentePanela
+  time: '2024-11-18T12:01:00.0000000+00:00'
+  changes:
+    - type: Add
+      message: Melhorias no console de comunicações
+- author: Zeroblacck
+  time: '2024-11-18T12:01:00.0000000+00:00'
+  changes:
+    - type: Add
+      message: Mais tradução para o jogo
+- author: JoseFernando-TZ
+  time: '2024-11-18T12:01:00.0000000+00:00'
+  changes:
+    - type: Add
+      message: Mais tradução para o jogo
 Name: GabyStation
 Order: -2
