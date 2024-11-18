@@ -1,5 +1,4 @@
-action-name-internals-toggle = Alterar Internals
-action-description-internals-toggle = Respire do tanque de oxigênio equipado. Também requer máscara respiratória equipada.
-
-internals-no-breath-tool = Você não está usando uma ferramenta de respiração!
-internals-no-tank = Você não está usando um tanque de oxigênio!
+action-name-internals-toggle = Toggle Internals
+action-description-internals-toggle = Breathe from the equipped gas tank. Also requires equipped breath mask.
+internals-no-breath-tool = You are not wearing a breathing tool
+internals-no-tank = You are not wearing a gas tank
