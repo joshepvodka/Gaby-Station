@@ -90,11 +90,13 @@ namespace Content.Client.Stylesheets
 
         public static readonly Color PanelDark = Color.FromHex("#1E1E22");
 
-        public static readonly Color NanoGold = Color.FromHex("#A88B5E");
+        public static readonly Color GabyTheme = Color.FromHex("#A88B5E");
         public static readonly Color GoodGreenFore = Color.FromHex("#31843E");
         public static readonly Color ConcerningOrangeFore = Color.FromHex("#A5762F");
         public static readonly Color DangerousRedFore = Color.FromHex("#BB3232");
         public static readonly Color DisabledFore = Color.FromHex("#5A5A5A");
+
+        public static readonly Color GabyTheme = Color.FromHex("#667C4D");
 
         public static readonly Color ButtonColorDefault = Color.FromHex("#464966");
         public static readonly Color ButtonColorDefaultRed = Color.FromHex("#D43B3B");
@@ -110,6 +112,10 @@ namespace Content.Client.Stylesheets
 
         public static readonly Color ButtonColorGoodDefault = Color.FromHex("#3E6C45");
         public static readonly Color ButtonColorGoodHovered = Color.FromHex("#31843E");
+
+        // gaby station
+        public static readonly Color ButtonColorDefaultGaby = Color.FromHex("#667C4D");
+        public static readonly Color ButtonColorHoveredGaby = Color.FromHex("#4C5B39");
 
         //NavMap
         public static readonly Color PointRed = Color.FromHex("#B02E26");
@@ -149,6 +155,9 @@ namespace Content.Client.Stylesheets
         public const string StyleClassCrossButtonRed = "CrossButtonRed";
         public const string StyleClassButtonColorRed = "ButtonColorRed";
         public const string StyleClassButtonColorGreen = "ButtonColorGreen";
+
+        //gaby station
+        public const string StyleClassButtonColorGaby = "ButtonColorGaby";
 
         public static readonly Color ChatBackgroundColor = Color.FromHex("#25252ADD");
 
@@ -545,7 +554,7 @@ namespace Content.Client.Stylesheets
                     new SelectorElement(typeof(Label), new[] {DefaultWindow.StyleClassWindowTitle}, null, null),
                     new[]
                     {
-                        new StyleProperty(Label.StylePropertyFontColor, NanoGold),
+                        new StyleProperty(Label.StylePropertyFontColor, GabyTheme),
                         new StyleProperty(Label.StylePropertyFont, notoSansDisplayBold14),
                     }),
                 // Alert (white) window title.
@@ -974,7 +983,7 @@ namespace Content.Client.Stylesheets
                 new StyleRule(new SelectorElement(typeof(RichTextLabel), new[] {StyleClassLabelKeyText}, null, null), new[]
                 {
                     new StyleProperty(Label.StylePropertyFont, notoSansBold12),
-                    new StyleProperty( Control.StylePropertyModulateSelf, NanoGold)
+                    new StyleProperty( Control.StylePropertyModulateSelf, GabyTheme)
                 }),
 
                 // alert tooltip
@@ -1100,7 +1109,7 @@ namespace Content.Client.Stylesheets
                 new StyleRule(new SelectorElement(typeof(Label), new[] {StyleClassLabelHeading}, null, null), new[]
                 {
                     new StyleProperty(Label.StylePropertyFont, notoSansBold16),
-                    new StyleProperty(Label.StylePropertyFontColor, NanoGold),
+                    new StyleProperty(Label.StylePropertyFontColor, GabyTheme),
                 }),
 
                 // Bigger Label
@@ -1108,7 +1117,7 @@ namespace Content.Client.Stylesheets
                     new[]
                     {
                         new StyleProperty(Label.StylePropertyFont, notoSansBold20),
-                        new StyleProperty(Label.StylePropertyFontColor, NanoGold),
+                        new StyleProperty(Label.StylePropertyFontColor, GabyTheme),
                     }),
 
                 // Small Label
@@ -1122,7 +1131,7 @@ namespace Content.Client.Stylesheets
                 new StyleRule(new SelectorElement(typeof(Label), new[] {StyleClassLabelKeyText}, null, null), new[]
                 {
                     new StyleProperty(Label.StylePropertyFont, notoSansBold12),
-                    new StyleProperty(Label.StylePropertyFontColor, NanoGold)
+                    new StyleProperty(Label.StylePropertyFontColor, GabyTheme)
                 }),
 
                 new StyleRule(new SelectorElement(typeof(Label), new[] {StyleClassLabelSecondaryColor}, null, null),
@@ -1229,6 +1238,20 @@ namespace Content.Client.Stylesheets
                     new[]
                     {
                         new StyleProperty(Label.StylePropertyFont, notoSansDisplayBold14),
+                    }),
+
+                // gaby station
+                new StyleRule(
+                    new SelectorElement(typeof(MenuButton), new[] {MenuButton.StyleClassGabyTopButton}, null, new[] {Button.StylePseudoClassNormal}),
+                    new[]
+                    {
+                        new StyleProperty(Button.StylePropertyModulateSelf, ButtonColorDefaultGaby),
+                    }),
+                new StyleRule(
+                    new SelectorElement(typeof(MenuButton), new[] {MenuButton.StyleClassGabyTopButton}, null, new[] {Button.StylePseudoClassHover}),
+                    new[]
+                    {
+                        new StyleProperty(Button.StylePropertyModulateSelf, ButtonColorHoveredGaby),
                     }),
 
                 // NanoHeading
@@ -1366,7 +1389,7 @@ namespace Content.Client.Stylesheets
 
                 new StyleRule(new SelectorElement(typeof(PanelContainer), new []{ ClassHighDivider}, null, null), new []
                 {
-                    new StyleProperty(PanelContainer.StylePropertyPanel, new StyleBoxFlat { BackgroundColor = NanoGold, ContentMarginBottomOverride = 2, ContentMarginLeftOverride = 2}),
+                    new StyleProperty(PanelContainer.StylePropertyPanel, new StyleBoxFlat { BackgroundColor = GabyTheme, ContentMarginBottomOverride = 2, ContentMarginLeftOverride = 2}),
                 }),
 
                 Element<TextureButton>()
@@ -1407,7 +1430,7 @@ namespace Content.Client.Stylesheets
                 // Window Headers
                 Element<Label>().Class("FancyWindowTitle")
                     .Prop("font", boxFont13)
-                    .Prop("font-color", NanoGold),
+                    .Prop("font-color", GabyTheme),
 
                 Element<PanelContainer>().Class("WindowHeadingBackground")
                     .Prop("panel", new StyleBoxTexture(BaseButtonOpenLeft) { Padding = default })
@@ -1501,6 +1524,17 @@ namespace Content.Client.Stylesheets
                     .Prop(Control.StylePropertyModulateSelf, ButtonColorGoodHovered),
                 // ---
 
+                // Gaby Station Button ---
+                Element<Button>().Class("ButtonColorGaby")
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorDefaultGaby),
+
+                Element<Button>().Class("ButtonColorGaby").Pseudo(ContainerButton.StylePseudoClassNormal)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorDefaultGaby),
+
+                Element<Button>().Class("ButtonColorGaby").Pseudo(ContainerButton.StylePseudoClassHover)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorHoveredGaby),
+                // ---
+
                 // Small Button ---
                 Element<Button>().Class("ButtonSmall")
                     .Prop(ContainerButton.StylePropertyStyleBox, smallButtonBase),
@@ -1511,7 +1545,7 @@ namespace Content.Client.Stylesheets
                 // ---
 
                 Element<Label>().Class("StatusFieldTitle")
-                    .Prop("font-color", NanoGold),
+                    .Prop("font-color", GabyTheme),
 
                 Element<Label>().Class("Good")
                     .Prop("font-color", GoodGreenFore),
@@ -1683,7 +1717,7 @@ namespace Content.Client.Stylesheets
 
                 // Silicon law edit ui
                 Element<Label>().Class(SiliconLawContainer.StyleClassSiliconLawPositionLabel)
-                    .Prop(Label.StylePropertyFontColor, NanoGold),
+                    .Prop(Label.StylePropertyFontColor, GabyTheme),
                 // Pinned button style
                 new StyleRule(
                     new SelectorElement(typeof(TextureButton), new[] { StyleClassPinButtonPinned }, null, null),
