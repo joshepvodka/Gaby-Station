@@ -46,7 +46,7 @@ namespace Content.Shared.Localizations
              */
             var cultureEn = new CultureInfo("en-US");
             _loc.LoadCulture(cultureEn);
-            _loc.SetFallbackCulture(cultureEn); //estava escrito cluture, meu .net ta com problema, nao consigo ver se esse era mesma a void ou tinham digitado errado
+            _loc.SetFallbackCluture(cultureEn); //estava escrito cluture, meu .net ta com problema, nao consigo ver se esse era mesma a void ou tinham digitado errado
 
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural); //isso deve arrumar o fallback
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
