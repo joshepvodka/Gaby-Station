@@ -86,7 +86,7 @@ public sealed partial class RevenantComponent : Component
     /// The amount of essence that is needed to use the ability.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("defileCost")]
-    public FixedPoint2 DefileCost = 30;
+    public FixedPoint2 DefileCost = 45;
 
     /// <summary>
     /// The status effects applied after the ability
@@ -100,7 +100,7 @@ public sealed partial class RevenantComponent : Component
     /// The radius around the user that this ability affects
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("defileRadius")]
-    public float DefileRadius = 3.5f;
+    public float DefileRadius = 3.0f;
 
     /// <summary>
     /// The amount of tiles that are uprooted by the ability
@@ -113,7 +113,7 @@ public sealed partial class RevenantComponent : Component
     /// happen to it.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("defileEffectChance")]
-    public float DefileEffectChance = 0.5f;
+    public float DefileEffectChance = 0.35f;
     #endregion
 
     #region Overload Lights Ability
