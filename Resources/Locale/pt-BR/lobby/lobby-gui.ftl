@@ -6,3 +6,4 @@ ui-lobby-observe-button = Obervar
 ui-lobby-ready-up-button = Pronto
 ui-lobby-online-players-block = Jogador Online
 ui-lobby-server-info-block = Informações do servidor
+ui-lobby-remarks-button = ARemarks

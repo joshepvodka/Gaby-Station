@@ -15,7 +15,7 @@
   - type: InstantAction
     icon: Interface/Actions/defile.png
     event: !type:RevenantDefileActionEvent
-    useDelay: 15
+    useDelay: 60
 
 - type: entity
   id: ActionRevenantOverloadLights

@@ -152,6 +152,7 @@
   id: LockerFillChiefEngineerNoHardsuit
   table: !type:AllSelector
     children:
+    - id: HandheldPowerMonitor
     - id: AccessConfigurator
     - id: BoxEncryptionKeyEngineering
     - id: CigarCase

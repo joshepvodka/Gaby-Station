@@ -6,6 +6,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Configuration;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Content.Client.Stylesheets;
 
 namespace Content.Client.Communications.UI
 {
@@ -29,12 +30,17 @@ namespace Content.Client.Communications.UI
         public event Action<string>? OnAnnounce;
         public event Action<string>? OnBroadcast;
 
+        public event Action? OnCentcomm;
+        public event Action? OnMaint;
+
         public CommunicationsConsoleMenu()
         {
             IoCManager.InjectDependencies(this);
             RobustXamlLoader.Load(this);
 
             MessageInput.Placeholder = new Rope.Leaf(_loc.GetString("comms-console-menu-announcement-placeholder"));
+
+            MaintEmergencyButton.StyleClasses.Add(StyleBase.ButtonCaution); //nao funfa
 
             var maxAnnounceLength = _cfg.GetCVar(CCVars.ChatMaxAnnouncementLength);
             MessageInput.OnTextChanged += (args) =>
@@ -70,12 +76,12 @@ namespace Content.Client.Communications.UI
 
             AlertLevelButton.Disabled = !AlertLevelSelectable;
 
-            MaintEmergencyButton.OnPressed += (_) => Owner.MaintEmergencyButtonPressed();
+            MaintEmergencyButton.OnPressed += _ => OnMaint?.Invoke();
 
-            CentCommButton.OnPressed += (_) => Owner.CentCommButtonPressed();
+            CentCommButton.OnPressed += _ => OnCentcomm?.Invoke();
 
-            EmergencyShuttleButton.OnPressed += (_) => Owner.EmergencyShuttleButtonPressed();
-            EmergencyShuttleButton.Disabled = !owner.CanCall;
+            EmergencyShuttleButton.OnPressed += _ => OnEmergencyLevel?.Invoke();
+            EmergencyShuttleButton.Disabled = !CanCall;
 
             UpdateCountdown();
         }
