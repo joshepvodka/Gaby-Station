@@ -41,5 +41,10 @@ Entries:
   changes:
     - type: Add
       message: Mais tradução para o jogo
+- author: Dreykor
+  time: '2024-11-18T20:15:00.0000000+00:00'
+  changes:
+    - type: Add
+      message: Adiciona Cabelo e Barba para a raça Moth!
 Name: GabyStation
 Order: -2
