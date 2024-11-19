@@ -1,0 +1,10 @@
+ent-Changeling = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-CalmTraitor = { ent-BaseTraitorRule }
+    .desc = { ent-BaseTraitorRule.desc }
+ent-CalmLing = { ent-Changeling }
+    .desc = { ent-Changeling.desc }
+ent-Calmops = { ent-BaseNukeopsRule }
+    .desc = { ent-BaseNukeopsRule.desc }
+ent-CalmRevs = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }

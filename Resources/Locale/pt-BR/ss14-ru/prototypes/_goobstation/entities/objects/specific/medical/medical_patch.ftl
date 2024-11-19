@@ -1,0 +1,14 @@
+ent-BaseMedicalPatch = base patch
+    .desc = put this on your boo boo
+ent-MedicalPatchBasic = patch
+    .desc = put this on your boo boo
+ent-UsedMedicalPatch = patch used
+    .desc = EEEEWWWWWWW
+ent-UsedMedicalPatchMakeshift = patch used
+    .desc = EEEEWWWWWWW
+ent-MedicalPatchRapid = rapid patch
+    .desc = has racing cars drawn on
+ent-MedicalPatchLarge = large patch
+    .desc = put this on your Big boo boo
+ent-MedicalPatchMakeshift = makeshift patch
+    .desc = does not look hygienic
