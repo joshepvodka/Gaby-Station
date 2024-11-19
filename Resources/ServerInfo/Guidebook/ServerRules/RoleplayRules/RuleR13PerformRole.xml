@@ -1,26 +1,23 @@
 ﻿<Document>
-  # Roleplay Rule 13 - Stick to your role
-  Requesting job changes is not prohibited by this rule. This rule is loosened if the station is understaffed or if there is a significant threat to you.
+  # Regra de Roleplay 13 - Mantenha-se no seu papel.
+  Requisitar uma mudança de trabalho não é proibido por essa regra. Essa regra perde força caso a estação esteja com menos funcionários do que devido ou tenha alguma ameaça significativa para você.
 
-  Don't perform other people's jobs, especially where the relevance to you personally is low. This also covers performing the role of security.
+  Não performe o trabalho de outras pessoas, especialmente quando a relevância para você pessoalmente é baixa. Isso inclui, principalmente, performar o trabalho dos Seguranças.
 
-  ## MRP Amendment
-  This is enforced more strictly on MRP.
+  ## Amenda MRP
+  Essa regra é aplicada de forma estrita em Gabystation, servidor MRP. Violação pode resultar em banimento temporário de semanas sem aviso prévio.
 
-  ## Examples
-  Acceptable:
-  - As an engineer, helping the bartender remodel the bar.
-  - As a bartender, remodeling the bar.
-  - As a passenger, building a maintenance bar.
-  - As an engineer, reinforcing substations.
-  - As an engineer, increasing the security of airlocks.
-  - As an atmospherics technician, improving atmospheric systems.
-  - As a passenger, fighting nuclear operatives.
-  - As a passenger, fighting or preparing to defend yourself from someone who has been trying to kill you.
-  - As a crewmember on a station with no engineering department, you complete engineering tasks.
+  ## Exemplos
+  Aceitável:
+  - Como um Engenheiro, ajudar o Bartender a remodelar o bar.
+  - Como um Bartender, remodelar o bar.
+  - Como um Assistente, criar um bar nas maints.
+  - Como um Engenheiro, criar proteções extras para as Substations nas maints.
+  - Como um Engenheiro, aumentar a segurança das Airlocks.
+  - Como um Técnico Atmosférico, aumentar a qualidade dos sistemas atmosféricos.
 
-  Prohibited:
-  - As a passenger, reinforcing substations.
-  - As a passenger, hunting for antagonists or lawbreakers.
-  - As a passenger, fighting or preparing to defend someone else from someone who has been trying to kill a random crewmember.
+  Proibido:
+  - Como um Assistente, reforçar Substations nas maints.
+  - Como um Assistente, caçar antagonistas.
+  - Como um médico, ir consertar os fios quebrados do Dep. de Segurança enquanto há Engenheiros a bordo da estação.
 </Document>

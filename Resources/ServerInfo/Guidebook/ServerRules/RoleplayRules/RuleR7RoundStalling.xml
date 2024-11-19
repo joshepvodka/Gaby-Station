@@ -1,16 +1,16 @@
 ﻿<Document>
-  # Roleplay Rule 7 - Do not stall the round
-  Rounds are intended to end eventually. Don't hold a round hostage by preventing it from coming to a natural end. If a majority of players in a round want the round to end, don't prevent it from ending. Recalling the shuttle or preventing it from being called can contribute to round stalling, but is not always round stalling. Leaving the station with the nuclear authentication disk while nuclear operatives are trying to get it is almost always considered round stalling. Leaving the station on the evacuation shuttle is not round stalling.
+  # Regra de Roleplay 7 - Não prolongue a rodada desnecessariamente.
+  A intenção é que os rounds acabem eventualmente. Não segure um round por mais tempo do que deveria, impedindo que ele chegue a um fim natural. Se a maioria dos jogadores desejam que um round acabe, não impeça que ele acabe. Rechamar a Shuttle ou impedir que ela seja chamada pode contribuir para o prolongamento desnecessário, mas não é necessariamente prolongamento desnecessário. Sair voando da estação com o disco nuclear enquanto os Operativos Nucleares estão procurando-o é quase sempre prolongamento desnecessário. Sair da estação na Shuttle de Evacuação não é prolongamento desnecessário.
 
-  Recalling the shuttle before a round reaches 45 minutes can not be considered round stalling unless a significant amount of the crew is dead, or a significant amount of the station is damaged or destroyed. Once these conditions are met, whether recalling the shuttle is considered round stalling or not can be highly dependent on the specific situation.
+  Rechamar a Shuttle antes do round atingir a marca dos 45 minutos pode não ser considerado prolongamento desnecessário, a menos que uma porção significativa da tripulação esteja morta ou uma porção significativa da estação (como estrutura) esteja danificada ou destruída. Com essas condições cumpridas, rechamar a Shuttle ser uma ação considerada prolongamento desnecessário é variável e o ahelp é recomendado.
 
-  ## Examples
-  Acceptable:
-  - Recalling a shuttle that was called 30 minutes into a round because people were bored.
-  - Recalling a shuttle that was called because nuclear operatives declared war.
-  - The crew decides to try to have a shift go as long as possible. The station is in good condition and a majority of all crew are alive. An automatic shuttle call 4 hours into the round is recalled.
+  ## Exemplos
+  Aceitável:
+  - Rechamar uma Shuttle que foi chamada na marca dos 30 minutos pela tripulação "estar entediada".
+  - Rechamar uma shuttle que foi chamada pelos Operativos Nucleares terem declarado guerra.
+  - Caso a tripulação, em maioria, concorda em continuar o turno e a estação esteja em boas condições, rechamar a Shuttle automática é permitido.
 
-  Prohibited:
-  - Trying to keep nuclear operatives from getting the nuclear authentication disk by flying around in space with it or hiding with it off station.
-  - Recalling the shuttle while the station is in complete disarray and 90% of the crew are dead.
+  Proibido:
+  - Tentar manter o disco nuclear longe dos Operativos Nucleares por sair voando pelo espaço ou escondê-lo fora da estação.
+  - Rechamar a Shuttle enquanto a estação está em desamparo completo, com boa parte da tripulação morta e boa parte das estruturas destruídas.
 </Document>
