@@ -1006,3 +1006,41 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSanta
+
+#CB Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitWc
+  name: Hardsuit da Cruzada Branca
+  description: Uma armadura feita de materiais raros e duraveis, sinta-se como um cavaleiro futurista apenas seguindo as ordens de seu monarca.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/Cb.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/Cb.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: FireProtection
+    reduction: 0.8 # proteção perfeita tipo a roupa de atmos
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.2
+        Radiation: 0.01
+        Caustic: 0.5
+  - type: Item
+    size: Huge
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitWc
