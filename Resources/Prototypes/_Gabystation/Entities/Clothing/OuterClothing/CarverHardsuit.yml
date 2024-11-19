@@ -6,9 +6,9 @@
   description: The retractable GOV's Carver hardsuit helmet are strangely comfortable and don't hinder the user's sight thanks to integrated sensors...Although its simple design, the technology is advanced.
   components:
   - type: Sprite
-    sprite: Palmtree/Clothing/Head/Hardsuits/CarverHardsuit.rsi
+    sprite: _Gabystation/Clothing/Head/Hardsuits/CarverHardsuit.rsi
   - type: Clothing
-    sprite: Palmtree/Clothing/Head/Hardsuits/CarverHardsuit.rsi
+    sprite: _Gabystation/Clothing/Head/Hardsuits/CarverHardsuit.rsi
   - type: PointLight
     color: "#d4464b"
   - type: PressureProtection
@@ -30,9 +30,9 @@
   description: Made by the GOV for the extermination of alien pests. Even with all the protection, not all operations were successful, which explains why the hardsuit is found in various salvages.
   components:
   - type: Sprite
-    sprite: Palmtree/Clothing/OuterClothing/Hardsuit/CarverHardsuit.rsi
+    sprite: _Gabystation/Clothing/OuterClothing/Hardsuit/CarverHardsuit.rsi
   - type: Clothing
-    sprite: Palmtree/Clothing/OuterClothing/Hardsuit/CarverHardsuit.rsi
+    sprite: _Gabystation/Clothing/OuterClothing/Hardsuit/CarverHardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000

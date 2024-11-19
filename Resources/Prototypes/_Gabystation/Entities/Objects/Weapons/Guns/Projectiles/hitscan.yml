@@ -6,13 +6,13 @@
       Heat: 6
       Structural: 45
   muzzleFlash:
-    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
     state: muzzle_cutter
   travelFlash:
-    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
     state: beam_cutter
   impactFlash:
-    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
     state: impact_cutter
 
 - type: hitscan
@@ -23,11 +23,11 @@
       Brute: -15
       Airloss: -400
   muzzleFlash:
-    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/lazarus.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Projectiles/lazarus.rsi
     state: muzzle_lazarus
   travelFlash:
-    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/lazarus.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Projectiles/lazarus.rsi
     state: beam_lazarus
   impactFlash:
-    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/lazarus.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Projectiles/lazarus.rsi
     state: impact_lazarus

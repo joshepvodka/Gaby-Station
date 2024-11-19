@@ -18,7 +18,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/Ammunition/Magazines/SWSPulseMagazine.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Ammunition/Magazines/SWSPulseMagazine.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

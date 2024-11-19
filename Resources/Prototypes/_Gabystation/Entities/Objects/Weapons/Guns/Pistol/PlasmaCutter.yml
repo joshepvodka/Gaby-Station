@@ -8,7 +8,7 @@
   description: This compact cutter fires bolts of ionized plasma that cut easily through most surfaces, making it a cheap but versatile mining tool.
   components:
   - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/Pistol/PlasmaCutter.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Pistol/PlasmaCutter.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -50,7 +50,7 @@
   - type: UseDelay
   - type: ItemToggleHot
   - type: Clothing
-    sprite: Palmtree/Objects/Weapon/Guns/Pistol/PlasmaCutter.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Pistol/PlasmaCutter.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -87,7 +87,7 @@
   - type: IgnitionSource
     temperature: 700
   - type: Item
-    sprite: Palmtree/Objects/Weapon/Guns/Pistol/PlasmaCutter.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Pistol/PlasmaCutter.rsi
     size: 10
   - type: Gun
     fireRate: 2
@@ -95,7 +95,7 @@
     availableModes:
       - SemiAuto
     soundGunshot:
-      path: /Audio/Palmtree/Weapons/Guns/Gunshots/plasma_cutter.ogg
+      path: /Audio/_Gabystation/Weapons/Guns/Gunshots/plasma_cutter.ogg
       params:
        volume: -6
   - type: ItemSlots
@@ -109,6 +109,8 @@
           tags:
             - MagazinePlasmaCutter
 
+            
+  #Ignorar parte abaixo comentada
 
   # - type: MagazineAmmoProvider
   # - type: ItemSlots
@@ -116,8 +118,8 @@
   #     gun_magazine:
   #       name: Magazine
   #       startingItem: PowerCellSmall
-  #       insertSound: /Audio/Palmtree/Weapons/Guns/Bolt/plasma_cutter_bolt_open.og
-  #       ejectSound: /Audio/Palmtree/Weapons/Guns/Bolt/plasma_cutter_bolt_open.og
+  #       insertSound: /Audio/_Gabystation/Weapons/Guns/Bolt/plasma_cutter_bolt_open.og
+  #       ejectSound: /Audio/_Gabystation/Weapons/Guns/Bolt/plasma_cutter_bolt_open.og
   #       whitelist:
   #         tags:
   #           - PowerCell
@@ -140,9 +142,9 @@
       # gun_magazine:
         # name: Magazine
         # startingItem: CartridgePlasmaCutter
-        # insertSound: /Audio/Palmtree/Weapons/PlasmaCutter/reload.ogg
+        # insertSound: /Audio/_Gabystation/Weapons/PlasmaCutter/reload.ogg
         # ejectSound:
-          # path: /Audio/Palmtree/Weapons/PlasmaCutter/eject.ogg
+          # path: /Audio/_Gabystation/Weapons/PlasmaCutter/eject.ogg
           # params:
             # volume: -4
         # priority: 2

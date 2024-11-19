@@ -9,7 +9,7 @@
     baseSprintSpeed : 0.1 #"eles se mexeram?", quero fazer jogadores pensarem nisso
   - type: Sprite
     drawdepth: Mobs
-    sprite: Palmtree/Mobs/Necromorphs/Slasher.rsi
+    sprite: _Gabystation/Mobs/Necromorphs/Slasher.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: dead
@@ -56,7 +56,7 @@
       collection: NecromorphScreams
   - type: Sprite
     drawdepth: Mobs
-    sprite: Palmtree/Mobs/Necromorphs/Slasher.rsi
+    sprite: _Gabystation/Mobs/Necromorphs/Slasher.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: live

@@ -12,7 +12,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: tucano
-      sprite: Palmtree/Mobs/Animals/tucano.rsi
+      sprite: _Gabystation/Mobs/Animals/tucano.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -40,6 +40,6 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
-      path: /Audio/Palmtree/Mobs/Animals/Tucano/tucano.ogg
+      path: /Audio/_Gabystation/Mobs/Animals/Tucano/tucano.ogg
   - type: Bloodstream
     bloodMaxVolume: 200

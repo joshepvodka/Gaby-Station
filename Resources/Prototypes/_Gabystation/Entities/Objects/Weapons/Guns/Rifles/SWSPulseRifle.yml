@@ -13,14 +13,14 @@
   - type: Item
     size: 50
   - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/Rifles/SWS.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Rifles/SWS.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Palmtree/Objects/Weapon/Guns/Rifles/SWS.rsi
+    sprite: _Gabystation/Objects/Weapon/Guns/Rifles/SWS.rsi
     quickEquip: false
     slots:
     - Back
@@ -40,14 +40,14 @@
         volume: -5
   - type: ChamberMagazineAmmoProvider
     soundRack:
-      path: /Audio/Palmtree/Weapons/Guns/Bolt/sws_bolt_open.ogg
+      path: /Audio/_Gabystation/Weapons/Guns/Bolt/sws_bolt_open.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazineSWS
-        insertSound: /Audio/Palmtree/Weapons/Guns/MagIn/sws_magin.ogg
-        ejectSound: /Audio/Palmtree/Weapons/Guns/Magout/sws_magout.ogg
+        insertSound: /Audio/_Gabystation/Weapons/Guns/MagIn/sws_magin.ogg
+        ejectSound: /Audio/_Gabystation/Weapons/Guns/Magout/sws_magout.ogg
         priority: 2
         whitelist:
           tags:
