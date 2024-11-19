@@ -1,24 +1,24 @@
 ﻿<Document>
-  # Roleplay Rule 9 - As an antagonist, do not cause excessive death, damage, or destruction beyond your objectives
-  This rule is not intended to disallow reasonable steps taken to complete your objectives. As an antagonist, you can always kill in bona fide self defense. Taking steps to permanently round remove many people who are no longer an immediate threat to you is almost always excessive, even if it is done to prevent yourself from being discovered.
+  # Regra de Roleplay 9 - Como um(a) antagonista, não cause morte e destruição além do necessário.
+  Essa regra não tem a intenção de te limitar nas ações que você pode tomar para completar seus objetivos. Como um antagonista, você sempre pode matar em auto-defesa com boa-fé. Por outro lado, tomar ações para remover permanentemente várias pessoas do round é excessivo, por exemplo.
 
-  This rule is not intended to disallow all antagonist activity unrelated to objectives. Antagonists may cause a level of disruption to the station that is proportional to their objectives, even if it is unrelated to their objectives. As an antagonist, killing a single person in a round is not on its own be a violation of this rule.
+  Essa regra não tem a intenção de proibir antagonistas de realizarem atividades antagônicas, mesmo que não estejam relacionadas aos seus objetivos. Antagonistas podem causar um nível de disrupção para a estação que seja proporcional aos seus objetivos, mesmo que não esteja relacionado. Por exemplo, um Heretic que tem como objetivo matar certos alvos é permitido de matar tripulantes que não sejam seus alvos, mas é proibido de cometer murderbone; já um Operativo Nuclear é permitido de cometer murderbone sem limite algum.
 
-  ## Exemptions
-  The "die a glorious death" objective allows antagonists to ignore this rule entirely.
+  ## Exceções
+  O objetivo "morra uma morte gloriosa" te isenta dessa regra completamente.
 
   ## Examples
-  Acceptable:
-  - Permanently round removing people who you have the objective to kill.
-  - Causing massive station damage and chaos as an antagonist with the "die a glorious death" objective.
-  - Killing anyone you see as a nuclear operative.
-  - Permanently round removing a single person so that you can impersonate them to make it easier for you to complete a steal objective.
-  - Sabotaging station power 10 minutes into the round to try to get the shuttle called because you've completed all of your other objectives and have one to escape on the shuttle alive.
-  - Sabotaging a department's power 10 minutes into the round to make a steal objective easier to accomplish.
-  - Permanently round removing many people who have demonstrated a persistence and a capability to either kill you or interfere with the completion of your objectives.
+  Aceitável:
+  - Remover do round, permanentemente, alvos ao qual você tem o objetivo de matar.
+  - Causar caos e dano massivo à estação quando você tem o objetivo "morra uma morte gloriosa".
+  - Matar qualquer um que você veja como Operativo Nuclear.
+  - Remover permanentemente do round um outro personagem apenas para que você possa personificar e, assim, roubar itens que sejam seus alvos mais facilmente.
+  - Tentar chamar a Shuttle depois de dez minutos de round por você ter completado todos os seus outros objetivos e apenas restar o "escape para a CentComm vivo".
+  - Sabotar a energia de um departamento para poder roubar um item que seja seu objetivo mais facilmente.
+  - Remover permanentemente do Round personagens que estão sendo persistentes contra você.
 
-  Prohibited:
-  - As a traitor with 3 kill objectives, taking steps to permanently round remove many non-objective people who are no longer an immediate threat to you, even if it is done to prevent yourself from being discovered.
-  - Setting up an electrified grille in maintenance and using it to kill anyone who walks into it with the hope that one of your objectives will be one of them.
-  - Sabotaging power station-wide 10 minutes into the round to make a steal objective easier to accomplish.
+  Proibido:
+  - Como um Traidor com os três objetivos de matar pessoas, matar vários tripulantes que não sejam seus alvos.
+  - Criar armadilhas como grilles elétricos nas maints na esperança de que uma das vítimas seja seu alvo.
+  - Sabotar toda a energia da estação apenas para deixar seus objetivos mais fáceis de se concluir.
 </Document>
