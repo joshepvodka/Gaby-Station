@@ -8,13 +8,13 @@
     Width: 16
   components:
   - type: Sprite
-    sprite: _Gabystation/Objects/Misc/artstuff.rsi
+    sprite: Objects/Misc/artstuff.rsi
     state: icon
   - type: Tag
     tags:
       - Payload
   - type: Item
-    sprite: _Gabystation/Objects/Misc/artstuff.rsi
+    sprite: Objects/Misc/artstuff.rsi
   - type: UseDelay
     delay: 2.0
   - type: Construction

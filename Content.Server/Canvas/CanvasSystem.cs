@@ -1,6 +1,6 @@
 using Content.Server.Administration.Logs;
 using Content.Server.Popups;
-using Content.Shared._Gabystation.Canvas;
+using Content.Shared.Canvas;
 using Robust.Shared.Prototypes;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
@@ -13,9 +13,9 @@ using Content.Shared.Decals;
 using Robust.Shared.Audio;
 using System.Linq;
 using System.Numerics;
-using static Content.Shared._Gabystation.Canvas.SharedCanvasComponent;
+using static Content.Shared.Canvas.SharedCanvasComponent;
 
-namespace Content.Server._Gabystation.Canvas
+namespace Content.Server.Canvas
 {
     public sealed class CanvasSystem : SharedCanvasSystem
     {

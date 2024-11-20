@@ -1,6 +1,6 @@
 using Content.Client.UserInterface;
 using Content.Shared.Ame.Components;
-using Content.Shared._Gabystation.Canvas;
+using Content.Shared.Canvas;
 using Content.Shared.Medical.CrewMonitoring;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
@@ -9,12 +9,12 @@ using Robust.Shared.GameObjects;
 using Robust.Shared.Prototypes;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp;
-using static Content.Shared._Gabystation.Canvas.SharedCanvasComponent;
+using static Content.Shared.Canvas.SharedCanvasComponent;
 using static Robust.Client.UserInterface.Controls.MenuBar;
 using System.ComponentModel;
 using Color = Robust.Shared.Maths.Color;
 
-namespace Content.Client._Gabystation.Canvas.Ui
+namespace Content.Client.Canvas.Ui
 {
     public sealed class CanvasBoundUserInterface : BoundUserInterface
     {

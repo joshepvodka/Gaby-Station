@@ -1,9 +1,9 @@
 using Content.Server.UserInterface;
-using Content.Shared._Gabystation.Canvas;
+using Content.Shared.Canvas;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 
-namespace Content.Server._Gabystation.Canvas
+namespace Content.Server.Canvas
 {
     [RegisterComponent]
     public sealed partial class CanvasComponent : SharedCanvasComponent

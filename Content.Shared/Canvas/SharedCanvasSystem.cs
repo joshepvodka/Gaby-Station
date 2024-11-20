@@ -3,10 +3,10 @@ using Content.Shared.Interaction;
 using Robust.Shared.Prototypes;
 using Content.Shared.Popups;
 using Robust.Shared.GameObjects;
-using static Content.Shared._Gabystation.Canvas.SharedCanvasComponent;
+using static Content.Shared.Canvas.SharedCanvasComponent;
 using Robust.Shared.GameStates;
 
-namespace Content.Shared._Gabystation.Canvas
+namespace Content.Shared.Canvas
 {
     [Virtual]
     public abstract partial class SharedCanvasSystem : EntitySystem

@@ -1,10 +1,10 @@
-using Content.Shared._Gabystation.Canvas;
+using Content.Shared.Canvas;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using System;
 
-namespace Content.Shared._Gabystation.Canvas;
+namespace Content.Shared.Canvas;
 
 [NetworkedComponent, ComponentProtoName("Canvas"), Access(typeof(SharedCanvasSystem))]
 public abstract partial class SharedCanvasComponent : Component

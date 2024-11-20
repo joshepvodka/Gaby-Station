@@ -1,8 +1,7 @@
 using Content.Client.Items;
 using Content.Client.Message;
 using Content.Client.Stylesheets;
-using Content.Shared._Gabystation.Canvas;
-using Mono.Cecil.Cil;
+using Content.Shared.Canvas;
 using Robust.Client.GameObjects;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
@@ -12,11 +11,11 @@ using Robust.Shared.Localization;
 using Robust.Shared.Timing;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp;
-using static Content.Shared._Gabystation.Canvas.SharedCanvasComponent;
+using static Content.Shared.Canvas.SharedCanvasComponent;
 using Color = Robust.Shared.Maths.Color;
 using Robust.Client.Graphics;
 
-namespace Content.Client._Gabystation.Canvas
+namespace Content.Client.Canvas
 {
     public sealed class CanvasSystem : SharedCanvasSystem
     {
