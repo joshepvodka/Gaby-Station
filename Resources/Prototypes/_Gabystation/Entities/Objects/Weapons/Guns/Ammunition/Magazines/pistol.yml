@@ -5,7 +5,7 @@
   description: Small energy cells, which holds gasses that can create plasma.
   components:
   - type: Sprite
-    sprite: _Gabystation/Objects/Weapon/Guns/Ammunition/Magazines/PlasmaCutterMagazine.rsi
+    sprite: _Gabystation/Objects/Weapons/Guns/Ammunition/Magazines/PlasmaCutterMagazine.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: base

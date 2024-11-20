@@ -30,9 +30,9 @@
   description: Made by the GOV for the extermination of alien pests. Even with all the protection, not all operations were successful, which explains why the hardsuit is found in various salvages.
   components:
   - type: Sprite
-    sprite: _Gabystation/Clothing/OuterClothing/Hardsuit/CarverHardsuit.rsi
+    sprite: _Gabystation/Clothing/OuterClothing/Hardsuits/CarverHardsuit.rsi
   - type: Clothing
-    sprite: _Gabystation/Clothing/OuterClothing/Hardsuit/CarverHardsuit.rsi
+    sprite: _Gabystation/Clothing/OuterClothing/Hardsuits/CarverHardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000

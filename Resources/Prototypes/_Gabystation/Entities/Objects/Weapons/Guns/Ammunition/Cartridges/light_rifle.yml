@@ -11,7 +11,7 @@
     proto: SWSShot
     count: 1
   - type: Sprite
-    sprite: _Gabystation/Objects/Weapon/Guns/Ammunition/Cartridges/SWSPulseCartridge.rsi
+    sprite: _Gabystation/Objects/Weapons/Guns/Ammunition/Cartridges/SWSPulseCartridge.rsi
     layers:
       - state: base
         map: [ "enum.AmmoVisualLayers.Base" ]

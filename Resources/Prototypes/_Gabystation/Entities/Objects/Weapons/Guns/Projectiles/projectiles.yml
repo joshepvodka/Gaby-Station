@@ -5,7 +5,7 @@
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: _Gabystation/Objects/Weapon/Guns/Projectiles/SWSRifle.rsi
+    sprite: _Gabystation/Objects/Weapons/Guns/Projectiles/SWSRifle.rsi
     layers:
     - state: effect_pulse
       shader: unshaded
@@ -23,7 +23,7 @@
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: _Gabystation/Objects/Weapon/Guns/Projectiles/eletricplasma.rsi
+    sprite: _Gabystation/Objects/Weapons/Guns/Projectiles/eletricplasma.rsi
     layers:
     - state: eletric_shot
       shader: unshaded
