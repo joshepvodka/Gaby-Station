@@ -2,7 +2,7 @@
   name: Carcaça
   parent: SimpleMobBase
   id: NecromorphSlasherCorpo
-  description: É melhor se livrar dessa coisa o quanto antes.
+  description: É melhor se livrar dessa coisa o quanto antes. #só pra assustar, no fim não fazem nada
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 0.1
@@ -28,6 +28,8 @@
     thresholds:
       0: Alive
       50: Dead
+  - type: MobPrice 
+    price: 4000 #money, money
 
 - type: entity
   parent:
@@ -52,7 +54,7 @@
   - type: SpamEmitSound #gritam em constante agonia
     sound:
       params:
-        volume: -9
+        volume: -8
       collection: NecromorphScreams
   - type: Sprite
     drawdepth: Mobs
