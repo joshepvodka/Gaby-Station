@@ -58,7 +58,7 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(cultureEn, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(cultureEn, "NATURALPERCENT", FormatNaturalPercent);
             _loc.AddFunction(cultureEn, "PLAYTIME", FormatPlaytime);
-            _loc.AddFunction(culture, "PRESSURE", FormatPressure);
+            _loc.AddFunction(cultureEn, "PRESSURE", FormatPressure);
         }
 
         private ILocValue FormatMany(LocArgs args)
