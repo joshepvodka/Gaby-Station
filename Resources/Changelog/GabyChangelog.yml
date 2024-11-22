@@ -51,5 +51,17 @@ Entries:
   changes:
     - type: Fix
       message: Corrige a falta de cabelo e barba para Moth! # Viva a evoluçao!
+- author: Day-OS
+  time: '2024-11-21T12:01:00.0000000+00:00'
+  url: https://github.com/Day-OS/estacao-pirata-14/commit/4cc22579c59061d09c0b8b6b79c7dfd192540374
+  changes:
+    - type: Add
+      message: Cartas! 🃏
+- author: Day-OS
+  time: '2024-11-21T12:01:00.0000000+00:00'
+  url: https://github.com/Day-OS/estacao-pirata-14/commit/0af1e2a4fe85087497c872281cb3913a2f918696
+  changes:
+    - type: Add
+      message: Vestidos e Ternos!
 Name: GabyStation
 Order: -2
