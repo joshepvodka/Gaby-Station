@@ -7,7 +7,7 @@ perishable-3 = [color=red] { CAPITALIZE( POSS-ADJ( $target ) ) } O corpo parece 
 
 perishable-1-nonmob = [color=green] { CAPITALIZE( SUBJECT( $target ) ) } parece estar fresco.[/color] 
 perishable-2-nonmob = [color=orangered] { CAPITALIZE( SUBJECT( $target ) ) } parece meio fresco.[/color] 
-perishable-3-nonmob = [color=red] { CAPITALIZE( SUBJECT( $target ) ) } não parece fresco.[/color] 
+perishable-3-nonmob = [color=red] { CAPITALIZE( SUBJECT( $target ) ) } parece apodrecido.[/color] 
 ## Apodrecendo
 
 rotting-rotting = [color=orange] { CAPITALIZE( POSS-ADJ( $target ) ) } O corpo está apodrecendo![/color] 
