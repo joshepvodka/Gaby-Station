@@ -7,6 +7,12 @@ traitor-round-end-agent-name = traidor
 objective-issuer-syndicate = [color=crimson]O Sindicato[/color]
 objective-issuer-unknown = Desconhecido
 
+traitor-role-greeting =
+    Você é um agente enviado pela {$corporation} em favor ao [color = darkred]Sindicato.[/color]
+    Seus objetivos e palavras-chaves estão no menu de personagem
+    Use seu uplink no PDA para comprar ferramentas apra a missão.
+    [color=red]Morte a Nanotrasen![/color]
+
 # final de rodada
 
 traitor-title = Traidor
