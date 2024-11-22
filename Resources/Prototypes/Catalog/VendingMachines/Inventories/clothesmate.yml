@@ -94,7 +94,7 @@
     ClothingUniformJumpskirtWeddingDress: 2
     ClothingUniformJumpsuitFormalSuit: 2
     ClothingUniformJumpskirtFormalSuit: 2
-
+    ClothingSimpleUnderwear: 5
     ClothingEyesGlassesCheapSunglasses: 3
     # DO NOT ADD MORE, USE UNIFORM DYING
   contrabandInventory:
