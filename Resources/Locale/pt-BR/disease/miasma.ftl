@@ -1,4 +1,6 @@
 ammonia-smell = Alguma coisa cheira mal aqui..
+
+=======
 ## Perecível
 
 =======
