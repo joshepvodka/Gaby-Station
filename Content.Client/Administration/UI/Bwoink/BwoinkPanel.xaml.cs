@@ -21,13 +21,22 @@ namespace Content.Client.Administration.UI.Bwoink
         public DateTime LastMessage { get; private set; } = DateTime.MinValue;
         private List<string> PeopleTyping { get; set; } = new();
         public event Action<string>? InputTextChanged;
+        private bool isAdmin = false;
 
         public BwoinkPanel(Action<string> messageSender)
         {
             RobustXamlLoader.Load(this);
+            IoCManager.InjectDependencies(this);
 
-            //RemarksButton.Visible = !_adminManager.CanCommand("kick"); //sumir o botão se for admin
+            isAdmin = _adminManager.CanCommand("kick"); //sumir o botão se for admin
+
             RemarksButton.OnPressed += _ => _consoleHost.ExecuteCommand("adminremarks");
+            if (isAdmin){
+                RemarksButton.SetWidth = 1;
+                RemarksButton.Visible = false;
+                SenderLineEdit.SetWidth = 645;
+                // RemarksButton.Disabled = true;
+            };
 
             var msg = new FormattedMessage();
             msg.PushColor(Color.LightGray);
