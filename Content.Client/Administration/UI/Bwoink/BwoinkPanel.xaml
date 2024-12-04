@@ -6,5 +6,6 @@
     <OutputPanel Name="TextOutput" VerticalExpand="true" />
     <RichTextLabel Name="TypingIndicator" Access="Public" />
     <HistoryLineEdit Name="SenderLineEdit" />
+    <Button Visible="True" Name="RemarksButton" Text="{Loc 'admin-aremarks-button'}" StyleClasses="OpenBoth" />
     <RichTextLabel Name="RelayedToDiscordLabel" Access="Public" Visible="False" />
 </BoxContainer>

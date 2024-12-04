@@ -12,3 +12,4 @@ bwoink-system-typing-indicator = {$players} {$count ->
 } digitando...
 
 admin-bwoink-play-sound = Bwoink?
+admin-aremarks-button = Ver notas
