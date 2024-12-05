@@ -1,12 +1,60 @@
 <DefaultWindow
     xmlns="https://spacestation14.io"
-    xmlns:ui="clr-namespace:Content.Client.UserInterface.Controls"
+    xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+    xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:style="clr-namespace:Content.Client.Stylesheets"
     VerticalExpand="True" HorizontalExpand="True"
-    Title="ECONOMIA - PLACEHOLDER"
-    SetSize="600 400" >
-    <BoxContainer>
-        <BoxContainer Orientation="Vertical" Margin="4">
-            <Label Text="testando" Name="test" />
+    Title="{Loc gs-balanceui-title}"
+    SetSize="430 580" >
+    <BoxContainer Orientation="Vertical" VerticalExpand="True" HorizontalExpand="True">
+        <controls:StripeBack>
+            <PanelContainer>
+                <Label Name="Header" Text=" " StyleClasses="LabelHeading"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10 10 10 10" ReservesSpace="False"/>
+            </PanelContainer>
+        </controls:StripeBack>
+
+        <!-- Doar -->
+        <Label Name="GiftLabel" Text="{Loc gs-balanceui-gift-label}" />
+        <BoxContainer HorizontalAlignment="Center">
+            <LineEdit Name="GiftPlayer" PlaceHolder="{Loc gs-balanceui-gift-player}" ToolTip="{Loc gs-balanceui-gift-player-tooltip}" MinWidth="220" />
+            <LineEdit Name="GiftAmmount" PlaceHolder="{Loc gs-balanceui-gift-value}" ToolTip="{Loc gs-balanceui-gift-value-tooltip}" MinWidth="80" />
+            <Button Name="GiftButton" Text="{Loc gs-balanceui-confirm}" StyleClasses="ButtonColorRed" />
+        </BoxContainer>
+
+
+        <controls:HSpacer Spacing="15" />
+        <controls:HLine Color="{x:Static style:StyleNano.GabyTheme}" Thickness="2" Access="Public" />
+        <controls:HSpacer Spacing="15" />
+
+
+        <!-- Loja -->
+        <controls:StripeBack>
+            <PanelContainer>
+                <RichTextLabel Text="{Loc gs-balanceui-shop-label}"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5 5 5 5" ReservesSpace="False"/>
+            </PanelContainer>
+        </controls:StripeBack>
+
+        <!-- Opções de venda -->
+        <PanelContainer VerticalExpand="True">
+                <PanelContainer.PanelOverride>
+                    <gfx:StyleBoxFlat BackgroundColor="#1b1b1e" />
+                </PanelContainer.PanelOverride>
+            <Label Text="{Loc gs-balanceui-shop-empty}" StyleClasses="LabelHeading" HorizontalAlignment="Center" />
+        </PanelContainer>
+
+
+        <!-- Painel de admin -->
+        <BoxContainer Name="Admin" Visible="True" Orientation="Vertical">
+            <Label Text="Admin:" StyleClasses="LabelHeading" />
+            <Label Text="{Loc gs-balanceui-admin-add-label}" />
+            <BoxContainer HorizontalAlignment="Center">
+                <LineEdit Name="AdminAddPlayer" PlaceHolder="{Loc gs-balanceui-admin-add-player}" MinWidth="220" />
+                <LineEdit Name="AdminAddAmmount" PlaceHolder="{Loc gs-balanceui-admin-add-value}" MinWidth="80" />
+                <Button Name="AdminAddButton" Text="{Loc gs-balanceui-confirm}" StyleClasses="ButtonColorRed" />
+            </BoxContainer>
         </BoxContainer>
     </BoxContainer>
 </DefaultWindow>
