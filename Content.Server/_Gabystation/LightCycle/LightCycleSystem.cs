@@ -23,14 +23,12 @@ namespace Content.Server.Time
         [Dependency] private readonly ChatSystem _chatSystem = default!;
         [Dependency] private readonly IConfigurationManager _configuration = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
-        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
         [Dependency] private readonly PointLightSystem _pointLight = default!;
         [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
         [Dependency] private readonly GameTicker _gameTicker = default!;
-
         [Dependency] private readonly PoweredLightSystem? _lightSystem = default!;
         private int _currentHour;
-        private double _deltaTime = 0;
+        private double _tickCount = 0;
         private string? _hexColor = "#FFFFFF";
         private bool _isNight = false;
         private Dictionary<int, Color>? _mapColor = new Dictionary<int, Color>();
@@ -70,6 +68,13 @@ namespace Content.Server.Time
         }
         public override void Update(float frameTime)
         {
+            _tickCount++;
+            var updatePerTick = _configuration.GetCVar(CCVars.UpdatePerTick);
+
+            if (updatePerTick == 0 || _tickCount % updatePerTick != 0)
+                return;
+
+            _tickCount = 0;
             _currentHour = TimeSpan.FromSeconds(GetStationTime()).Hours;
             foreach (var comp in EntityQuery<LightCycleComponent>())
             {
@@ -152,26 +157,6 @@ namespace Content.Server.Time
             else
                 return color;
 
-        }
-
-        public Color GetBulbColor(LightBulbComponent bulb)
-        {
-            if (EntityManager.TryGetComponent<LightCycleComponent>(bulb.Owner.ToCoordinates().GetGridUid(_entityManager), out var comp))
-            {
-                return GetCycleColor(comp, bulb.Color);
-            }
-            else
-                return bulb.Color;
-        }
-
-        public float GetBulbEnergy(LightBulbComponent bulb)
-        {
-            if (EntityManager.TryGetComponent<LightCycleComponent>(bulb.Owner.ToCoordinates().GetGridUid(_entityManager), out var comp) && comp.IsEnabled)
-            {
-                return (float) CalculateLightLevel(comp);
-            }
-            else
-                return bulb.LightEnergy;
         }
 
         public double CalculateLightLevel(LightCycleComponent comp)
