@@ -2493,5 +2493,29 @@ namespace Content.Shared.CCVar
             CVarDef.Create("admin.bwoink_use_admin_ooc_color", true, CVar.SERVERONLY);
 
         #endregion
+
+        #region Light Cycle
+
+        // Tempo inicial
+        public static readonly CVarDef<float> InitialTime =
+            CVarDef.Create("time.initial_time", 1200f, desc: "(integer)", flag: CVar.REPLICATED);
+
+        // Multiplicador do tempo (isto é, o quanto ele é acelerado em relação ao tempo normal)
+        public static readonly CVarDef<float> TimeScale =
+            CVarDef.Create("time.scale", 24f, desc: "(integer)", flag: CVar.REPLICATED);
+
+        // Se o ciclo de luz está ativo
+        public static readonly CVarDef<bool> CycleEnabled =
+            CVarDef.Create("daycycle.light_cycle", true, desc: "(bool)", flag: CVar.SERVERONLY);
+
+        // Se o ciclo de cor está ativo
+        public static readonly CVarDef<bool> ColorEnabled =
+            CVarDef.Create("daycycle.color_cycle", true, desc: "(bool)", flag: CVar.SERVERONLY);
+
+        // Se os anúncios estão ativos
+        public static readonly CVarDef<bool> AnnouncementEnabled =
+            CVarDef.Create("daycycle.announcement", true, desc: "(bool)", flag: CVar.SERVERONLY);
+
+        #endregion
     }
 }
