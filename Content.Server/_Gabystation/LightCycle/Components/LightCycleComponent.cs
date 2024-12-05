@@ -26,17 +26,17 @@ namespace Content.Server.Time
         [ViewVariables(VVAccess.ReadWrite), DataField("nightShiftDuration")]
         public int NightShiftDuration = 9;
         [ViewVariables(VVAccess.ReadWrite), DataField("minLightLevel")]
-        public double MinLightLevel = 0.333;
+        public double MinLightLevel = 0.2;
         [ViewVariables(VVAccess.ReadWrite), DataField("maxLightLevel")]
-        public double MaxLightLevel = 1.25;
+        public double MaxLightLevel = 1.2;
         [ViewVariables(VVAccess.ReadWrite), DataField("clipLight")]
-        public double ClipLight = 1.25;
+        public double ClipLight = 1;
         [ViewVariables(VVAccess.ReadWrite), DataField("clipRed")]
-        public double ClipRed = 1;
+        public double ClipRed = 1.05;
         [ViewVariables(VVAccess.ReadWrite), DataField("clipGreen")]
         public double ClipGreen = 1;
         [ViewVariables(VVAccess.ReadWrite), DataField("clipBlue")]
-        public double ClipBlue = 1.05;
+        public double ClipBlue = 1.1;
         [ViewVariables(VVAccess.ReadWrite), DataField("minRedLevel")]
         public double MinRedLevel = 0.65;
         [ViewVariables(VVAccess.ReadWrite), DataField("minGreenLevel")]
@@ -48,7 +48,7 @@ namespace Content.Server.Time
         [ViewVariables(VVAccess.ReadWrite), DataField("maxGreenLevel")]
         public double MaxGreenLevel = 2;
         [ViewVariables(VVAccess.ReadWrite), DataField("maxBlueLevel")]
-        public double MaxBlueLevel = 5;
+        public double MaxBlueLevel = 4;
         public List<Entity<PoweredLightComponent>> BulbList = new List<Entity<PoweredLightComponent>>();
     }
 }
