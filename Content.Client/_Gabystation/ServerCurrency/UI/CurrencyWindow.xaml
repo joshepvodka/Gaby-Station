@@ -32,18 +32,47 @@
         <!-- Loja -->
         <controls:StripeBack>
             <PanelContainer>
-                <RichTextLabel Text="{Loc gs-balanceui-shop-label}"
+                <Label Text="{Loc gs-balanceui-shop-label}" StyleClasses="LabelHeading"
                     VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5 5 5 5" ReservesSpace="False"/>
             </PanelContainer>
         </controls:StripeBack>
 
         <!-- Opções de venda -->
-        <PanelContainer VerticalExpand="True">
+        <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Margin="8 8 8 8">
+            <PanelContainer HorizontalExpand="True" VerticalExpand="True">
                 <PanelContainer.PanelOverride>
                     <gfx:StyleBoxFlat BackgroundColor="#1b1b1e" />
                 </PanelContainer.PanelOverride>
-            <Label Text="{Loc gs-balanceui-shop-empty}" StyleClasses="LabelHeading" HorizontalAlignment="Center" />
-        </PanelContainer>
+
+                <ScrollContainer HorizontalExpand="True" VerticalExpand="True" Margin="10">
+                    <!-- hard coded bua bua bua -->
+                    <!-- todo: store prototype and those nerd things -->
+                    <BoxContainer Orientation="Vertical" HorizontalExpand="True" Margin="0" VerticalExpand="True">
+
+                        <controls:StripeBack> <!-- tokens -->
+                            <Label Text="{Loc gs-balanceui-shop-token-label}" Margin="2" HorizontalAlignment="Center"/>
+                        </controls:StripeBack>
+                        <Button Name="AntagTokenBuy" Text="{Loc gs-balanceui-shop-buy-token-antag}" MinHeight="40" />
+                        <controls:HSpacer Spacing="5" />
+                        <Button Name="GhostRoleTokenBuy" Text="{Loc gs-balanceui-shop-buy-token-ghost}" MinHeight="40" />
+                        <controls:HSpacer Spacing="5" />
+                        <Button Name="EventTokenBuy" Text="{Loc gs-balanceui-shop-buy-token-event}" MinHeight="40" />
+
+                        <controls:HSpacer Spacing="10" />
+                        <controls:HLine Color="{x:Static style:StyleNano.GabyTheme}" Thickness="2" Access="Public" />
+                        <controls:HSpacer Spacing="10" />
+
+                        <controls:StripeBack> <!-- tittles -->
+                            <Label Text="{Loc gs-balanceui-shop-tittle-label}" Margin="2" HorizontalAlignment="Center"/>
+                        </controls:StripeBack>
+                        <controls:HSpacer Spacing="5" />
+                        <Label Text="{Loc gs-balanceui-shop-empty}"  HorizontalAlignment="Center" />
+                    </BoxContainer>
+                </ScrollContainer>
+            </PanelContainer>
+            <Label Text="{Loc gs-balanceui-shop-footer}" />
+        </BoxContainer>
+
 
 
         <!-- Painel de admin -->

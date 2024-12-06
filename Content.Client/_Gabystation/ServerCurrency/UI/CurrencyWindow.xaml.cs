@@ -4,6 +4,7 @@ using Robust.Client.UserInterface.XAML;
 using Content.Client.Administration.Managers;
 using Robust.Client.Console;
 using Content.Client._Goobstation.ServerCurrency;
+using Content.Shared._Gabystation.ServerCurrency.UI;
 
 namespace Content.Client._Gabystation.ServerCurrency.UI
 {
@@ -13,7 +14,10 @@ namespace Content.Client._Gabystation.ServerCurrency.UI
         [Dependency] private readonly ServerCurrencySystem _serverCur = default!;
         [Dependency] private readonly IClientAdminManager _adminManager = default!;
         [Dependency] private readonly IClientConsoleHost _consoleHost = default!;
+
+        public event Action<Enum>? OnBuy;
         private bool isAdmin = false;
+
         public CurrencyWindow()
         {
             RobustXamlLoader.Load(this);
@@ -23,7 +27,8 @@ namespace Content.Client._Gabystation.ServerCurrency.UI
 
             isAdmin = _adminManager.CanCommand("balance:add");
 
-            if(!isAdmin){
+            if(!isAdmin)
+            {
                 Admin.Visible = false;
             };
 
@@ -32,6 +37,10 @@ namespace Content.Client._Gabystation.ServerCurrency.UI
             AdminAddButton.OnPressed += _ => AdminAdd(AdminAddPlayer.Text, int.Parse(AdminAddAmmount.Text));
 
             _serverCur.BalanceChange += UpdatePlayerBalance;
+
+            AntagTokenBuy.OnPressed += _ => OnBuy?.Invoke(BuyIdList.AntagToken);
+            GhostRoleTokenBuy.OnPressed += _ => OnBuy?.Invoke(BuyIdList.GhostToken);
+            EventTokenBuy.OnPressed += _ => OnBuy?.Invoke(BuyIdList.EventToken);
         }
 
         private void Transfer(string player, int value)
@@ -40,17 +49,18 @@ namespace Content.Client._Gabystation.ServerCurrency.UI
                 return;
 
             _consoleHost.ExecuteCommand("gift " + player + " " + value);
+
+            UpdatePlayerBalance();
         }
 
         private void AdminAdd(string player, int value)
         {
-            if(!isAdmin)
-                return;
-
-            if(player == null || value == 0)
+            if(!isAdmin || player == null || value == 0)
                 return;
 
             _consoleHost.ExecuteCommand("balance:add " + player + " " + value);
+
+            UpdatePlayerBalance();
         }
 
         private void UpdatePlayerBalance() // Goobstation - Goob Coin
