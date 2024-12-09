@@ -57,5 +57,5 @@
     back:
     - BoxSurvivalSlots
     - Flash
-    - BluespaceLifelineImplanter
+  # - BluespaceLifelineImplanter //gabystation: blueshields keep deleting themselves
     - SecHypo
