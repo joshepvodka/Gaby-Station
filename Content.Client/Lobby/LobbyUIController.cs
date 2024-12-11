@@ -100,8 +100,10 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
     {
         if (_stateManager.CurrentState is LobbyState lobby)
         {
-            lobby.Lobby!.MOTDBuletin.Visible = _configurationManager.GetCVar(CCVars.MOTDBuletinEnable);
-            lobby.Lobby!.ShowMOTD.Visible = _configurationManager.GetCVar(CCVars.MOTDBuletinEnable);
+            var enabled = _configurationManager.GetCVar(CCVars.MOTDBuletinEnable);
+            lobby.Lobby!.MOTDBuletin.Visible = enabled;
+            if (!enabled)
+                lobby.Lobby!.ShowMOTD.Visible = enabled;
         }
     }
 
