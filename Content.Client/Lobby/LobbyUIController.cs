@@ -92,6 +92,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
         if (_stateManager.CurrentState is LobbyState lobby)
         {
             lobby.Lobby?.MOTDBuletin.RefreshContent(msg);
+            RefreshLobbyBuletin();
         }
     }
 
@@ -100,6 +101,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
         if (_stateManager.CurrentState is LobbyState lobby)
         {
             lobby.Lobby!.MOTDBuletin.Visible = _configurationManager.GetCVar(CCVars.MOTDBuletinEnable);
+            lobby.Lobby!.ShowMOTD.Visible = _configurationManager.GetCVar(CCVars.MOTDBuletinEnable);
         }
     }
 
