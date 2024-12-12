@@ -1998,6 +1998,13 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<string> MOTD =
             CVarDef.Create("chat.motd", "", CVar.SERVER | CVar.SERVERONLY | CVar.ARCHIVE, "A message broadcast to each player that joins the lobby.");
 
+
+        /// <summary>
+        /// If the message of the day lobby widget should be displayed.
+        /// </summary>
+        public static readonly CVarDef<bool> MOTDBuletinEnable =
+            CVarDef.Create("chat.motd_buletin_enable", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE, "If the MOTD buletin appears in lobby");
+
         /*
          * AFK
          */
@@ -2498,7 +2505,7 @@ namespace Content.Shared.CCVar
 
         // Tempo inicial
         public static readonly CVarDef<float> InitialTime =
-            CVarDef.Create("light_cycle.initial_time", 1200f, desc: "(float)", flag: CVar.REPLICATED);
+            CVarDef.Create("light_cycle.initial_time", 1000f, desc: "(float)", flag: CVar.REPLICATED);
 
         // Multiplicador do tempo (isto é, o quanto ele é acelerado em relação ao tempo normal)
         public static readonly CVarDef<float> TimeScale =
