@@ -93,7 +93,7 @@
                     <controls:HSpacer Spacing="5" />
                     <!-- Server Currency -->
                     <controls:HLine Color="{x:Static style:StyleNano.GabyTheme}" Thickness="2" Access="Public" />
-                    <Label Name="Balance" Access="Public" StyleClasses="HeadingBig" VAlign="Center"
+                    <Label Name="Balance" Access="Public" StyleClasses="LabelHeading" VAlign="Center"
                             HorizontalExpand="True" HorizontalAlignment="Center" />
                     <!-- Gaby line -->
                     <lobbyUi:LobbyCharacterPreviewPanel Name="CharacterPreview" Access="Public" />
