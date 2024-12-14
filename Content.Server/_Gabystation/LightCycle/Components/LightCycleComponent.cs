@@ -48,7 +48,7 @@ namespace Content.Server.Time
         [ViewVariables(VVAccess.ReadWrite), DataField("maxGreenLevel")]
         public double MaxGreenLevel = 1.3;
         [ViewVariables(VVAccess.ReadWrite), DataField("maxBlueLevel")]
-        public double MaxBlueLevel = 5;
+        public double MaxBlueLevel = 4;
         [ViewVariables(VVAccess.ReadWrite), DataField("exponentRed")]
         public double ExponentRed = 2;
         [ViewVariables(VVAccess.ReadWrite), DataField("exponentGreen")]
