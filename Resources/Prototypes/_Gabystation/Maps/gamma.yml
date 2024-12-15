@@ -66,4 +66,11 @@
             Mime: [ 1, 1 ]
             Musician: [ 2, 2 ]
             Boxer: [ 1, 1 ]
-            
+
+        # blob-config-start HUGE
+        - type: StationBlobConfig
+          stageBegin: 40
+          stageCritical: 450
+          stageTheEnd: 900
+        # blob-config-end
+
