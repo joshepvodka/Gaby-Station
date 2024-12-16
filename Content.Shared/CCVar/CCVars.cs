@@ -2054,6 +2054,12 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<bool> ICShowSSDIndicator =
             CVarDef.Create("ic.show_ssd_indicator", true, CVar.CLIENTONLY);
 
+        /// <summary>
+        /// Enables alternate job titles for players.
+        /// </summary>
+        public static readonly CVarDef<bool> ICAlternateJobTitlesEnable =
+            CVarDef.Create("ic.alternate_job_titles_enable", true, CVar.SERVER | CVar.REPLICATED);
+
         /*
          * Salvage
          */

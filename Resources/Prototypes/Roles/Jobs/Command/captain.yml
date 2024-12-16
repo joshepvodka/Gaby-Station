@@ -37,6 +37,10 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - CaptainTitleMaster
+  - CaptainTitleAdmiral
+  - CaptainTitleChief
 
 - type: startingGear
   id: CaptainGear
@@ -50,3 +54,15 @@
     back:
     - Flash
     # - StationCharter
+
+- type: jobAlternateTitle
+  id: CaptainTitleMaster
+  name: job-name-alt-captain-master
+
+- type: jobAlternateTitle
+  id: CaptainTitleAdmiral
+  name: job-name-alt-captain-admiral
+
+- type: jobAlternateTitle
+  id: CaptainTitleChief
+  name: job-name-alt-captain-chief
