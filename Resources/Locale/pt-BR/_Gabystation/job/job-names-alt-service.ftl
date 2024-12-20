@@ -9,8 +9,8 @@ job-name-alt-assistant-test = cobaia
 job-name-alt-assistant-artist = artista
 
 job-name-alt-bartender-mixologist = mixologista
-job-name-alt-bartender-mixologist = barman
-job-name-alt-bartender-mixologist = barwoman
+job-name-alt-bartender-barman = barman
+job-name-alt-bartender-barwoman = barwoman
 
 job-name-alt-chef-steward = taifeiro
 job-name-alt-chef-cook = cozinheiro
