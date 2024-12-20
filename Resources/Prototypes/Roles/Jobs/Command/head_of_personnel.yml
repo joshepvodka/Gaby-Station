@@ -61,6 +61,11 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - HoPTitleFirstMate
+  - HoPTitleHeadService
+  - HoPTitleBoatswain
+  - HoPTitleHead
 
 - type: startingGear
   id: HoPGear
@@ -73,3 +78,19 @@
   storage:
     back:
     - Flash
+
+- type: jobAlternateTitle
+  id: HoPTitleFirstMate
+  name: job-name-alt-hop-first-mate
+
+- type: jobAlternateTitle
+  id: HoPTitleHeadService
+  name: job-name-alt-hop-head-service
+
+- type: jobAlternateTitle
+  id: HoPTitleBoatswain
+  name: job-name-alt-hop-boatswain
+
+- type: jobAlternateTitle
+  id: HoPTitleHead
+  name: job-name-alt-hop-manager

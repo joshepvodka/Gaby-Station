@@ -47,6 +47,9 @@
     components:
     - type: SurgerySpeedModifier
       SpeedModifier: 2.5
+  alternateTitles:
+  - CMOTitleDirector
+  - CMOTitleSupervisor
 
 - type: startingGear
   id: CMOGear
@@ -57,3 +60,11 @@
   storage:
     back:
     - Flash
+
+- type: jobAlternateTitle
+  id: CMOTitleDirector
+  name: job-name-alt-cmo-director
+
+- type: jobAlternateTitle
+  id: CMOTitleSupervisor
+  name: job-name-alt-cmo-supervisor

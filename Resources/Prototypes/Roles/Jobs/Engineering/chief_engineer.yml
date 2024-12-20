@@ -42,6 +42,10 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - CETitleSupervisor
+  - CETitleForeman
+  - CETitleManager
 
 - type: startingGear
   id: ChiefEngineerGear
@@ -53,3 +57,15 @@
   storage:
     back:
     - Flash
+
+- type: jobAlternateTitle
+  id: CETitleSupervisor
+  name: job-name-alt-ce-supervisor
+
+- type: jobAlternateTitle
+  id: CETitleForeman
+  name: job-name-alt-ce-foreman
+
+- type: jobAlternateTitle
+  id: CETitleManager
+  name: job-name-alt-ce-manager

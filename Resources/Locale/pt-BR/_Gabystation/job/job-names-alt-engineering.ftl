@@ -11,5 +11,5 @@ job-name-alt-atmos-fireman = bombeiro
 
 job-name-alt-ce-supervisor = engenheiro supervisor
 job-name-alt-ce-foreman = catapaz de engenharia
-job-name-alt-ce-foreman = administrador estrutural e eletrotécnico
+job-name-alt-ce-manager = gerente estrutural e eletrotécnico
 
