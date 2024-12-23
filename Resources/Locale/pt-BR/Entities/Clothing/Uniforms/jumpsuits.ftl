@@ -88,7 +88,7 @@ ent-ClothingUniformJumpsuitParamedic = macacão de paramédico
 ent-ClothingUniformJumpsuitPrisoner = macacão de prisioneiro
     .desc = Preso.
 
-ent-ClothingUniformJumpsuitQM = macacão de intendente
+ent-ClothingUniformJumpsuitQM = macacão do intendente
     .desc = O que o marrom pode fazer por você?
 
 ent-ClothingUniformJumpsuitResearchDirector = gola alta do diretor de pesquisa
@@ -181,13 +181,13 @@ ent-ClothingUniformJumpsuitLawyerPurple = terno de advogado roxo
 ent-ClothingUniformJumpsuitLawyerGood = terno de bom advogado
     .desc = Um terno cafona perfeito para um advogado CRIMINAL!
 
-ent-ClothingUniformJumpsuitPyjamaSyndicateBlack = pijama preto do sindicato
+ent-ClothingUniformJumpsuitPyjamaSyndicateBlack = pijama preto do Sindicato
     .desc = Para aquelas longas noites em permanente.
 
-ent-ClothingUniformJumpsuitPyjamaSyndicatePink = pijama sindicato rosa
+ent-ClothingUniformJumpsuitPyjamaSyndicatePink = pijama Sindicato rosa
     .desc = Para aquelas longas noites em permanente.
 
-ent-ClothingUniformJumpsuitPyjamaSyndicateRed = pijama vermelho do sindicato
+ent-ClothingUniformJumpsuitPyjamaSyndicateRed = pijama vermelho do Sindicato
     .desc = Para aquelas longas noites em permanente.
 
 ent-ClothingUniformJumpsuitNanotrasen = macacão nanotrasen
@@ -203,7 +203,7 @@ ent-ClothingUniformJumpsuitHosFormal = terno formal de hos
     .desc = Um terno para ocasiões especiais.
 
 ent-ClothingUniformJumpsuitOperative = macacão operativo
-    .desc = Uniforme para agentes de sindicatos de elite realizando operações táticas no espaço profundo.
+    .desc = Uniforme para agentes de Sindicatos de elite realizando operações táticas no espaço profundo.
 
 ent-ClothingUniformJumpsuitAtmos = macacão técnico atmosférico
     .desc = estou no trabalho. Não posso sair do trabalho. O trabalho está respirando. Estou testando a qualidade do ar.

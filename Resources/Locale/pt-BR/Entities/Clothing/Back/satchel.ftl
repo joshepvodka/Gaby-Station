@@ -31,7 +31,7 @@ ent-ClothingBackpackSatchelHolding = bolsa interdimensional
 ent-ClothingBackpackSatchelLeather = bolsa de couro
     .desc = Uma bolsa tão elegante quanto antiga.
 
-ent-ClothingBackpackSatchelAtmospherics = bolsa de atmosféricos
+ent-ClothingBackpackSatchelAtmospherics = bolsa da atmosférica
     .desc = Uma bolsa resistente e à prova de fogo. Tem cheiro de plasma.
 
 ent-ClothingBackpackSatchelClown = bolzina de palhaço

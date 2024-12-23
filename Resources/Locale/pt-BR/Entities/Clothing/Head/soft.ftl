@@ -10,11 +10,11 @@ ent-ClothingHeadHatCargosoft = boné da logística
 ent-ClothingHeadHatCargosoftFlipped = boné da logística ao contrário
     .desc = Vive La Cargonia! Tem cheiro de graxa.
 
-ent-ClothingHeadHatQMsoft = boné dointendente logístico
-    .desc = Um boné comum, nas cores de umintendente logístico.
+ent-ClothingHeadHatQMsoft = boné do intendente logístico
+    .desc = Um boné comum, nas cores de um intendente logístico.
 
-ent-ClothingHeadHatQMsoftFlipped = boné dointendente logístico ao contrário.
-    .desc = Um boné comum, nas cores de umintendente logístico. Ao contrário.
+ent-ClothingHeadHatQMsoftFlipped = boné do intendente logístico ao contrário.
+    .desc = Um boné comum, nas cores de um intendente logístico. Ao contrário.
 
 ent-ClothingHeadHatCorpsoft = boné corporativo
     .desc = Um boné comum nas cores da corporação.

@@ -74,7 +74,7 @@ ent-BedsheetRed = lençol vermelho
      .desc = Um lençol de linho surpreendentemente macio.
 
 ent-BedsheetSyndie = lençol Syndie
-     .desc = Possui um emblema de sindicato e uma aura de maldade.
+     .desc = Possui um emblema de Sindicato e uma aura de maldade.
 
 ent-BedsheetUSA = lençol dos EUA
      .desc = Um lençol de linho surpreendentemente macio.

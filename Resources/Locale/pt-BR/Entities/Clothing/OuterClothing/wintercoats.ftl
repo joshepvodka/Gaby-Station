@@ -1,7 +1,7 @@
 ent-ClothingOuterWinterCoat = casaco
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterAtmos = casaco dos técnicos atmosféricos
+ent-ClothingOuterWinterAtmos = casaco da atmosférica
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
 ent-ClothingOuterWinterBar = casaco de bartender

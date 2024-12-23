@@ -58,7 +58,7 @@ ent-ClothingBackpackHolding = mochila interdimensional
 ent-ClothingBackpackIan = mochila do Ian
     .desc = As vezes ele usa ela.
 
-ent-ClothingBackpackAtmospherics = mochila de atmosféricos
+ent-ClothingBackpackAtmospherics = mochila da atmosférica
     .desc = Uma mochila à prova de fogo. Tem cheiro de plasma.
 
 ent-ClothingBackpackGenetics = mochila da genética

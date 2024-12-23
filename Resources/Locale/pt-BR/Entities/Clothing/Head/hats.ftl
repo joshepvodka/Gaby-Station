@@ -103,13 +103,13 @@ ent-ClothingHeadHatXmasCrown = coroa de natal
 ent-ClothingHeadHatTrucker = boné de caminhoneiro
     .desc = Não existem mais caminhoneiros, porém o estilo é o que prevalece!
 
-ent-ClothingHeadPyjamaSyndicateBlack = pijama preto do sindicato
+ent-ClothingHeadPyjamaSyndicateBlack = pijama preto do Sindicato
     .desc = Até mesmo os mais malvados precisam de uma boa noite de sono.
 
-ent-ClothingHeadPyjamaSyndicatePink = pijama rosa do sindicato
+ent-ClothingHeadPyjamaSyndicatePink = pijama rosa do Sindicato
     .desc = Até mesmo os mais malvados precisam de uma boa noite de sono.
 
-ent-ClothingHeadPyjamaSyndicateRed = pijama vermelho do sindicato
+ent-ClothingHeadPyjamaSyndicateRed = pijama vermelho do Sindicato
     .desc = Até mesmo os mais malvados precisam de uma boa noite de sono.
 
 ent-ClothingHeadPaperSack = saco de pão

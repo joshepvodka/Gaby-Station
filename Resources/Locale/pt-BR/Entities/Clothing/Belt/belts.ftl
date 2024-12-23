@@ -31,7 +31,7 @@ ent-ClothingBeltChampion = cinturão de ouro
 ent-ClothingBeltHolster = coldre
     .desc = Um coldre capaz de suportar uma pistola e munição. AVISO: Somente para os mais fodas!
 
-ent-ClothingBeltSyndieHolster = coldre do sindicato
+ent-ClothingBeltSyndieHolster = coldre do Sindicato
     .desc = Um coldre capaz de suportar armamentos e munição.
 
 ent-ClothingBeltSecurityWebbing = colete tático de segurança

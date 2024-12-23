@@ -137,7 +137,7 @@ ent-ClothingUniformJumpskirtHosFormal = vestido formal de hos
     .desc = Um vestido para ocasiões especiais.
 
 ent-ClothingUniformJumpskirtOperative = saia de operativa
-    .desc = Uniforme para agentes de sindicatos de elite realizando operações táticas no espaço profundo.
+    .desc = Uniforme para agentes de Sindicatos de elite realizando operações táticas no espaço profundo.
 
 ent-ClothingUniformJumpskirtAtmos = saia técnico atmosférico
     .desc = estou no trabalho. Não posso sair do trabalho. O trabalho está respirando. Estou testando a qualidade do ar.

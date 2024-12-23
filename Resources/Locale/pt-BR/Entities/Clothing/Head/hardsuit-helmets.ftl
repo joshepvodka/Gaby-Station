@@ -1,4 +1,4 @@
-ent-ClothingHeadHelmetHardsuitAtmos = capacete dos técnicos atmosféricos
+ent-ClothingHeadHelmetHardsuitAtmos = capacete da atmosférica
     .desc = Um capacete espacial, planejado para funcionar em ambientes de baixa pressão e de altas temperaturas.
 
 ent-ClothingHeadHelmetHardsuitCap = capacete do capitão
@@ -23,7 +23,7 @@ ent-ClothingHeadHelmetHardsuitRd = capacete experimental
     .desc = Um capacete espacial leve, capaz de interceptar sinais psiônicos!! Professor Xavier que aguarde.
 
 ent-ClothingHeadHelmetHardsuitSalvage = capacete de explorador
-    .desc = Um capacete espacial especial planejado especialmente para os membros da Salvagem, conta com não uma... mas DUAS Lanternas!
+    .desc = Um capacete espacial especial planejado especialmente para exploradores, conta com não uma... mas DUAS Lanternas!
 
 ent-ClothingHeadHelmetHardsuitSecurity = capacete de segurança
     .desc = Um capacete espacial blindado, perfeito para ocasiões "especiais"...

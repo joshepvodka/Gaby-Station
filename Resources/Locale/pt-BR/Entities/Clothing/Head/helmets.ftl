@@ -22,7 +22,7 @@ ent-ClothingHeadHelmetScaf = capacete scaf
 ent-ClothingHeadHelmetSpaceNinja = capacete de ninja espacial
     .desc = Apesar de aparentar ser um simples capacete, ele na verdade é feito de nanofibras, facilitando o movimento do usuário e aumentando a sua agilidade.
 
-ent-ClothingHeadHelmetSyndicate = capacete eva do sindicato
+ent-ClothingHeadHelmetSyndicate = capacete eva do Sindicato
     .desc = Um capacete forte e robusto.
 
 ent-ClothingHeadHelmetTemplar = elmo de templário

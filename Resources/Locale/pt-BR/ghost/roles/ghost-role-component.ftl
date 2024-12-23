@@ -182,11 +182,11 @@ ghost-role-information-cburn-agent-description = Um agente CentComm altamente tr
 ghost-role-information-centcom-official-name = oficial do CentComm
 ghost-role-information-centcom-official-description = Desempenhar funções relacionadas ao CentComm, como inspecionar a estação, anotar avaliações de desempenho para chefes de equipe e gerenciar o aparelho de fax.
 
-ghost-role-information-nukeop-rules = Você é um operador de sindicato encarregado da destruição da estação. Como antagonista, faça o que for necessário para concluir esta tarefa.
+ghost-role-information-nukeop-rules = Você é um operador de Sindicato encarregado da destruição da estação. Como antagonista, faça o que for necessário para concluir esta tarefa.
 
 ghost-role-information-loneop-name = Operativo solitário
 ghost-role-information-loneop-description = Você é um agente nuclear solitário. Destrua a estação!
-ghost-role-information-loneop-rules = Você é um agente do sindicato encarregado de destruir a estação. Como antagonista, faça o que for necessário para completar esta tarefa.
+ghost-role-information-loneop-rules = Você é um agente do Sindicato encarregado de destruir a estação. Como antagonista, faça o que for necessário para completar esta tarefa.
 
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a honkmother.
@@ -218,9 +218,9 @@ ghost-role-information-space-ninja-description = Use furtividade e percepção p
 ghost-role-information-space-ninja-rules = Você é um mercenário de elite do Clã da Aranha. Não é obrigado a seguir seus objetivos, mas seu HONRA DE NINJA exige que você tente.
 
 ghost-role-information-syndicate-reinforcement-name = Agente do Sindicato
-ghost-role-information-syndicate-reinforcement-description = Alguém precisa de reforços. Você, a primeira pessoa que o sindicato encontrou, irá ajudá-los.
-ghost-role-information-syndicate-reinforcement-rules = As regras normais para antagonistas do sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.
+ghost-role-information-syndicate-reinforcement-description = Alguém precisa de reforços. Você, a primeira pessoa que o Sindicato encontrou, irá ajudá-los.
+ghost-role-information-syndicate-reinforcement-rules = As regras normais para antagonistas do Sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.
 
 ghost-role-information-syndicate-monkey-reinforcement-name = Agente Macaco do Sindicato
 ghost-role-information-syndicate-monkey-reinforcement-description = Alguém precisa de reforços. Você, um macaco treinado, irá ajudá-los.
-ghost-role-information-syndicate-monkey-reinforcement-rules = As regras normais para antagonistas do sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.
+ghost-role-information-syndicate-monkey-reinforcement-rules = As regras normais para antagonistas do Sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.

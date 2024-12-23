@@ -109,7 +109,7 @@ ent-AgentIDCard = ID do Death Squad
 ent-AtmosIDCard = ID de técnico atmosférico
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-SyndicateIDCard = ID do sindicato
+ent-SyndicateIDCard = ID do Sindicato
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-PsychologistIDCard = ID de psicólogo

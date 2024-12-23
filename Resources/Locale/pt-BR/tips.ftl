@@ -27,10 +27,10 @@ tips-dataset-27 = Você pode adicionar rótulos a qualquer item, incluindo latas
 tips-dataset-28 = A armadura anti-motim é significativamente mais poderosa contra oponentes que não usam armas de fogo ou cortantes.
 tips-dataset-29 = Caso seja morto, você pode usar o menu de Seguir para orbitar e seguir qualquer entidade no jogo automaticamente.
 tips-dataset-30 = Como traidor, às vezes você pode ser designado para caçar outros traidores e, por sua vez, ser caçado por outros.
-tips-dataset-31 = Como traidor, a chave de criptografia do sindicato pode ser usada para se comunicar através de um canal seguro com qualquer outro traidor que a tenha adquirido.
-tips-dataset-32 = Como traidor, comprometer canais de comunicação importantes, como segurança ou engenharia, pode fornecer informações valiosas. Esteja ciente de que isso ocorre nos dois sentidos - a segurança também pode comprometer as comunicações do sindicato!
+tips-dataset-31 = Como traidor, a chave de criptografia do Sindicato pode ser usada para se comunicar através de um canal seguro com qualquer outro traidor que a tenha adquirido.
+tips-dataset-32 = Como traidor, comprometer canais de comunicação importantes, como segurança ou engenharia, pode fornecer informações valiosas. Esteja ciente de que isso ocorre nos dois sentidos - a segurança também pode comprometer as comunicações do Sindicato!
 # Goobstation - Telecrystal rework
-tips-dataset-33 = Como traidor, a caixa de ferramentas do sindicato é extremamente versátil. Por apenas 10 telecristais, você pode obter um conjunto completo de ferramentas para ajudá-lo em caso de emergência, luvas de combate isoladas e uma máscara de gás do sindicato.
+tips-dataset-33 = Como traidor, a caixa de ferramentas do Sindicato é extremamente versátil. Por apenas 10 telecristais, você pode obter um conjunto completo de ferramentas para ajudá-lo em caso de emergência, luvas de combate isoladas e uma máscara de gás do Sindicato.
 tips-dataset-34 = Como traidor, nunca subestime o colete de teia. Pode não fornecer proteção de espaço, mas seu custo barato e proteção robusta o tornam útil para proteger contra inimigos que estão utilizando metralhadoras.
 tips-dataset-35 = Como traidor, qualquer pinguim-granada comprado não atacará você e explodirá se for morto.
 tips-dataset-36 = Como traidor, tome cuidado ao usar vestine do kit de síntese química. Se alguém verificar seu estado, poderá facilmente descobrir você.

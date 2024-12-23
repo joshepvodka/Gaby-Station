@@ -87,7 +87,7 @@ ent-RubberStampWarden = carimbo do Carceiro
 ent-RubberStampTrader = carimbo do comerciante
      .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampSyndicate = carimbo do sindicato
+ent-RubberStampSyndicate = carimbo do Sindicato
      .desc = Um carimbo para carimbar documentos importantes.
 
 ent-RubberStampCE = carimbo do CE

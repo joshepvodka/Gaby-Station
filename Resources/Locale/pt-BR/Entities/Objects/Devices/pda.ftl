@@ -31,7 +31,7 @@ ent-MimePDA = PDA de mime
 ent-ChaplainPDA = PDA de padre
     .desc = PDA escolhido por Deus.
 
-ent-QuartermasterPDA = PDA de intendente
+ent-QuartermasterPDA = PDA do intendente
     .desc = PDA para o cara que encomenda as armas.
 
 ent-CargoPDA = PDA de carga
@@ -100,7 +100,7 @@ ent-AtmosPDA = PDA de atmos
 ent-ClearPDA = PDA de substituto
     .desc = 99 e 44/100 por cento de plástico puro.
 
-ent-SyndiPDA = PDA de sindicato
+ent-SyndiPDA = PDA de Sindicato
     .desc = Ok, hora de ser um membro produtivo de- ah, legal, sou um cara mau, hora de matar pessoas!
 
 ent-ERTLeaderPDA = PDA de da ERT

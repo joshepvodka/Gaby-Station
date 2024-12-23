@@ -1,4 +1,4 @@
-ent-ClothingOuterHardsuitAtmos = armadura dos técnicos atmosféricos
+ent-ClothingOuterHardsuitAtmos = armadura da atmosférica
     .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Possue blindagem térmica.
 
 ent-ClothingOuterHardsuitCap = armadura do capitão
