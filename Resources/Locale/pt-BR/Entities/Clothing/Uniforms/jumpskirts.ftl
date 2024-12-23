@@ -34,14 +34,14 @@ ent-ClothingUniformJumpskirtEngineering = saia de engenharia
 ent-ClothingUniformJumpskirtHoP = saia do chefe de funcionários
     .desc = Bastante brando e inofensivo. Perfeito para desaparecer da face do universo.
 
-ent-ClothingUniformJumpskirtHoS = saia do chefe de segurança
+ent-ClothingUniformJumpskirtHoS = saia do segurança chefe
     .desc = É vermelho brilhante e bastante nítido, assim como as vítimas de segurança tendem a ser.
 
-ent-ClothingUniformJumpskirtHoSAlt = gola alta do chefe de segurança
-    .desc = É uma gola alta usada por quem é forte e disciplinado o suficiente para alcançar o cargo de Chefe de Segurança. Seu tecido resistente oferece menor proteção contra danos mecânicos.
+ent-ClothingUniformJumpskirtHoSAlt = gola alta do segurança chefe
+    .desc = É uma gola alta usada por quem é forte e disciplinado o suficiente para alcançar o cargo de Segurança Chefe. Seu tecido resistente oferece menor proteção contra danos mecânicos.
 
 ent-ClothingUniformJumpskirtHoSParadeMale = uniforme de desfile do chefe da segurança
-    .desc = Um chefe de segurança de roupas de luxo, para ocasiões especiais.
+    .desc = Um segurança chefe de roupas de luxo, para ocasiões especiais.
 
 ent-ClothingUniformJumpskirtHydroponics = saia hidropônica
     .desc = Tem um forte cheiro de terra. Esperançosamente, está apenas sujo, em vez de sujo.

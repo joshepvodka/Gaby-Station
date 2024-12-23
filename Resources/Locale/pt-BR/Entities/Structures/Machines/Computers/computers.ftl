@@ -81,5 +81,5 @@ ent-ComputerTelevision = televisão de tubo
 ent-ComputerShuttleSalvage = console da nave de salvatagem
     .desc = Usado para pilotar a nave de salvatagem.
 
-ent-ComputerPalletConsole = console de vendas da cargo
+ent-ComputerPalletConsole = console de vendas da logística
     .desc = Usado para vender mercadorias carregadas em paletes de carga.

@@ -55,17 +55,17 @@ ent-ClothingUniformJumpsuitEngineeringHazard = macacão de perigo
 ent-ClothingUniformJumpsuitHoP = macacão do chefe de funcionários
     .desc = Bastante brando e inofensivo. Perfeito para desaparecer da face do universo.
 
-ent-ClothingUniformJumpsuitHoS = macacão do chefe de segurança
+ent-ClothingUniformJumpsuitHoS = macacão do segurança chefe
     .desc = É vermelho brilhante e bastante nítido, assim como as vítimas de segurança tendem a ser.
 
-ent-ClothingUniformJumpsuitHoSAlt = gola alta do chefe de segurança
-    .desc = É uma gola alta usada por quem é forte e disciplinado o suficiente para alcançar o cargo de Chefe de Segurança. Seu tecido resistente oferece menor proteção contra danos mecânicos.
+ent-ClothingUniformJumpsuitHoSAlt = gola alta do segurança chefe
+    .desc = É uma gola alta usada por quem é forte e disciplinado o suficiente para alcançar o cargo de Segurança Chefe. Seu tecido resistente oferece menor proteção contra danos mecânicos.
 
-ent-ClothingUniformJumpsuitHoSBlue = macacão azul do chefe de segurança
-    .desc = Um macacão azul do Chefe de Segurança.
+ent-ClothingUniformJumpsuitHoSBlue = macacão azul do segurança chefe
+    .desc = Um macacão azul do Segurança Chefe.
 
-ent-ClothingUniformJumpsuitHoSGrey = macacão cinza do chefe de segurança
-    .desc = Macacão cinza do Chefe de Segurança, que o faz parecer um passageiro.
+ent-ClothingUniformJumpsuitHoSGrey = macacão cinza do segurança chefe
+    .desc = Macacão cinza do Segurança Chefe, que o faz parecer um passageiro.
 
 ent-ClothingUniformJumpsuitHoSParadeMale = uniforme de desfile do chefe da segurança
     .desc = Um chefe masculino de roupas de luxo da segurança, para ocasiões especiais.

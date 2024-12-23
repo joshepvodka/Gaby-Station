@@ -79,7 +79,7 @@ ent-RnDPDA = PDA de diretor de pesquisa
 ent-SciencePDA = PDA de ciência
     .desc = Está coberto por uma substância pegajosa desconhecida.
 
-ent-HoSPDA = PDA de chefe de segurança
+ent-HoSPDA = PDA do segurança chefe
     .desc = Quem carrega este PDA é a lei.
 
 ent-WardenPDA = PDA de carceiro
@@ -103,10 +103,10 @@ ent-ClearPDA = PDA de substituto
 ent-SyndiPDA = PDA de sindicato
     .desc = Ok, hora de ser um membro produtivo de- ah, legal, sou um cara mau, hora de matar pessoas!
 
-ent-ERTLeaderPDA = PDA de do TRE
+ent-ERTLeaderPDA = PDA de da ERT
     .desc = Vermelho para poder de fogo.
 
-ent-CBURNPDA = PDA de CBURN
+ent-CBURNPDA = PDA da DQBRN
     .desc = Cheira a carne podre.
 
 ent-PsychologistPDA = PDA de psicólogo

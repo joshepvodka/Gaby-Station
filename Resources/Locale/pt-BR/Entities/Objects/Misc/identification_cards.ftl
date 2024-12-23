@@ -91,7 +91,7 @@ ent-HoSIDCard = chefe do ID de segurança
 ent-CentcomIDCard = ID do CentComm
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-ERTLeaderIDCard = ID do do TRE
+ent-ERTLeaderIDCard = ID do da ERT
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-CentcomIDCardSyndie = ID do CentComm
@@ -124,6 +124,6 @@ ent-BoxerIDCard = ID de boxeador
 ent-DetectiveIDCard = ID de detetive
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CBURNIDcard = ID do CBURN
+ent-CBURNIDcard = ID da DQBRN
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 

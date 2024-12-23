@@ -64,5 +64,5 @@ ent-ClothingBackpackDuffelGenetics = mala da genética
 ent-ClothingBackpackDuffelCargo = mala de carga
     .desc = Uma mala enorme para roubar os suprimentos da estação.
 
-ent-ClothingBackpackDuffelCBURN = mala da CBURN
+ent-ClothingBackpackDuffelCBURN = mala da DQBRN
     .desc = Uma mala que contém uma variedade de equipamentos de "contenção" biológica.

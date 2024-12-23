@@ -1,7 +1,7 @@
 ent-ClothingNeckMantleCap = manto do capitão
     .desc = Um manto chique e confortável.
 
-ent-ClothingNeckMantleCE = manto do chefe engenheiro
+ent-ClothingNeckMantleCE = manto do engenheiro chefe
     .desc = Dane-se a segurança, o que importa é o drip.
 
 ent-ClothingNeckMantleCMO = manto do médico chefe

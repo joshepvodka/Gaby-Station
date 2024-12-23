@@ -4,17 +4,17 @@ ent-ClothingHeadHatBluesoft = boné azul
 ent-ClothingHeadHatBluesoftFlipped = boné ao contrário
     .desc = Um boné ao contrário, azul.
 
-ent-ClothingHeadHatCargosoft = boné da cargo
+ent-ClothingHeadHatCargosoft = boné da logística
     .desc = Vive La Cargonia! Tem cheiro de graxa.
 
-ent-ClothingHeadHatCargosoftFlipped = boné da cargo ao contrário
+ent-ClothingHeadHatCargosoftFlipped = boné da logística ao contrário
     .desc = Vive La Cargonia! Tem cheiro de graxa.
 
-ent-ClothingHeadHatQMsoft = boné do quartermaster
-    .desc = Um boné comum, nas cores de um Quartermaster.
+ent-ClothingHeadHatQMsoft = boné dointendente logístico
+    .desc = Um boné comum, nas cores de umintendente logístico.
 
-ent-ClothingHeadHatQMsoftFlipped = boné do quartermaster ao contrário.
-    .desc = Um boné comum, nas cores de um Quartermaster. Ao contrário.
+ent-ClothingHeadHatQMsoftFlipped = boné dointendente logístico ao contrário.
+    .desc = Um boné comum, nas cores de umintendente logístico. Ao contrário.
 
 ent-ClothingHeadHatCorpsoft = boné corporativo
     .desc = Um boné comum nas cores da corporação.

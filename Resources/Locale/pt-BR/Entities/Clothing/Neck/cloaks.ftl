@@ -13,7 +13,7 @@ ent-ClothingCloakCmo = capa do médico chefe
 ent-ClothingNeckCloakRd = capa do diretor de pesquisa
     .desc = Uma capa branca com detalhes em violeta, a coisa mais nerd possível.
 
-ent-ClothingNeckCloakQm = capa do quartermaster
+ent-ClothingNeckCloakQm = capa dointendente logístico
     .desc = Uma capa marrom resistente, apesar de não ser tão bonita, é bem útil para exibir suas habilidades em gerenciar um departamento.
 
 ent-ClothingNeckCloakHop = capa do chefe dos funcionários

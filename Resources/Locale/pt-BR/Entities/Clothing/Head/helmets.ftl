@@ -61,19 +61,19 @@ ent-ClothingHeadHelmetSwatSyndicate = capacete SWAT
 ent-ClothingHeadHelmetJanitorBombSuit = capacete anti-bombas de limpeza
     .desc = Um capacete pesado projetado para resistir a explosões formadas de reações entre substâncias químicas.
 
-ent-ClothingHeadHelmetERTLeader = capacete do TRE Líder
+ent-ClothingHeadHelmetERTLeader = capacete da ERT Líder
     .desc = Um capacete selado, usado pelo líder de uma Equipe de Resposta a Tragédias da Nanotrasen. Possui detalhes em azul.
 
-ent-ClothingHeadHelmetERTSecurity = capacete do TRE Segurança
+ent-ClothingHeadHelmetERTSecurity = capacete da ERT Segurança
     .desc = Um capacete selado, usado pelos membros de segurança de uma Equipe de Resposta a Tragédias da Nanotrasen. Possui detalhes em vermelho.
 
-ent-ClothingHeadHelmetERTMedic = capacete do TRE Médico
+ent-ClothingHeadHelmetERTMedic = capacete da ERT Médico
     .desc = Um capacete selado, usado pelos membros médicos de uma Equipe de Resposta a Tragédias da Nanotrasen. Possui detalhes em branco.
 
-ent-ClothingHeadHelmetERTEngineer = capacete do TRE Engenheiro
+ent-ClothingHeadHelmetERTEngineer = capacete da ERT Engenheiro
     .desc = Um capacete selado, usado pelos membros da engenharia de uma Equipe de Resposta a Tragédias da Nanotrasen. Possui detalhes em laranja.
 
-ent-ClothingHeadHelmetERTJanitor = capacete do TRE Limpeza
+ent-ClothingHeadHelmetERTJanitor = capacete da ERT Limpeza
     .desc = Um capacete selado, usado pelos membros de limpeza de uma Equipe de Resposta a Tragédias da Nanotrasen. Possui detalhes em roxo escuro.
 
 ent-ClothingHeadHelmetBone = capacete de crânio

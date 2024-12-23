@@ -6,7 +6,7 @@ ent-SpawnPointLatejoin = latejoin spawn point
     .desc = { "" }
     .suffix = Job Spawn
 
-ent-SpawnPointQuartermaster = quartermaster
+ent-SpawnPointQuartermaster =intendente logístico
     .desc = { "" }
     .suffix = Job Spawn
 

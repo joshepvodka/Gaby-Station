@@ -3,7 +3,7 @@ id-card-access-level-captain = Capitão
 id-card-access-level-head-of-personnel = Chefe dos Funcionarios
 id-card-access-level-cryogenics = Criogenia
 
-id-card-access-level-head-of-security = Chefe de Segurança
+id-card-access-level-head-of-security = Segurança Chefe
 id-card-access-level-security = Segurança
 id-card-access-level-armory = Arsenal
 id-card-access-level-brig = Prisão

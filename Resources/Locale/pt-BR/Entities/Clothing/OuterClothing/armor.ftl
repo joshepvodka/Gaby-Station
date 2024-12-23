@@ -22,7 +22,7 @@ ent-ClothingOuterArmorMagusblue = armadura magus azul
 ent-ClothingOuterArmorMagusred = armadura magus vermelha
     .desc = Um traje blindado vermelho.
 
-ent-ClothingOuterArmorRiot = traje anti-motim
+ent-ClothingOuterArmorRiot = armadura anti-motim
     .desc = Um traje resistente a ataques corpo a corpo, perfeito para combater delinquentes pela estação.
 
 ent-ClothingOuterArmorScaf = traje scaf
@@ -31,6 +31,6 @@ ent-ClothingOuterArmorScaf = traje scaf
 ent-ClothingOuterArmorCaptainCarapace = armadura do capitão
     .desc = An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
 
-ent-ClothingOuterArmorChangeling = armadura chitinous
-    .desc = Inflates the changeling's body into an all-consuming chitinous mass of armor.
+ent-ClothingOuterArmorChangeling = armadura quitinosa
+    .desc = Transforma a pele do metamorfo em placas grossas de quitina resistente .
 
