@@ -10,7 +10,7 @@ ent-ClothingNeckCloakCe = capa do engenheiro chefe
 ent-ClothingCloakCmo = capa do médico chefe
     .desc = Uma capa estéril e azul, com detalhes em verde, concedido para aqueles que demonstram interesse em ajudar os outros... Ou não.
 
-ent-ClothingNeckCloakRd = capa do diretor de pesquisas
+ent-ClothingNeckCloakRd = capa do diretor de pesquisa
     .desc = Uma capa branca com detalhes em violeta, a coisa mais nerd possível.
 
 ent-ClothingNeckCloakQm = capa do quartermaster

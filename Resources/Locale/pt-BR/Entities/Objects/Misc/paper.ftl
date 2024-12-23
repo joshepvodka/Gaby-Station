@@ -51,7 +51,7 @@ ent-RubberStampMime = carimbo do mímico
 ent-RubberStampCaptain = carimbo do Capitão
      .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampCentcom = carimbo do CentCom
+ent-RubberStampCentcom = carimbo do CentComm
      .desc = Um carimbo para carimbar documentos importantes.
 
 ent-RubberStampChaplain = carimbo do clérigo

@@ -1,7 +1,7 @@
 ent-ClothingBeltUtility = cinto de ferramentas
     .desc = Pode armazenar diversas coisas.
 
-ent-ClothingBeltChiefEngineer = cinto do chefe engenheiro
+ent-ClothingBeltChiefEngineer = cinto do engenheiro chefe
     .desc = Segura ferramentas, tem uma aparência elegante.
 
 ent-ClothingBeltAssault = cinto tático
@@ -52,5 +52,5 @@ ent-ClothingBeltWand = cinto de varinhas mágicas
 ent-ClothingBeltMercWebbing = colete tático mercenário
     .desc = Segura para que precisar para combate.
 
-ent-ClothingBeltSalvageWebbing = colete de exploração
+ent-ClothingBeltSalvageWebbing = colete de explorador
     .desc = Sistema perfeito para guardar essenciais para trabalho no espaço.

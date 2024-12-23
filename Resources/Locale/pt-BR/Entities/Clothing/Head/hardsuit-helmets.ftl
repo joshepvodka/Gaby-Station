@@ -55,18 +55,18 @@ ent-ClothingHeadHelmetHardsuitSyndieElite = capacete do Sindicato
 ent-ClothingHeadHelmetCBURN = capacete de CBURN
     .desc = Um capacete espacial, resistente ao calor e impactos.
 
-ent-ClothingHeadHelmetHardsuitERTLeader = capacete de líder ERT
-    .desc = Um capacete especialmente planejado para comandantes de unidades ERT.
+ent-ClothingHeadHelmetHardsuitERTLeader = capacete de líder do TRE
+    .desc = Um capacete especialmente planejado para comandantes de unidades do TRE.
 
-ent-ClothingHeadHelmetHardsuitERTEngineer = capacete de engenheiro ERT
-    .desc = Um capacete especialmente planejado para unidades ERT.
+ent-ClothingHeadHelmetHardsuitERTEngineer = capacete de engenheiro do TRE
+    .desc = Um capacete especialmente planejado para unidades do TRE.
 
-ent-ClothingHeadHelmetHardsuitERTMedical = capacete de médico ERT
-    .desc = Um capacete especialmente planejado para unidades ERT.
+ent-ClothingHeadHelmetHardsuitERTMedical = capacete de médico do TRE
+    .desc = Um capacete especialmente planejado para unidades do TRE.
 
-ent-ClothingHeadHelmetHardsuitERTSecurity = capacete de segurança ERT
-    .desc = Um capacete especialmente planejado para unidades ERT.
+ent-ClothingHeadHelmetHardsuitERTSecurity = capacete de segurança do TRE
+    .desc = Um capacete especialmente planejado para unidades do TRE.
 
-ent-ClothingHeadHelmetHardsuitERTJanitor = capacete de zelador ERT
-    .desc = Um capacete especialmente planejado para unidades ERT.
+ent-ClothingHeadHelmetHardsuitERTJanitor = capacete de zelador do TRE
+    .desc = Um capacete especialmente planejado para unidades do TRE.
 

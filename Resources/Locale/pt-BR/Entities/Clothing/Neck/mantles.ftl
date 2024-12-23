@@ -13,6 +13,6 @@ ent-ClothingNeckMantleHOP = manto do chefe dos funcionários
 ent-ClothingNeckMantleHOS = manto do segurança chefe
     .desc = Tiroteios e Nukies são só mais um dia de trabalho na vida dos HoS..
 
-ent-ClothingNeckMantleRD = manto do diretor de pesquisas
+ent-ClothingNeckMantleRD = manto do diretor de pesquisa
     .desc = Para um dia produtivo.. Cheio de explosões, gases venenosos, artefatos alienígenas, etc.
 

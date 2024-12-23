@@ -88,7 +88,7 @@ ent-WardenPDA = PDA de carceiro
 ent-SecurityPDA = PDA de segurança
     .desc = Vermelho para esconder as manchas de sangue dos passageiros.
 
-ent-CentcomPDA = PDA de CentCom
+ent-CentcomPDA = PDA de CentComm
     .desc = Coloriu o cinza entorpecente da burocracia.
 
 ent-MusicianPDA = PDA de músico
@@ -103,7 +103,7 @@ ent-ClearPDA = PDA de substituto
 ent-SyndiPDA = PDA de sindicato
     .desc = Ok, hora de ser um membro produtivo de- ah, legal, sou um cara mau, hora de matar pessoas!
 
-ent-ERTLeaderPDA = PDA de ERT
+ent-ERTLeaderPDA = PDA de do TRE
     .desc = Vermelho para poder de fogo.
 
 ent-CBURNPDA = PDA de CBURN

@@ -16,7 +16,7 @@ ent-ClothingOuterWinterCargo = agasalho da cargo
 ent-ClothingOuterWinterCE = agasalho do engenheiro chefe
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterCentcom = agasalho da centcom
+ent-ClothingOuterWinterCentcom = agasalho da CentComm
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
 ent-ClothingOuterWinterChem = agasalho de químico
@@ -61,7 +61,7 @@ ent-ClothingOuterWinterPara = agasalho de paramédico
 ent-ClothingOuterWinterQM = agasalho do quartermaster
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterRD = agasalho do diretor de pesquisas
+ent-ClothingOuterWinterRD = agasalho do diretor de pesquisa
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
 ent-ClothingOuterWinterRobo = agasalho robótico

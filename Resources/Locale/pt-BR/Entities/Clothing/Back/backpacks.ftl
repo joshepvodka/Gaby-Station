@@ -3,7 +3,7 @@ ent-ClothingBackpack = mochila
 
 ent-ClothingBackpackClown = risos von buzinton
     .desc = Uma mochila buzinástica! Feita por Honk! Co.
-    
+
 ent-ClothingBackpackSecurity = mochila da segurança
     .desc = Uma mochila robusta, tem cheiro de corrupção.
 
@@ -34,23 +34,23 @@ ent-ClothingBackpackVirology = mochila da virologia
 ent-ClothingBackpackSalvage = mochila de exploração
     .desc = Uma mochila surrada. Pode conter tesouros de outro mundo!
 
-ent-ClothingBackpackERTLeader = mochila de comandante ert
-    .desc = Uma mochila espaçosa, pertencente a um Comandante da unidade ERT.
+ent-ClothingBackpackERTLeader = mochila de comandante do TRE
+    .desc = Uma mochila espaçosa, pertencente a um Comandante da unidade do TRE.
 
-ent-ClothingBackpackERTSecurity = mochila de agente ert
-    .desc = Uma mochila espaçosa, pertencente a um Agente da unidade ERT.
+ent-ClothingBackpackERTSecurity = mochila de agente do TRE
+    .desc = Uma mochila espaçosa, pertencente a um Agente da unidade do TRE.
 
-ent-ClothingBackpackERTMedical = mochila de médico ert
-    .desc = Uma mochila espaçosa, pertencente a um Médico da unidade ERT.
+ent-ClothingBackpackERTMedical = mochila de médico do TRE
+    .desc = Uma mochila espaçosa, pertencente a um Médico da unidade do TRE.
 
-ent-ClothingBackpackERTEngineer = mochila de engenheiro ert
-    .desc = Uma mochila espaçosa, pertencente a um Engenheiro da unidade ERT.
+ent-ClothingBackpackERTEngineer = mochila de engenheiro do TRE
+    .desc = Uma mochila espaçosa, pertencente a um Engenheiro da unidade do TRE.
 
-ent-ClothingBackpackERTJanitor = mochila de zelador ert
-    .desc = Uma mochila espaçosa, pertecente a um Zelador da unidade ERT.. Quê?!
+ent-ClothingBackpackERTJanitor = mochila de zelador do TRE
+    .desc = Uma mochila espaçosa, pertecente a um Zelador da unidade do TRE.. Quê?!
 
-ent-ClothingBackpackERTClown = mochila de palhaço ert
-    .desc = Uma mochila muito espaçosa e buzinástica, pertencente a um membro da elite de palhaços, um Palhaço da unidade ERT!
+ent-ClothingBackpackERTClown = mochila de palhaço do TRE
+    .desc = Uma mochila muito espaçosa e buzinástica, pertencente a um membro da elite de palhaços, um Palhaço da unidade do TRE!
 
 ent-ClothingBackpackHolding = mochila interdimensional
     .desc = Uma mochila que contém um buraco de minhoca ao bluespace.

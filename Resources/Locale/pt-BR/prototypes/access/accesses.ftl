@@ -21,7 +21,7 @@ id-card-access-level-medical = Médico
 id-card-access-level-chemistry = Química
 id-card-access-level-paramedic = Paramédico
 
-id-card-access-level-quartermaster = Intendente de Carga
+id-card-access-level-quartermaster = intendente logístico
 id-card-access-level-cargo = Cargas
 id-card-access-level-salvage = Recuperação
 

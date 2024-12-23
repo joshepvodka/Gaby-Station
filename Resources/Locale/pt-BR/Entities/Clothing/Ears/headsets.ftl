@@ -4,10 +4,10 @@ ent-ClothingHeadset = fone de ouvido
 ent-ClothingHeadsetCargo = fone de ouvido da logística
     .desc = Um fone de ouvido usado pelos funcionários da Logística.
 
-ent-ClothingHeadsetQM = fone de ouvido do intendente de carga
-    .desc = Um fone de ouvido usado pelo intendente de carga.
+ent-ClothingHeadsetQM = fone de ouvido do intendente logístico
+    .desc = Um fone de ouvido usado pelo intendente logístico.
 
-ent-ClothingHeadsetCentCom = fone de ouvido da centcom
+ent-ClothingHeadsetCentCom = fone de ouvido da CentComm
     .desc = Um fone de ouvido usado pelo escalão mais alto da Nanotrasen.
 
 ent-ClothingHeadsetCommand = fone de ouvido de comando
@@ -34,7 +34,7 @@ ent-ClothingHeadsetRobotics = fone de ouvido de robótica
 ent-ClothingHeadsetScience = fone de ouvido de pesquisas
     .desc = Um fone de ouvido usado pelos cientistas. Alerta de Nerd!
 
-ent-ClothingHeadsetRD = fone de ouvido do diretor de pesquisas
+ent-ClothingHeadsetRD = fone de ouvido do diretor de pesquisa
     .desc = O Lamarr adorava mastigar isso...
 
 ent-ClothingHeadsetSecurity = fone de ouvido da segurança

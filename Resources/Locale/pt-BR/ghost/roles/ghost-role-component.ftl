@@ -161,25 +161,25 @@ ghost-role-information-cerberus-name = Cerberus, familiar do Mal
 ghost-role-information-cerberus-description = Obedeça seu mestre. Espalhe o caos.
 ghost-role-information-cerberus-rules = Você é um cachorro inteligente e demoníaco. Tente ajudar o padre e qualquer um de seu rebanho. Como antagonista, você não tem restrições.
 
-ghost-role-information-ert-leader-name = ERT Leader
+ghost-role-information-ert-leader-name = do TRE Leader
 ghost-role-information-ert-leader-description = Liderar uma equipe de especialistas para resolver os problemas das estações.
 
-ghost-role-information-ert-janitor-name = ERT Janitor
+ghost-role-information-ert-janitor-name = do TRE Janitor
 ghost-role-information-ert-janitor-description = Auxiliar nos esforços de custódia para resolver os problemas da estação.
 
-ghost-role-information-ert-engineer-name = ERT Engineer
+ghost-role-information-ert-engineer-name = do TRE Engineer
 ghost-role-information-ert-engineer-description = Auxiliar nos esforços de engenharia para resolver os problemas das estações.
 
-ghost-role-information-ert-security-name = ERT Security
+ghost-role-information-ert-security-name = do TRE Security
 ghost-role-information-ert-security-description = Auxiliar nos esforços de segurança para resolver os problemas das estações.
 
-ghost-role-information-ert-medical-name = ERT Medical
+ghost-role-information-ert-medical-name = do TRE Medical
 ghost-role-information-ert-medical-description = Auxiliar nos esforços médicos para resolver os problemas das estações.
 
 ghost-role-information-cburn-agent-name = Agente de CBURN
-ghost-role-information-cburn-agent-description = Um agente CentCom altamente treinado, capaz de lidar com várias ameaças.
+ghost-role-information-cburn-agent-description = Um agente CentComm altamente treinado, capaz de lidar com várias ameaças.
 
-ghost-role-information-centcom-official-name = oficial do CentCom
+ghost-role-information-centcom-official-name = oficial do CentComm
 ghost-role-information-centcom-official-description = Desempenhar funções relacionadas ao CentComm, como inspecionar a estação, anotar avaliações de desempenho para chefes de equipe e gerenciar o aparelho de fax.
 
 ghost-role-information-nukeop-rules = Você é um operador de sindicato encarregado da destruição da estação. Como antagonista, faça o que for necessário para concluir esta tarefa.

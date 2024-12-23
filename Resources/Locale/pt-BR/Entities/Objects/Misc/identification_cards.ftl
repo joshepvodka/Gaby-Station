@@ -40,7 +40,7 @@ ent-CargoIDCard = ID de carga
 ent-SalvageIDCard = ID de salvamento
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-QuartermasterIDCard = ID do intendente de carga
+ent-QuartermasterIDCard = ID do intendente logístico
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-ResearchIDCard = ID de pesquisa
@@ -88,13 +88,13 @@ ent-RDIDCard = ID do diretor de pesquisa
 ent-HoSIDCard = chefe do ID de segurança
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CentcomIDCard = ID do Centcom
+ent-CentcomIDCard = ID do CentComm
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-ERTLeaderIDCard = ID do ERT
+ent-ERTLeaderIDCard = ID do do TRE
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CentcomIDCardSyndie = ID do Centcom
+ent-CentcomIDCardSyndie = ID do CentComm
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-MusicianIDCard = ID do músico

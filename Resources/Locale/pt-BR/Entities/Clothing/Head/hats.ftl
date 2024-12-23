@@ -22,7 +22,7 @@ ent-ClothingHeadHatCaptain = chapéu do capitão
 ent-ClothingHeadHatCardborg = chapéu de caixobô
     .desc = Um chapéu feito por uma criança de 5 anos.
 
-ent-ClothingHeadHatCentcom = chapéu da centcom
+ent-ClothingHeadHatCentcom = chapéu da CentComm
     .desc = Como é bom ser imperador...
 
 ent-ClothingHeadHatChef = chapéu de chef

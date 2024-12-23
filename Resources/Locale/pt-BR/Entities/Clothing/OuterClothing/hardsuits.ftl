@@ -67,18 +67,18 @@ ent-ClothingOuterHardsuitSyndieElite = hardsuit de elite do sindicato
 ent-ClothingOuterHardsuitCBURN = exosuit cburn
     .desc = Um traje leve e resistente utilizdo em operações espaciais.
 
-ent-ClothingOuterHardsuitERTLeader = hardsuit de líder ert
-    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
+ent-ClothingOuterHardsuitERTLeader = hardsuit de líder do TRE
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão do TRE.
 
-ent-ClothingOuterHardsuitERTEngineer = hardsuit de engenheiro ert
-    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
+ent-ClothingOuterHardsuitERTEngineer = hardsuit de engenheiro do TRE
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão do TRE.
 
-ent-ClothingOuterHardsuitERTMedical = hardsuit de paramédico ert
-    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
+ent-ClothingOuterHardsuitERTMedical = hardsuit de paramédico do TRE
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão do TRE.
 
-ent-ClothingOuterHardsuitERTSecurity = hardsuit de segurança ert
-    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
+ent-ClothingOuterHardsuitERTSecurity = hardsuit de segurança do TRE
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão do TRE.
 
-ent-ClothingOuterHardsuitERTJanitor = hardsuit de zelador ert
-    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
+ent-ClothingOuterHardsuitERTJanitor = hardsuit de zelador do TRE
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão do TRE.
 
