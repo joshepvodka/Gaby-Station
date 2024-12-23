@@ -1,74 +1,74 @@
-ent-PaintingMonkey = monkey painting
-    .desc = Return to monky.
+ent-PaintingMonkey = pintura de macaco
+    .desc = Faça macacagem.
 
-ent-BaseSignDirectional = monkey painting
-    .desc = Return to monky.
+ent-BaseSignDirectional = pintura de macaco
+    .desc = Faça macacagem.
 
-ent-SignDirectionalBar = bar sign
-    .desc = A direction sign, pointing out which way the bar is.
+ent-SignDirectionalBar = placa do bar
+    .desc = Uma placa direcional, apontado onde fica o bar.
 
-ent-SignDirectionalBridge = bridge sign
-    .desc = A direction sign, pointing out which way the Bridge is.
+ent-SignDirectionalBridge = placa da ponte
+    .desc = Uma placa direcional, apontado onde fica a ponte.
 
-ent-SignDirectionalBrig = brig sign
-    .desc = A direction sign, pointing out which way the Brig is.
+ent-SignDirectionalBrig = placa da cadeia
+    .desc = Uma placa direcional, apontado onde fica a cadeia .
 
-ent-SignDirectionalChapel = chapel sign
-    .desc = A direction sign, pointing out which way the Chapel is.
+ent-SignDirectionalChapel = placa da capela
+    .desc = Uma placa direcional, apontado onde fica a capela.
 
-ent-SignDirectionalChemistry = chemistry sign
-    .desc = A direction sign, pointing out which way the chemistry lab is.
+ent-SignDirectionalChemistry = placa da química
+    .desc = Uma placa direcional, apontado onde fica o laboratório químico.
 
-ent-SignDirectionalCryo = cryo sign
-    .desc = A direction sign, pointing out the way to cryogenics.
+ent-SignDirectionalCryo = placa da criogenia
+    .desc = Uma placa direcional, apontado onde fica a criogenia.
 
-ent-SignDirectionalDorms = dorms sign
-    .desc = A direction sign, pointing out which way the Dorms are.
+ent-SignDirectionalDorms = placa dos dormitórios
+    .desc = Uma placa direcional, apontado onde fica os dormitórios.
 
-ent-SignDirectionalEng = engineering sign
-    .desc = A direction sign, pointing out which way the Engineering department is.
+ent-SignDirectionalEng = placa da engenharia
+    .desc = Uma placa direcional, apontado onde fica o departamento de engenharia.
 
-ent-SignDirectionalEvac = evac sign
-    .desc = A direction sign, pointing out which way evac is.
+ent-SignDirectionalEvac = placa da evacuação
+    .desc = Uma placa direcional, apontado onde fica a doca de evacuação.
 
-ent-SignDirectionalFood = food sign
-    .desc = A direction sign, pointing out which way the kitchen is.
+ent-SignDirectionalFood = placa da cantina
+    .desc = Uma placa direcional, apontado onde fica a cozinha.
 
-ent-SignDirectionalGravity = gravity sign
-    .desc = A direction sign, pointing out which way the gravity generator is.
+ent-SignDirectionalGravity = placa da gravidade
+    .desc = Uma placa direcional, apontado onde fica o gerador de gravidade.
 
-ent-SignDirectionalHop = hop sign
-    .desc = A direction sign, pointing out which way Head of Personnel's office is.
+ent-SignDirectionalHop = placa do chefe dos funcionários
+    .desc = Uma placa direcional, apontado onde fica o escritório do chefe dos funcionários.
 
-ent-SignDirectionalHydro = hydro sign
-    .desc = A direction sign, pointing out which way hydroponics is.
+ent-SignDirectionalHydro = placa da hidroponia
+    .desc = Uma placa direcional, apontado onde fica a hidroponia.
 
-ent-SignDirectionalJanitor = janitor sign
-    .desc = A direction sign, pointing out which way the janitor's closet is.
+ent-SignDirectionalJanitor = placa do zelador
+    .desc = Uma placa direcional, apontado onde fica a sala do zelador.
 
-ent-SignDirectionalLibrary = library sign
-    .desc = A direction sign, pointing out which way the library is.
+ent-SignDirectionalLibrary = placa da bilbioteca
+    .desc = Uma placa direcional, apontado onde fica a bibliotéca.
 
-ent-SignDirectionalMed = medical sign
-    .desc = A direction sign, pointing out which way the Medical department is.
+ent-SignDirectionalMed = placa do hospital
+    .desc = Uma placa direcional, apontado onde fica o departamento médico.
 
-ent-SignDirectionalSalvage = salvage sign
-    .desc = A direction sign, pointing out which way the Salvage department is.
+ent-SignDirectionalSalvage = placa da exploração e mineração
+    .desc = Uma placa direcional, apontado onde fica o departmaneto de exploração e mineração.
 
-ent-SignDirectionalSci = epistemics sign
-    .desc = A direction sign, pointing out which way the Epistemics department is.
+ent-SignDirectionalSci = placa da pesquisa e desenvolvimento
+    .desc = Uma placa direcional, apontado onde fica o departamento de pesquisa e desenvolvimento.
 
-ent-SignDirectionalSec = sec sign
-    .desc = A direction sign, pointing out which way Security is.
+ent-SignDirectionalSec = placa da segurança
+    .desc = Uma placa direcional, apontado onde fica a segurança.
 
-ent-SignDirectionalSolar = solars sign
-    .desc = A direction sign, pointing out which way solars are.
+ent-SignDirectionalSolar = placa das solares
+    .desc = Uma placa direcional, apontado onde fica os painéis solares.
 
-ent-SignDirectionalSupply = supply sign
-    .desc = A direction sign, pointing to some supplies.
+ent-SignDirectionalSupply = placa da logística e suprimentos
+    .desc = Uma placa direcional, apontado onde fica o departamento de logística.
 
-ent-SignDirectionalWash = washroom sign
-    .desc = A direction sign, pointing to the way to a washroom.
+ent-SignDirectionalWash = placa do banheiro
+    .desc = Uma placa direcional, apontado onde fica o banheiro.
 
 ent-SignAi = ai sign
     .desc = A sign, indicating an AI is present.
