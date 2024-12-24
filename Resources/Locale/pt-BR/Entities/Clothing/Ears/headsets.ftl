@@ -31,7 +31,7 @@ ent-ClothingHeadsetMining = fone de ouvido de mineração
 ent-ClothingHeadsetRobotics = fone de ouvido de robótica
     .desc = Feito especialmente para os robotiscistas (se é que isso existe), que não se decidem de qual departamento serão.
 
-ent-ClothingHeadsetScience = fone de ouvido de pesquisas
+ent-ClothingHeadsetScience = fone de ouvido de pesquisa
     .desc = Um fone de ouvido usado pelos cientistas. Alerta de Nerd!
 
 ent-ClothingHeadsetRD = fone de ouvido do diretor de pesquisa
