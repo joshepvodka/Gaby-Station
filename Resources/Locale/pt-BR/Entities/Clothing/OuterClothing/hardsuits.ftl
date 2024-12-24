@@ -64,7 +64,7 @@ ent-ClothingOuterHardsuitSyndieCommander = hardsuit de comandante do Sindicato
 ent-ClothingOuterHardsuitSyndieElite = hardsuit de elite do Sindicato
     .desc = Uma versão melhorada da hardsuit vermelha que contém novidades, como resistência a chamas, maior resistência ao vácuo, e ainda mais blindagem.
 
-ent-ClothingOuterHardsuitCBURN = trage protetivo da DQBRN
+ent-ClothingOuterHardsuitCBURN = trage protetivo da CBURN
     .desc = Traje blindado contra ameaças biológicas, quimicas e radiotivas.
 
 ent-ClothingOuterHardsuitERTLeader = hardsuit de líder da ERT

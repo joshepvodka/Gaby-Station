@@ -124,6 +124,6 @@ ent-BoxerIDCard = ID de boxeador
 ent-DetectiveIDCard = ID de detetive
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CBURNIDcard = ID da DQBRN
+ent-CBURNIDcard = ID da CBURN
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 

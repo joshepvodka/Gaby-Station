@@ -106,7 +106,7 @@ ent-SyndiPDA = PDA de Sindicato
 ent-ERTLeaderPDA = PDA de da ERT
     .desc = Vermelho para poder de fogo.
 
-ent-CBURNPDA = PDA da DQBRN
+ent-CBURNPDA = PDA da CBURN
     .desc = Cheira a carne podre.
 
 ent-PsychologistPDA = PDA de psicólogo

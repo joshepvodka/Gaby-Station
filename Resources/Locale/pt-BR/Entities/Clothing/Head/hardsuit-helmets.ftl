@@ -52,7 +52,7 @@ ent-ClothingHeadHelmetHardsuitSyndieCommander = capacete de comandante do Sindic
 ent-ClothingHeadHelmetHardsuitSyndieElite = capacete do Sindicato
     .desc = Uma variante do capacete espacial do Sindicato, ainda mais resistente!
 
-ent-ClothingHeadHelmetCBURN = capacete da DQBRN
+ent-ClothingHeadHelmetCBURN = capacete da CBURN
     .desc = Um capacete espacial, blindado contra ameaças biológicas, quimicas e radiotivas.
 
 ent-ClothingHeadHelmetHardsuitERTLeader = capacete de líder da ERT
