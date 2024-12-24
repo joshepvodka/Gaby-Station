@@ -31,7 +31,7 @@ ent-MimePDA = PDA de mime
 ent-ChaplainPDA = PDA de padre
     .desc = PDA escolhido por Deus.
 
-ent-QuartermasterPDA = PDA do intendente
+ent-QuartermasterPDA = PDA do intendente logístico
     .desc = PDA para o cara que encomenda as armas.
 
 ent-CargoPDA = PDA de carga
