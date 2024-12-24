@@ -16,13 +16,13 @@ ent-ClothingOuterHardsuitEngineeringWhite = hardsuit do engenheiro chefe
 ent-IHSVoidsuit = voidsuit IHS
     .desc = Um traje especial que protege o usuário de ambientes perigosos ou despressurizados.
 
-ent-ClothingOuterHardsuitEVA = traje aev
+ent-ClothingOuterHardsuitEVA = traje EVA
     .desc = Um traje espacial leve, utilizado para proteger o usuário dos efeitos causados pelo vácuo. Perfeito para situações de emergência.
 
-ent-ClothingOuterHardsuitSyndicate = traje aev do Sindicato
+ent-ClothingOuterHardsuitSyndicate = traje EVA do Sindicato
     .desc = Tem uma etiqueta nele 'Definitivamente não é propriedade da corporação inimiga, honestidade acima de tudo!'.
 
-ent-ClothingOuterHardsuitEVAPrisoner = traje aev de prisioneiro
+ent-ClothingOuterHardsuitEVAPrisoner = traje EVA de prisioneiro
     .desc = Um traje espacial leve, feito para proteger os prisioneiros dos efeitos causados pelo vácuo. Perfeito para situações de emergência.
 
 ent-ClothingOuterHardsuitMedical = hardsuit biológica do médico chefe

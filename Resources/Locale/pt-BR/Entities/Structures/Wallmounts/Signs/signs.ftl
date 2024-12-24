@@ -145,7 +145,7 @@ ent-SignEngineering = placa da engenharia
 ent-SignEscapePods = placa das cápsulas de fuga
     .desc = Uma placa que indica cápsulas de fuga.
 
-ent-SignEVA = placa de AEV
+ent-SignEVA = placa de EVA
     .desc = Uma placa que indica a presença ou necessidade de um trage de atividade extraveicular.
 
 ent-SignElectrical = placa de perigo elétrico
