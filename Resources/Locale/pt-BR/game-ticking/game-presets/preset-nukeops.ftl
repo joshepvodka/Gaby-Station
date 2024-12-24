@@ -32,5 +32,5 @@ nukeops-not-enough-ready-players = Não há jogadores suficientes prontos para i
 nukeops-no-one-ready = Nenhum jogador está pronto! Não é possível iniciar agentes Nucleares.
 
 nukeops-role-commander = Comandante
-nukeops-role-agent = Agente
-nukeops-role-operator = Operador
+nukeops-role-agent = Médico
+nukeops-role-operator = Agente
