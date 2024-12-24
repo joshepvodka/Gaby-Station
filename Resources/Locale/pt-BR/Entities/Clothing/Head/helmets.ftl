@@ -41,7 +41,7 @@ ent-ClothingHeadHelmetAtmosFire = capacete de bombeiro atmos
     .desc = Em caso de emergências, dê o fora daqui!
 
 ent-ClothingHeadHelmetLing = capacete quitinoso
-    .desc = Infla o corpo do metamofo em uma massa quitinosa de armadura.
+    .desc = Infla o corpo do metamofo em uma armadura quitinosa.
 
 ent-ClothingHeadHelmetVoidParamed = capacete de paramédico espacial
     .desc = Disk 193, os médicos irão até outra galáxia para te resgatar.
