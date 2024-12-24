@@ -130,7 +130,7 @@ ent-ClothingUniformJumpskirtPerformer = saia do artista
 ent-ClothingUniformJumpskirtCapFormalDress = vestido formal do capitão
     .desc = Um vestido para ocasiões especiais.
 
-ent-ClothingUniformJumpskirtCentcomFormalDress = vestido formal de comando central
+ent-ClothingUniformJumpskirtCentcomFormalDress = vestido formal de  Central de Comando
     .desc = Um vestido para ocasiões especiais
 
 ent-ClothingUniformJumpskirtHosFormal = vestido formal de hos

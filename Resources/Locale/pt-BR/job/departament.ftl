@@ -1,7 +1,7 @@
 department-Cargo = Departamento de Logística
 department-Civilian = Tripulantes
 department-Command = Comando
-department-CentralCommand = Comando Central
+department-CentralCommand =  Central de Comando
 department-Engineering = Departamento de Engenharia
 department-Medical = Departamento Médico
 department-Security = Departamento de Segurança

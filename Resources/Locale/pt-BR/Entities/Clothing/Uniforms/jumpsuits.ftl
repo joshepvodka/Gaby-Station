@@ -196,7 +196,7 @@ ent-ClothingUniformJumpsuitNanotrasen = macacão nanotrasen
 ent-ClothingUniformJumpsuitCapFormal = terno formal do capitão
     .desc = Um terno para ocasiões especiais.
 
-ent-ClothingUniformJumpsuitCentcomFormal = traje formal de comando central
+ent-ClothingUniformJumpsuitCentcomFormal = traje formal da  Central de Comando
     .desc = Um terno para ocasiões especiais.
 
 ent-ClothingUniformJumpsuitHosFormal = terno formal de hos
