@@ -42,5 +42,5 @@ ent-MobHumanERTJanitorEVA = Zelador da ERT
 ent-MobHumanSyndicateAgent = Agente Sindicato
      .desc = { "" }
 
-ent-MobHumanNukeOp = Operativo Nuclear
+ent-MobHumanNukeOp = Agente Nuclear
      .desc = { "" }

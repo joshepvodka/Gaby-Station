@@ -202,7 +202,7 @@ ent-ClothingUniformJumpsuitCentcomFormal = traje formal de comando central
 ent-ClothingUniformJumpsuitHosFormal = terno formal de hos
     .desc = Um terno para ocasiões especiais.
 
-ent-ClothingUniformJumpsuitOperative = macacão operativo
+ent-ClothingUniformJumpsuitOperative = macacão de agente
     .desc = Uniforme para agentes de Sindicatos de elite realizando operações táticas no espaço profundo.
 
 ent-ClothingUniformJumpsuitAtmos = macacão técnico atmosférico

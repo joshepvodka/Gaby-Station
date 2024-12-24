@@ -184,7 +184,7 @@ ghost-role-information-centcom-official-description = Desempenhar funções rela
 
 ghost-role-information-nukeop-rules = Você é um operador de Sindicato encarregado da destruição da estação. Como antagonista, faça o que for necessário para concluir esta tarefa.
 
-ghost-role-information-loneop-name = Operativo solitário
+ghost-role-information-loneop-name = Agente nuclear solitário
 ghost-role-information-loneop-description = Você é um agente nuclear solitário. Destrua a estação!
 ghost-role-information-loneop-rules = Você é um agente do Sindicato encarregado de destruir a estação. Como antagonista, faça o que for necessário para completar esta tarefa.
 
@@ -198,8 +198,8 @@ ghost-role-information-Death-Squad-name = Esquadrão da Morte
 ghost-role-information-Death-Squad-description = Um dos principais agentes de assuntos internos da Nanotrasen. Aguarde ordens do CentComm ou de um oficial.
 
 ghost-role-information-SyndiCat-name = SindiGato
-ghost-role-information-SyndiCat-description = Você é o fiel animal treinado dos operativos nucleares com uma microbomba. Sirva seu mestre até a morte!
-ghost-role-information-SyndiCat-rules = Você é o fiel animal treinado dos operativos nucleares com uma microbomba. Sirva seu mestre até a morte!
+ghost-role-information-SyndiCat-description = Você é o fiel animal treinado pelos agentes nucleares com uma microbomba. Sirva seu mestre até a morte!
+ghost-role-information-SyndiCat-rules = Você é o fiel animal treinado pelos agentes nucleares com uma microbomba. Sirva seu mestre até a morte!
 
 ghost-role-information-Cak-name = Cak
 ghost-role-information-Cak-description = Você é o filho favorito do chef. Você é gato-bolo vivo.

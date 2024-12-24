@@ -39,7 +39,7 @@ id-card-access-level-maintenance = Manutenção
 
 id-card-access-level-external = Externo
 
-id-card-access-level-nuclear-operative = Operativo Nuclear
+id-card-access-level-nuclear-operative = Agente Nuclear
 id-card-access-level-syndicate-agent = Agente do Sindicato
 
 id-card-access-level-central-command = Central de Comando
