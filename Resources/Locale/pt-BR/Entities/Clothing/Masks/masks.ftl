@@ -13,7 +13,7 @@ ent-ClothingMaskGasAtmos = máscara de gás da atmosférica
 ent-ClothingMaskGasCaptain = máscara de gás do capitão
     .desc = Uma máscara mais refinada e tecnológica, ou deveria ser...
 
-ent-ClothingMaskGasCentcom = máscara de gás da CentComm
+ent-ClothingMaskGasCentcom = máscara de gás da Central de Comando
     .desc = Eita! Verde e dourada.. Linda! Deve ser muito útil pra quem fica o dia inteiro sentado em um escritório.
 
 ent-ClothingMaskGasExplorer = máscara de gás de explorador

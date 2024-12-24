@@ -16,7 +16,7 @@ ent-BedsheetCaptain = lençol do capitão
 ent-BedsheetCE = lençol do CE
      .desc = Está decorado com um emblema de chave inglesa. É altamente reflexivo e resistente a manchas, então você não precisa se preocupar em estragá-lo com óleo.
 
-ent-BedsheetCentcom = lençol do CentComm
+ent-BedsheetCentcom = lençol da Central de Comando
      .desc = Tecido com nanofio avançado para aquecer além de ser muito decorado, essencial para todos os oficiais.
 
 ent-BedsheetClown = lençol de palhaço

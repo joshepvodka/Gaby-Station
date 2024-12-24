@@ -16,7 +16,7 @@ ent-ClothingOuterWinterCargo = casaco da logística
 ent-ClothingOuterWinterCE = casaco do engenheiro chefe
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterCentcom = casaco da CentComm
+ent-ClothingOuterWinterCentcom = casaco da Central de Comando
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
 ent-ClothingOuterWinterChem = casaco da química

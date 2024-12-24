@@ -7,7 +7,7 @@ comms-console-menu-call-shuttle = Chamar nave de emergência
 comms-console-menu-recall-shuttle = Chamar nave de emergência de volta
 comms-console-menu-emergency-maint = Alternar acessos de manutenção
 comms-console-menu-nuclear-code = Requisitar codigos de ativação nuclear
-comms-console-menu-message-centcomm = Enviar mensagem para CentComm
+comms-console-menu-message-centcomm = Enviar mensagem para a Central de Comando
 
 # Announcement
 comms-console-announcement-content-maint = O acesso das portas de manutenção foram alterados.
@@ -20,7 +20,7 @@ comms-console-menu-label-others = Outros:
 # Dialog
 comms-console-menu-dialog-shuttle-tittle = Chamar Nave de Emergencia
 comms-console-menu-dialog-shuttle-message = Razão:
-comms-console-menu-dialog-centcom-tittle = Falar com a CentComm
+comms-console-menu-dialog-centcom-tittle = Falar com a Central de Comando
 comms-console-menu-dialog-centcom-message = Mensagem:
 comns-console-centcom-send = Sent message to the Central Command
 

@@ -22,11 +22,11 @@ ent-ClothingUniformJumpsuitChiefEngineer = macacão do engenheiro-chefe
 ent-ClothingUniformJumpsuitChaplain = macacão de capelão
     .desc = É um macacão preto, muito usado por pessoas religiosas.
 
-ent-ClothingUniformJumpsuitCentcomOfficial = macacão oficial do CentComm
-    .desc = É um macacão usado pelos dirigentes do CentComm.
+ent-ClothingUniformJumpsuitCentcomOfficial = macacão oficial da Central de Comando
+    .desc = É um macacão usado pelos dirigentes da Central de Comando.
 
-ent-ClothingUniformJumpsuitCentcomOfficer = macacão de oficial do CentComm
-    .desc = É um macacão usado pelos Oficiais do CentComm.
+ent-ClothingUniformJumpsuitCentcomOfficer = macacão de oficial da Central de Comando
+    .desc = É um macacão usado pelos Oficiais da Central de Comando.
 
 ent-ClothingUniformJumpsuitChef = uniforme de chef
     .desc = Não consigo cozinhar sem isso.

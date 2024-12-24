@@ -1,7 +1,7 @@
 ent-MobHuman = Urist McHands
      .desc = { "" }
 
-ent-MobHumanCentcomOfficial = Oficial do CentComm
+ent-MobHumanCentcomOfficial = Oficial da Central de Comando
      .desc = { "" }
 
 ent-MobHumanERTLeader = Líder da ERT

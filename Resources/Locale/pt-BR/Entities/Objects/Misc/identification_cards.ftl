@@ -88,13 +88,13 @@ ent-RDIDCard = ID do diretor de pesquisa
 ent-HoSIDCard = chefe do ID de segurança
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CentcomIDCard = ID do CentComm
+ent-CentcomIDCard = ID da Central de Comando
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-ERTLeaderIDCard = ID do da ERT
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CentcomIDCardSyndie = ID do CentComm
+ent-CentcomIDCardSyndie = ID da Central de Comando
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-MusicianIDCard = ID do músico

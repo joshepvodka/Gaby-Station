@@ -1,4 +1,4 @@
-job-supervisors-centcom = aos funcionários da CentComm
+job-supervisors-centcom = aos funcionários da Central de Comando
 job-supervisors-captain = ao capitão
 job-supervisors-hop = ao chefe dos funcionários
 job-supervisors-hop-qm = ao intendente logístico e o chefe dos funcionários

@@ -177,10 +177,10 @@ ghost-role-information-ert-medical-name = Médico da ERT
 ghost-role-information-ert-medical-description = Auxiliar nos esforços médicos para resolver os problemas das estações.
 
 ghost-role-information-cburn-agent-name = Agente de Contenção Biológica
-ghost-role-information-cburn-agent-description = Um agente CentComm altamente treinado, capaz de lidar com várias ameaças.
+ghost-role-information-cburn-agent-description = Um agente da Central de Comando altamente treinado, capaz de lidar com várias ameaças.
 
-ghost-role-information-centcom-official-name = oficial do CentComm
-ghost-role-information-centcom-official-description = Desempenhar funções relacionadas ao CentComm, como inspecionar a estação, anotar avaliações de desempenho para chefes de equipe e gerenciar o aparelho de fax.
+ghost-role-information-centcom-official-name = oficial da Central de Comando
+ghost-role-information-centcom-official-description = Desempenhar funções relacionadas à Central de Comando, como inspecionar a estação, anotar avaliações de desempenho para chefes de equipe e gerenciar o aparelho de fax.
 
 ghost-role-information-nukeop-rules = Você é um operador de Sindicato encarregado da destruição da estação. Como antagonista, faça o que for necessário para concluir esta tarefa.
 
@@ -195,7 +195,7 @@ ghost-role-information-hellspawn-name = Hellspawn
 ghost-role-information-hellspawn-description = Você é um antagonista, trazendo a morte àqueles que não seguem o grande deus Nar'Sie.
 
 ghost-role-information-Death-Squad-name = Esquadrão da Morte
-ghost-role-information-Death-Squad-description = Um dos principais agentes de assuntos internos da Nanotrasen. Aguarde ordens do CentComm ou de um oficial.
+ghost-role-information-Death-Squad-description = Um dos principais agentes de assuntos internos da Nanotrasen. Aguarde ordens da Central de Comando ou de um oficial.
 
 ghost-role-information-SyndiCat-name = SindiGato
 ghost-role-information-SyndiCat-description = Você é o fiel animal treinado pelos agentes nucleares com uma microbomba. Sirva seu mestre até a morte!
