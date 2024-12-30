@@ -4,7 +4,8 @@ Essa é uma fork brasileira do [Goob Station](https://github.com/Goob-Station/Go
 > [!NOTE]
 > Goob Station é uma fork de [Space Station 14](https://github.com/space-wizards/space-station-14).
 
-Se você desea cria conteudo ou hostear um servidor de SS14 (base), vá para o [repositório do Space Station 14](https://github.com/space-wizards/space-station-14) que contem tudo que voce precisa para .
+> [!TIP]
+> Se você deseja cria conteudo ou hostear um servidor de SS14 (base), vá para o [repositório oficial do Space Station 14](https://github.com/space-wizards/space-station-14).
 
 ## Links:
 
@@ -28,7 +29,7 @@ We are not currently accepting translations of the game on our main repository. 
 ## Compilando e Rodando:
 
 > [!TIP]
-> Você pode pedir ajuda em nosso servidor do [discord](https://discord.gg/9SUUREbMbq) em [#programação](https://discord.com/channels/1296583940731179100/1299917674700083211).
+> Você pode pedir ajuda em nosso servidor do [Discord](https://discord.gg/9SUUREbMbq) em [#programação](https://discord.com/channels/1296583940731179100/1299917674700083211).
 
 1. Clone o repositório.
 2. Abra `RUN_THIS.py` para instalar os submodulos e instalar a engine.
