@@ -7,9 +7,7 @@
   description: survival-description
   rules:
     # - MeteorSwarmScheduler Goobstation - nuh uh
-    - RampingStationEventScheduler
     - SpaceTrafficControlEventScheduler
-    - SpaceTrafficControlFriendlyEventScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
