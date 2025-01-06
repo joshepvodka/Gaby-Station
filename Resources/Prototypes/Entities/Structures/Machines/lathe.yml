@@ -1213,6 +1213,7 @@
       - ClothingUniformJumpsuitWarden
       - ClothingUniformJumpskirtWarden
       - ClothingHeadHatParamedicsoft
+      - ClothingBeltPaperwork # DeltaV - Added the paperwork belt
       # Winter outfits
       - ClothingOuterWinterCap
       - ClothingOuterWinterCE
