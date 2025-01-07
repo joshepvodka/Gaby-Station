@@ -6,11 +6,9 @@
   - Bagel
   - Box
   - Cluster
-  #- Cog # Goobstation - cog is broken
+  - Cog
   - Core
   - Fland
-  #- Gate
-  - Loop
   - Marathon
   - Meta
   - Oasis
@@ -19,9 +17,9 @@
   - Saltern
   - Packed
   - Reach
-  - Train # Goobstation - all my friends hate train
   - FlandHighPop
   - OasisHighPop
+  - Train
   - Barratry # Goobstation - Re-add barratry
   - Kettle # Goobstation - Re-add kettle (before it was gemini!)
   - Gamma # Gabystation
