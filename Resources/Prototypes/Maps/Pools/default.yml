@@ -1,29 +1,16 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Atlas
-  - Amber
   - Bagel
   - Box
-  - Cluster
-  #- Cog # Goobstation - cog is broken
+  - Cog
   - Core
   - Fland
-  #- Gate
-  - Loop
   - Marathon
   - Meta
   - Oasis
   - Omega
-  - Origin
-  - Saltern
   - Packed
   - Reach
-  - Train # Goobstation - all my friends hate train
   - FlandHighPop
   - OasisHighPop
-  - Barratry # Goobstation - Re-add barratry
-  - Kettle # Goobstation - Re-add kettle (before it was gemini!)
-  - Gamma # Gabystation
-  - Gax # Gabystation
-  - Falcon #Gabystation
