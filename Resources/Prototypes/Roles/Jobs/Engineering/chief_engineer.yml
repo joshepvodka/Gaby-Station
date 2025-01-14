@@ -57,6 +57,7 @@
   storage:
     back:
     - Flash
+    - TelescopicBaton # Goobstation
 
 - type: jobAlternateTitle
   id: CETitleSupervisor

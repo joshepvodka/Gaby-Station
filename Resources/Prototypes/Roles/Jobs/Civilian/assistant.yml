@@ -6,6 +6,18 @@
   startingGear: PassengerGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-everyone
+  # goob tider hivemind
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: IntrinsicRadioReceiver
+      - type: IntrinsicRadioTransmitter
+        channels:
+        - TideHivemind
+      - type: ActiveRadio
+        channels:
+        - TideHivemind
+  # gaby alt job titles
   alternateTitles:
   - AssistantTitlePassenger
   - AssistantTitleOffDuty

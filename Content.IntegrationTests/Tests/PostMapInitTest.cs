@@ -70,7 +70,10 @@ namespace Content.IntegrationTests.Tests
             "OriginHighPop",
             "OasisHighPop",
             "Barratry", // Goobstation - add Barratry
-            "Kettle" // Goobstation - add Kettle
+            "Kettle", // Goobstation - add Kettle
+            "Amber",
+            "Gate",
+            "Loop"
         };
 
         /// <summary>

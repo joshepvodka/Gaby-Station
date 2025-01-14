@@ -78,7 +78,9 @@
   storage:
     back:
     - Flash
-
+    - TelescopicBaton # Goobstation
+    
+  # gaby alt job titles
 - type: jobAlternateTitle
   id: HoPTitleFirstMate
   name: job-name-alt-hop-first-mate

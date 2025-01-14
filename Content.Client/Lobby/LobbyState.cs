@@ -64,8 +64,6 @@ namespace Content.Client.Lobby
             _gameTicker.LobbyLateJoinStatusUpdated += LobbyLateJoinStatusUpdated;
 
             _serverCur.BalanceChange += UpdatePlayerBalance; // Goobstation - Goob Coin
-
-            Lobby!.FUCKINGMARIAH.Texture = _resourceCache.GetResource<TextureResource>("/Textures/_Goobstation/Interface/Misc/FUCKINGMARIAH.png");
         }
 
         protected override void Shutdown()
@@ -124,7 +122,7 @@ namespace Content.Client.Lobby
                 return;
             }
 
-            Lobby!.StationTime.Text =  Loc.GetString("lobby-state-player-status-round-not-started");
+            Lobby!.StationTime.Text = Loc.GetString("lobby-state-player-status-round-not-started");
             string text;
 
             if (_gameTicker.Paused)
@@ -143,6 +141,10 @@ namespace Content.Client.Lobby
                 if (seconds < 0)
                 {
                     text = Loc.GetString(seconds < -5 ? "lobby-state-right-now-question" : "lobby-state-right-now-confirmation");
+                }
+                else if (difference.TotalHours >= 1)
+                {
+                    text = $"{Math.Floor(difference.TotalHours)}:{difference.Minutes:D2}:{difference.Seconds:D2}";
                 }
                 else
                 {
@@ -188,7 +190,9 @@ namespace Content.Client.Lobby
                 Lobby!.ServerInfo.SetInfoBlob(_gameTicker.ServerInfoBlob);
             }
 
+
             UpdatePlayerBalance(); // Goobstation - Goob Coin
+            Lobby!.MOTDBuletin.RequestMOTD();
         }
 
         private void UpdateLobbySoundtrackInfo(LobbySoundtrackChangedEvent ev)

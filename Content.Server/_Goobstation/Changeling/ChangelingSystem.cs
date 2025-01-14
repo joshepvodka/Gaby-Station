@@ -57,13 +57,15 @@ using Content.Server.Stunnable;
 using Content.Shared.Jittering;
 using Content.Server.Explosion.EntitySystems;
 using System.Linq;
+using Content.Server.Flash.Components;
 using Content.Shared.Heretic;
 using Content.Shared._Goobstation.Actions;
-using Content.Shared.Body.Components;
+using Content.Shared._White.Overlays;
+using Content.Shared.Eye.Blinding.Components;
 
 namespace Content.Server.Changeling;
 
-public sealed partial class ChangelingSystem : EntitySystem
+public sealed partial class ChangelingSystem : SharedChangelingSystem
 {
     // this is one hell of a star wars intro text
     [Dependency] private readonly IGameTiming _timing = default!;
@@ -131,7 +133,36 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         SubscribeLocalEvent<ChangelingComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshSpeed);
 
+        SubscribeLocalEvent<ChangelingComponent, AugmentedEyesightPurchasedEvent>(OnAugmentedEyesightPurchased);
+
         SubscribeAbilities();
+    }
+
+    protected override void UpdateFlashImmunity(EntityUid uid, bool active)
+    {
+        if (TryComp(uid, out FlashImmunityComponent? flashImmunity))
+            flashImmunity.Enabled = active;
+    }
+
+    private void OnAugmentedEyesightPurchased(Entity<ChangelingComponent> ent, ref AugmentedEyesightPurchasedEvent args)
+    {
+        InitializeAugmentedEyesight(ent);
+    }
+
+    public void InitializeAugmentedEyesight(EntityUid uid)
+    {
+        EnsureComp<FlashImmunityComponent>(uid);
+        EnsureComp<EyeProtectionComponent>(uid);
+
+        var thermalVision = _compFactory.GetComponent<ThermalVisionComponent>();
+        thermalVision.Color = Color.FromHex("#FB9898");
+        thermalVision.LightRadius = 15f;
+        thermalVision.FlashDurationMultiplier = 2f;
+        thermalVision.ActivateSound = null;
+        thermalVision.DeactivateSound = null;
+        thermalVision.ToggleAction = null;
+
+        AddComp(uid, thermalVision);
     }
 
     private void OnRefreshSpeed(Entity<ChangelingComponent> ent, ref RefreshMovementSpeedModifiersEvent args)
@@ -334,15 +365,12 @@ public sealed partial class ChangelingSystem : EntitySystem
     }
     public bool TrySting(EntityUid uid, ChangelingComponent comp, EntityTargetActionEvent action, bool overrideMessage = false)
     {
-        if (!TryUseAbility(uid, comp, action))
-            return false;
-
         var target = action.Target;
 
         // can't get his dna if he doesn't have it!
         if (!HasComp<AbsorbableComponent>(target) || HasComp<AbsorbedComponent>(target))
         {
-            _popup.PopupEntity(Loc.GetString("changeling-sting-extract-fail"), uid, uid);
+            _popup.PopupEntity(Loc.GetString("changeling-sting-fail"), uid, uid);
             return false;
         }
 
@@ -352,6 +380,10 @@ public sealed partial class ChangelingSystem : EntitySystem
             _popup.PopupEntity(Loc.GetString("changeling-sting-fail-ling"), target, target);
             return false;
         }
+
+        if (!TryUseAbility(uid, comp, action))
+            return false;
+
         if (!overrideMessage)
             _popup.PopupEntity(Loc.GetString("changeling-sting", ("target", Identity.Entity(target, EntityManager))), uid, uid);
         return true;
@@ -576,6 +608,10 @@ public sealed partial class ChangelingSystem : EntitySystem
             typeof(GhoulComponent),
             typeof(HereticComponent),
             typeof(StoreComponent),
+            typeof(FlashImmunityComponent),
+            typeof(EyeProtectionComponent),
+            typeof(NightVisionComponent),
+            typeof(ThermalVisionComponent),
             // ADD MORE TYPES HERE
         };
         foreach (var type in types)
