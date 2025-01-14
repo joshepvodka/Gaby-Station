@@ -52,6 +52,8 @@ public sealed partial class CCVars : CVars
         CVarDef.Create("light_cycle.update_per_tick", 3, desc: "(integer)", flag: CVar.SERVERONLY);
 
     #endregion
+    public static readonly CVarDef<bool> MOTDBuletinEnable =
+       CVarDef.Create("chat.motd_buletin_enable", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE, "If the MOTD buletin appears in lobby");
 
     #region SoftCrit
 
