@@ -59,7 +59,7 @@ station-beacon-janitor = Zelador
 
 station-beacon-ai = IA
 station-beacon-ai-sat = Satélite IA
-station-beacon-ai-core = Núcleo IA
+station-beacon-ai-core = Núcleo da IA
 
 station-beacon-arrivals = Chegadas
 station-beacon-evac = Evacuação
