@@ -1,5 +1,5 @@
-survival-title = Sobrevivência
-survival-description = Sem ameaças internas, mas por quanto tempo a estação pode sobreviver a eventos cada vez mais caóticos e frequentes?
+survival-title = Sobrevivêncarp
+survival-description = Sarp ameaçarp interneep marp porp quanteep tempeep arp estaçãarp podeep sobrevivurp orp eventarp cadurp varp morp caóticorp eep frequenteep
 
 kessler-syndrome-title = Síndrome de Kessler
 kessler-syndrome-description = Sem ameaças internas, mas a estação está rapidamente entrando em um cinturão de meteoros!
