@@ -1,1 +1,1 @@
-station-beacon-centcomm-office = Estritório da CentCom
+station-beacon-centcomm-office = Estritório da Central de Comando
