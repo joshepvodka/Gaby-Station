@@ -13,7 +13,7 @@ A cadeia de comando indica qual oficial tem autoridade sobre quais outros tripul
 
 A cadeia de comando segue:
 
-Capitão > Chefe dos Funcionários e Chefes de Departamento > Empregados Departamentais e Assistente Administrativo > Assistentes > Ciborgues e IA.
+Capitão > Demais Comandantes > Empregados Departamentais e Assistente Administrativo > Assistentes > Ciborgues e IA.
 
 O Representante da Nanotrasen [bold]não segura autoridade[/bold] sobre nenhum dos tripulantes da estação, mas é aconselhado que todos ouçam e [bold]considerem sua palavra ao tomar decisões[/bold].
 
@@ -48,14 +48,14 @@ Indica condições boas e seguras de trabalho. Mandatos são necessários para e
     [bold][color=#ffffff]Código Azul[/color][/bold]
   </Box>
 </ColorBox>
-Ativo caso haja uma ameaça confirmada e recente à segurança da tripulação presente a bordo. Seguranças podem executar revistas aleatórias sem a necessidade de mandatos.
+Ativo caso haja recente suspeita ou pequena ameaça confirmada à segurança da tripulação presente a bordo. Seguranças podem executar revistas aleatórias sem a necessidade de mandatos.
 
 <ColorBox Color="#ba292c">
   <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="10">
     [bold][color=#ffffff]Código Vermelho[/color][/bold]
   </Box>
 </ColorBox>
-Ativo quando há uma ameaça catastrófica à estrutura da estação e à vida da tripulação. Segurança deve se preparar para um conflito armado.
+Ativo quando há uma grande ameaça confirmada à estrutura da estação e à vida da tripulação. Segurança deve se preparar para um conflito armado.
 
 <ColorBox Color="#c8a404">
   <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="10">
