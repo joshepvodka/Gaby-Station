@@ -1,3 +1,3 @@
 lobby-character-preview-panel-header = Personagem
-lobby-character-preview-panel-character-setup-button = Customizar
-lobby-character-preview-panel-unloaded-preferences-label = Suas preferências ainda não foram carregadas. Aguarde um instante, por favor.
+lobby-character-preview-panel-character-setup-button = Customizeep
+lobby-character-preview-panel-unloaded-preferences-label = Seep preferêncurp aindeep nãorp forurp carregadeep Aguardurp eep instanturp parp favurp
