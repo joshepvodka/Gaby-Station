@@ -58,7 +58,7 @@ station-beacon-botany = Botânica
 station-beacon-janitor = Zelador
 
 station-beacon-ai = IA
-station-beacon-ai-sat = Satélite IA
+station-beacon-ai-sat = Satélite da IA
 station-beacon-ai-core = Núcleo da IA
 
 station-beacon-arrivals = Chegadas
