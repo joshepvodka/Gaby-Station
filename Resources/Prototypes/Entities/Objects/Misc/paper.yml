@@ -76,8 +76,6 @@
       Paper: 25 #Goobstation - Recycle update
       SheetPrinter: 25 # Corvax - Printer
   - type: Material # Corvax - Printer
-  - type: Stack
-    count: 1
 
 - type: entity
   name: paper scrap
