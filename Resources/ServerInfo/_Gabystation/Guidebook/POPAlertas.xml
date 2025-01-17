@@ -46,10 +46,10 @@ A estação corre risco de ser completamente obliterada. Todos os tripulantes de
 
 <ColorBox Color="#db7093">
   <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="10">
-    [bold][color=#ffffff]Código Gama[/color][/bold]
+    [bold][color=#ffffff]Código GamMa[/color][/bold]
   </Box>
 </ColorBox>
-A Central de Comando decretou estado de calamidade na estação. Todos os tripulantes devem ser evacuados imediatamente, comandantes tem prioridade. Porte de armas é permitido e aconselhado para seguranças.
+A Central de Comando decretou estado de calamidade na estação. Todos os tripulantes devem se abrigar imediatamente. Porte de armas é permitido e aconselhado para seguranças.
 
 <ColorBox Color="#9400d3">
   <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="10">
