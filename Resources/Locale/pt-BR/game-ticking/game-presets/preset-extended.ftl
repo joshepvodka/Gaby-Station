@@ -1,2 +1,2 @@
-extended-title = Extendideep
-extended-description = Umorp experiencarp calmorp surp antagonistorp!
+extended-title = Extendido
+extended-description = Uma experiencia calma, sem antagonistas!
