@@ -65,9 +65,6 @@ namespace Content.Client.Lobby
             _gameTicker.LobbyStatusUpdated += LobbyStatusUpdated;
             _gameTicker.LobbyLateJoinStatusUpdated += LobbyLateJoinStatusUpdated;
 
-            Lobby!.Alien.Texture = _resourceCache.GetResource<TextureResource>("/Textures/_Gabystation/Interface/daSilva.png");
-            // Gabystation - Alien update
-
             _serverCur.BalanceChange += UpdatePlayerBalance; // Goobstation - Goob Coin
         }
 
