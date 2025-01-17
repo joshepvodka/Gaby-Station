@@ -49,7 +49,7 @@ station-beacon-smes = SMES
 station-beacon-telecoms = Telecomunicações
 station-beacon-atmos = Atmos
 station-beacon-teg = TEG
-station-beacon-tech-vault = Cofre de Técnologia
+station-beacon-tech-vault = Cofre de Tecnologia
 
 station-beacon-service = Serviço
 station-beacon-kitchen = Cozinha
@@ -71,4 +71,4 @@ station-beacon-theater = Teatro
 station-beacon-tools = Ferramentas
 station-beacon-disposals = Descarte e Reciclagem
 station-beacon-cryosleep = Criosono
-station-beacon-escape-pod = Baleeira
+station-beacon-escape-pod = Cápsula de Evacuação

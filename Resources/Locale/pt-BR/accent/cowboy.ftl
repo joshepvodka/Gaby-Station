@@ -16,7 +16,7 @@ accent-cowboy-replacement-5 = furioso
 accent-cowboy-words-6 = animal
 accent-cowboy-replacement-6 = criatura
 
-accent-cowboy-words-7 = animais  
+accent-cowboy-words-7 = animais
 accent-cowboy-replacement-7 = criaturas
 
 accent-cowboy-words-8 = prender
@@ -176,7 +176,7 @@ accent-cowboy-words-59 = amigo
 accent-cowboy-replacement-59 = comparça
 
 accent-cowboy-words-60 = festa
-accent-cowboy-replacement-60 = arraiá
+accent-cowboy-replacement-60 = farra
 
 accent-cowboy-words-61 = passengeiro
 accent-cowboy-replacement-61 = zé ninguém
