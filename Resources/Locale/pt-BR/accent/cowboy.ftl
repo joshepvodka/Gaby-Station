@@ -2,13 +2,13 @@ accent-cowboy-words-1 = alcool
 accent-cowboy-replacement-1 = pinga
 
 accent-cowboy-words-2 = alien
-accent-cowboy-replacement-2 = bixo esquisito
+accent-cowboy-replacement-2 = bicho esquisito
 
 accent-cowboy-words-3 = aliens
-accent-cowboy-replacement-3 = bixo esquisito
+accent-cowboy-replacement-3 = bicho esquisito
 
 accent-cowboy-words-4 = xeno
-accent-cowboy-replacement-4 = bixo das estrela
+accent-cowboy-replacement-4 = bicho das estrela
 
 accent-cowboy-words-5 = bravo
 accent-cowboy-replacement-5 = furioso
