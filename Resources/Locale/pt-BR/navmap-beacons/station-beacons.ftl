@@ -69,6 +69,6 @@ station-beacon-library = Biblioteca
 station-beacon-dorms = Dormitórios
 station-beacon-theater = Teatro
 station-beacon-tools = Ferramentas
-station-beacon-disposals = Descarte e Reciclagem
+station-beacon-disposals = Descarte
 station-beacon-cryosleep = Criosono
 station-beacon-escape-pod = Cápsula de Evacuação
