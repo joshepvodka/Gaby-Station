@@ -1,0 +1,31 @@
+- type: entity
+  id: CrateCentComFilled
+  name: equipamento de oficial da centcom
+  description: Contém tudo que um oficial digno precisa pra exercer seu cargo.
+  suffix: Filled, Tudo
+  parent: CrateCommandSecure
+  components:
+  - type: StorageFill
+    contents:
+      - id: CigarGoldCase
+      - id: FlippoLighter
+      - id: ClothingOuterArmorBasic
+      - id: ClothingOuterWinterCentcom
+      - id: TowelColorCentcom
+      - id: ClothingUniformJumpsuitCentcomAgent
+      - id: ClothingUniformJumpsuitCentcomOfficer
+      - id: ClothingUniformJumpsuitCentcomOfficial
+      - id: ClothingHeadHatCentcom
+      - id: ClothingHeadHatCentcomcap
+      - id: ClothingHeadsetAltCentCom
+      - id: ClothingShoesBootsJackFilled
+      - id: ClothingShoesBootsLaceup
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingEyesGlassesMedSec
+      - id: CentcomPDA
+      - id: ClothingNeckScarfStripedCentcom
+      - id: BluespaceLifelineImplanter
+      - id: MindShieldImplanter
+      - id: ClothingBackpackCentcomOficialFilled
+      - id: ClothingBeltPaperworkCentcom
+  - type: AccessReader

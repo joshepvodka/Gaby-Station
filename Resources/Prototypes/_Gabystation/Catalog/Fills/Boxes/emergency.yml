@@ -1,0 +1,21 @@
+- type: entity
+  parent: BoxCardboard
+  id: BoxSurvivalCentcom
+  suffix: Centcom
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingMaskGasCentcom
+    - id: DoubleEmergencyOxygenTankFilled
+    - id: DoubleEmergencyNitrogenTankFilled
+    - id: EmergencyMedipen
+    - id: SpaceMedipen
+    - id: FoodSnackNutribrick
+    - id: DrinkWaterBottleFull
+  - type: Sprite
+    layers:
+    - state: internals
+    - state: extendedtank
+  - type: Storage
+    grid:
+    - 0,0,3,2

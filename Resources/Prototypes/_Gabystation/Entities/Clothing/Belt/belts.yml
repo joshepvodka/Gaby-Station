@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltPaperworkCentcom
+  name: cinto de papelada da central de comando
+  description: Cinto especial feito para carregar, entre várias coisas, papelada.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Belt/paperwork.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Belt/paperwork.rsi

@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackCentcomOficial
+  name: mochila da centcom
+  suffix: Maior
+  description: Uma mochila espaçosa, pertence a um empregado da central de comando.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Back/Backpacks/centcom.rsi
+  - type: Storage
+    grid:
+    - 0,0,10,3

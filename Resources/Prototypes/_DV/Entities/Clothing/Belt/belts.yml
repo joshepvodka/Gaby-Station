@@ -15,5 +15,6 @@
       - Document
       - Flashlight
       - Radio
+      - RubberStamp
       components:
       - FitsInDispenser

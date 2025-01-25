@@ -1,0 +1,21 @@
+- type: entity
+  id: ClothingBackpackCentcomOficialFilled
+  suffix: Maior, Filled
+  parent: ClothingBackpackCentcomOficial
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalCentcom
+      - id: BoxFolderCentCom
+      - id: BoxFolderCentComClipboard
+      - id: PenCentcom
+      - id: RubberStampCentcom
+      - id: DoorRemoteAll
+      - id: AccessConfigurator
+      - id: Flash
+      - id: TelescopicBaton
+      - id: WeaponTaser
+      - id: Handcuffs
+      - id: WeaponPistolN1984
+      - id: MagazineMagnum
+      - id: FlashlightSeclite
