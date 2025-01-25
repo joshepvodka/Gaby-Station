@@ -1,16 +1,16 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/Lobby/thunderdome.ogg
-    - /Audio/Lobby/absconditus.ogg
+  #  - /Audio/Lobby/thunderdome.ogg
+  #  - /Audio/Lobby/absconditus.ogg
     - /Audio/Lobby/space_asshole.ogg
-    - /Audio/Lobby/endless_space.ogg
+  #  - /Audio/Lobby/endless_space.ogg
     - /Audio/Lobby/singuloose.ogg
-    - /Audio/Lobby/comet_haley.ogg
-    - /Audio/Lobby/title2.ogg
+  #  - /Audio/Lobby/comet_haley.ogg
+  #  - /Audio/Lobby/title2.ogg
     - /Audio/Lobby/title3.ogg
     - /Audio/Lobby/mod.flip-flap.ogg
-    - /Audio/Lobby/Spac_Stac.ogg
+  #  - /Audio/Lobby/Spac_Stac.ogg
     - /Audio/Lobby/pwmur.ogg
     - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
     - /Audio/Lobby/every_light_is_blinking_at_once.ogg
@@ -18,17 +18,17 @@
     # Goobstation - Custom lobby music
     - /Audio/Lobby/skubstep.ogg
     - /Audio/Lobby/sneedsfeedandseed.ogg
-    - /Audio/Lobby/honk.ogg
-    - /Audio/Lobby/clownalwayswins.ogg
+  #  - /Audio/Lobby/honk.ogg
+  #  - /Audio/Lobby/clownalwayswins.ogg
     - /Audio/Lobby/clownwmv.ogg
-    - /Audio/Lobby/dawsonschristian.ogg
+  #  - /Audio/Lobby/dawsonschristian.ogg
     - /Audio/Lobby/thewizard.ogg
-    - /Audio/Lobby/skubstub.ogg
-    - /Audio/Lobby/space_radiation.ogg
-    - /Audio/Lobby/redsun.ogg
-    - /Audio/Lobby/chollima.ogg
-    - /Audio/Lobby/monument.ogg
-    - /Audio/Lobby/marhaba.ogg
+  #  - /Audio/Lobby/skubstub.ogg
+  #  - /Audio/Lobby/space_radiation.ogg
+  #  - /Audio/Lobby/redsun.ogg
+  #  - /Audio/Lobby/chollima.ogg
+  #  - /Audio/Lobby/monument.ogg
+  #  - /Audio/Lobby/marhaba.ogg
     - /Audio/Lobby/the_future_soon.ogg
     # Gabystation - musicas do lobby
     # Musicas pega da estação pirata
@@ -48,3 +48,16 @@
     - /Audio/_Gabystation/Lobby/hurry.ogg
     - /Audio/_Gabystation/Lobby/radioPirata.ogg
     - /Audio/_Gabystation/Lobby/tntin.ogg
+    - /Audio/Lobby/A_Gira.ogg
+    - /Audio/Lobby/Brasil_Pandeiro.ogg
+    - /Audio/Lobby/CHA-LA_HEAD-CHA-LA.ogg
+    - /Audio/Lobby/Ela_Partiu.ogg
+    - /Audio/Lobby/Escrito_Nas_Estrelas.ogg
+    - /Audio/Lobby/Gatinha_Comunista.ogg
+    - /Audio/Lobby/Lança_Perfume.ogg
+    - /Audio/Lobby/Marcos_Valle_Estrelar.ogg
+    - /Audio/Lobby/Melissa.ogg
+    - /Audio/Lobby/Mun_Rá.ogg
+    - /Audio/Lobby/Periferia.ogg
+    - /Audio/Lobby/Sorriso_Resplandecente.ogg
+    - /Audio/Lobby/Trem_das_Onze.ogg
