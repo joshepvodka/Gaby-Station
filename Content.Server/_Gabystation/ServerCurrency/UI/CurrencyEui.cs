@@ -46,21 +46,21 @@ namespace Content.Server._Gabystation.ServerCurrency.UI
             switch (buyId) //!shitcode
             {
                 case BuyIdList.AntagToken:
-                    if(balance < 250)
+                    if (balance < 325)
                         return;
                     await _notesMan.AddAdminRemark(Player, Player.UserId, 0, Loc.GetString("gs-balanceui-remark-token-antag"), 0, false, null);
                     _currencyMan.RemoveCurrency(Player.UserId, 250);
                     break;
 
                 case BuyIdList.GhostToken:
-                    if(balance < 350)
+                    if (balance < 450)
                         return;
                     await _notesMan.AddAdminRemark(Player, Player.UserId, 0, Loc.GetString("gs-balanceui-remark-token-ghost"), 0, false, null);
                     _currencyMan.RemoveCurrency(Player.UserId, 350);
                     break;
 
                 case BuyIdList.EventToken:
-                    if(balance < 100)
+                    if (balance < 150)
                         return;
                     await _notesMan.AddAdminRemark(Player, Player.UserId, 0, Loc.GetString("gs-balanceui-remark-token-event"), 0, false, null);
                     _currencyMan.RemoveCurrency(Player.UserId, 100);
