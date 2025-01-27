@@ -461,9 +461,10 @@
   components:
   - type: StationEvent
     earliestStart: 35
-    weight: 5.5
+    weight: 6.0 # Gabystation - faz loneops mais raro
     minimumPlayers: 20
     duration: 1
+    maxOccurrences: 1 # Gabystation - loneops apenas uma vez por round
   - type: RuleGrids
   - type: LoadMapRule
     mapPath: /Maps/Shuttles/ShuttleEvent/striker.yml
