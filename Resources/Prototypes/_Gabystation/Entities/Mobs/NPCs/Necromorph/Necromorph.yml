@@ -29,7 +29,7 @@
       0: Alive
       50: Dead
   - type: MobPrice
-    price: 4000 #money, money
+    price: 5000 #money, money
 
 - type: entity
   parent:
