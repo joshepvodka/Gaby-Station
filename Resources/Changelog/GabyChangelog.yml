@@ -177,11 +177,13 @@ Entries:
       message: Quantidade absurdas de antags midround.
   id: 24
   time: '2025-01-27T03:17:15.0000000+00:00'
-- author: Lyndomen,
-  changes: []
+- author: Lyndomen, Sleepy.Abril, MilonPR and DoutorWhite
+  changes:
+    - type: Tweak
+      message: Alvos de morte normais agora só precisam ser mortos uma vez - mas precisa ensinar a eles uma lição que será lembrada
   id: 25
   time: '2025-01-27T14:11:05.0000000+00:00'
-- author: DoutorWhite
+- author: youtissoum and DoutorWhite 
   changes:
     - type: Add
       message: >-
