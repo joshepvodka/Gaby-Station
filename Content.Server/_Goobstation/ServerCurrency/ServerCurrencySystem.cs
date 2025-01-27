@@ -43,8 +43,8 @@ namespace Content.Server._Goobstation.ServerCurrency
 
         private void OnRoundEndText(RoundEndTextAppendEvent ev)
         {
-            if (_players.PlayerCount < 7) // Gabystation - QoL Roleplay
-                return; // isso evitara farm de coins
+            if (_players.PlayerCount < 7) // Gabystation - QoL & Roleplay
+                return; // Gaby Coin anti-farm system
 
             var query = EntityQueryEnumerator<MindContainerComponent, HumanoidAppearanceComponent>();
 
