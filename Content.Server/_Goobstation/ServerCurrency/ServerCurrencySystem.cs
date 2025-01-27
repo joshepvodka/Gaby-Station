@@ -7,6 +7,7 @@ using Content.Shared.Mind.Components;
 using Content.Server.GameTicking;
 using Content.Shared.Humanoid;
 using Content.Shared.Roles.Jobs; // Gabystation - QoL Roleplay
+using Robust.Server.Player; // Gabystation - QoL Roleplay
 
 namespace Content.Server._Goobstation.ServerCurrency
 {
@@ -19,6 +20,7 @@ namespace Content.Server._Goobstation.ServerCurrency
         [Dependency] private readonly PopupSystem _popupSystem = default!;
         [Dependency] private readonly SharedMindSystem _mind = default!;
         [Dependency] private readonly SharedJobSystem _jobs = default!; // Gabystation - QoL Roleplay
+        [Dependency] private readonly IPlayerManager _players = default!; // Gabystation - QoL Roleplay
         public override void Initialize()
         {
             base.Initialize();
@@ -41,6 +43,9 @@ namespace Content.Server._Goobstation.ServerCurrency
 
         private void OnRoundEndText(RoundEndTextAppendEvent ev)
         {
+            if (_players.PlayerCount < 7) // Gabystation - QoL Roleplay
+                return; // isso evitara farm de coins
+
             var query = EntityQueryEnumerator<MindContainerComponent, HumanoidAppearanceComponent>();
 
             while (query.MoveNext(out var uid, out var mindContainer, out _))
