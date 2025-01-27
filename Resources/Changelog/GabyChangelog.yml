@@ -157,3 +157,23 @@ Entries:
       message: Mais musicas foram adicionadas ao lobby e a jukebox.
   id: 23
   time: '2025-01-26T00:08:57.0000000+00:00'
+- author: AgentePanela
+  changes:
+    - type: Add
+      message: Heads e secs ganham 10 gaby coins a mais.
+    - type: Remove
+      message: Nomes bobos para singu, tesla e SM.
+    - type: Tweak
+      message: >-
+        Jogadores apenas podem ganhar coins se estiver mais de 7 pessoas no
+        round.
+    - type: Tweak
+      message: Quantidade de eventos.
+    - type: Tweak
+      message: Greentext da menos coins.
+    - type: Tweak
+      message: Preços da loja.
+    - type: Fix
+      message: Quantidade absurdas de antags midround.
+  id: 24
+  time: '2025-01-27T03:17:15.0000000+00:00'
