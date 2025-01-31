@@ -199,3 +199,9 @@ Entries:
       message: Novos desenhos ao lobby.
   id: 27
   time: '2025-01-27T19:32:06.0000000+00:00'
+- author: Kyoth25f
+  changes:
+    - type: Fix
+      message: Corrige erros de `MAKEPLURAL` e `MANY` nas traduções.
+  id: 28
+  time: '2025-01-31T01:51:23.0000000+00:00'
