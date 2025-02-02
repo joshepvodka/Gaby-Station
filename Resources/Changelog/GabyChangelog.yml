@@ -220,6 +220,6 @@ Entries:
 - author: VictorJob
   changes:
     - type: Tweak
-      message: Altera sprites dos alertas, IPCs e cartas.
+      message: Altera sprites dos alertas, IPCs, algemas e cartas.
   id: 30
   time: '2025-02-02T06:17:26.0000000+00:00'
