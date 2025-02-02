@@ -3,7 +3,7 @@
   name: equipamento de oficial da centcom
   description: Contém tudo que um oficial digno precisa pra exercer seu cargo.
   suffix: Filled, Tudo
-  parent: CrateCommandSecure
+  parent: CrateCentcomSecure
   components:
   - type: StorageFill
     contents:
@@ -29,4 +29,3 @@
       - id: ClothingBackpackCentcomOficialFilled
       - id: ClothingBeltPaperworkCentcom
       - id: PinpointerUniversal
-  - type: AccessReader

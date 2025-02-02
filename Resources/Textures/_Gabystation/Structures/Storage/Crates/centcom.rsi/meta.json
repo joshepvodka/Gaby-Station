@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "copyright": "Altered command crate sprites from EmoGarbage404 from commit https://github.com/space-wizards/space-station-14/pull/18972/commits/d46ac126175d5f36e5784b432873fb63e97f463e alteration by joshepvodka on github and discord.",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "base"
+    },
+    {
+      "name": "closed"
+    },
+    {
+      "name": "open"
+    },
+    {
+      "name": "welded"
+    },
+    {
+      "name": "sparking",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "unlocked"
+    }
+  ]
+}

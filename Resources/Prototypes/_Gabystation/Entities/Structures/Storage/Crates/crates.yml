@@ -1,0 +1,24 @@
+- type: entity
+  parent: CrateBaseSecure
+  id: CrateCommandSecure
+  name: caixa da central de comando
+  suffix: Centcom
+  components:
+  - type: Icon
+    sprite: Structures/Storage/Crates/command.rsi
+  - type: Sprite
+    sprite: Structures/Storage/Crates/command.rsi
+  - type: AccessReader
+    access: [["CentralCommand"]]
+
+- type: entity
+  parent: CrateBaseSecure
+  id: CrateCentcomSecure
+  name: caixa da central de comando
+  components:
+  - type: Icon
+    sprite: _GabystationStructures/Storage/Crates/centcom.rsi
+  - type: Sprite
+    sprite: _GabystationStructures/Storage/Crates/centcom.rsi
+  - type: AccessReader
+    access: [["CentralCommand"]]

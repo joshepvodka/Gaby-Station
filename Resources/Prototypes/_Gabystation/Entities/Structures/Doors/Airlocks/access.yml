@@ -1,0 +1,27 @@
+- type: entity
+  parent: AirlockShuttle
+  id: AirlockExternalShuttleCentcomLocked
+  suffix: Centcom, Docking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCentralCommand ]
+
+- type: entity
+  parent: AirlockGlassShuttle
+  id: AirlockExternalGlassShuttleCentcomLocked
+  suffix: Centcom, Glass, Docking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCentralCommand ]
+
+- type: entity
+  parent: AirlockShuttleSyndicate
+  id: AirlockExternalShuttleDeathsquadCentcomLocked
+  name: portão de doca
+  suffix: Centcom, Docking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCentralCommand ]
