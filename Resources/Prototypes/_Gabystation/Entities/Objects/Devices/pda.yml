@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseSecurityPDA
+  id: GreenshieldPDA
+  name: PDA de greenshield
+  description: Verde, que nem o escudo.
+  components:
+  - type: Pda
+    id: GreenshieldIDCard
+    state: pda-centcom
+    penSlot:
+      startingItem: Pen
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#00842e"
+  - type: Icon
+    state: pda-centcom
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - MedTekCartridge
+      - WantedListCartridge
+      - LogProbeCartridge
+      - AstroNavCartridge
+      - NanoChatCartridge # DeltaV

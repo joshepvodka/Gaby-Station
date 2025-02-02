@@ -28,4 +28,5 @@
       - id: MindShieldImplanter
       - id: ClothingBackpackCentcomOficialFilled
       - id: ClothingBeltPaperworkCentcom
+      - id: PinpointerUniversal
   - type: AccessReader

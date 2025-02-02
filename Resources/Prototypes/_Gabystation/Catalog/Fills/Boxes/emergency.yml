@@ -2,6 +2,7 @@
   parent: BoxCardboard
   id: BoxSurvivalCentcom
   suffix: Centcom
+  name: kit de sobrevivência
   components:
   - type: StorageFill
     contents:

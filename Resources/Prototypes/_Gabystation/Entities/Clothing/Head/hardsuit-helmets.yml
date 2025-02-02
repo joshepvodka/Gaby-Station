@@ -1,0 +1,28 @@
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitGreenshield
+  name: capacete de hardsuit de greenshield
+  description: Um capacete blindado tático utilizado pelos guarda-costas ultra-elite da Central de Comando.
+  components:
+  - type: Sprite
+    sprite: _Gabystation/Clothing/Head/Hardsuits/greenshield.rsi
+  - type: Clothing
+    sprite: _Gabystation/Clothing/Head/Hardsuits/greenshield.rsi
+  - type: PointLight
+    color: "#00ff00"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: FlashImmunity # Goobstation
+  - type: FlashSoundSuppression # Goobstation
+  - type: ThermalVision
+    isEquipment: true
+    color: "#00ff00"
+    lightRadius: 15

@@ -1,0 +1,34 @@
+- type: entity
+  id: RandomHumanoidSpawnerGreenshield
+  parent: RandomHumanoidSpawnerERTLeader
+  name: Greenshield
+  suffix: admeme
+  components:
+    - type: Sprite
+      sprite: _Gabystation/Markers/jobs.rsi
+      state: greenshield
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: Greenshield
+
+- type: randomHumanoidSettings
+  id: Greenshield
+  parent: EventHumanoidMindShielded
+  components:
+    - type: GhostRole
+      name: ghost-role-information-greenshield-name
+      description: ghost-role-information-greenshield-description
+      rules: ghost-role-information-admeme-centcom-rules
+      raffle:
+        settings: short
+      job: Greenshield
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: Loadout
+      prototypes: [ GreenshieldGear ]
+      roleLoadout: [ RoleSurvivalEVA ]

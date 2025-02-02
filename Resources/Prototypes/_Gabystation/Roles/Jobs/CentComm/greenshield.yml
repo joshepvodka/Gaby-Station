@@ -1,0 +1,45 @@
+- type: job
+  id: Greenshield
+  name: job-name-greenshield
+  description: job-description-greenshield
+  playTimeTracker: JobGreenshield
+  setPreference: false
+  startingGear: GreenshieldGear
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, BluespaceLifelineImplant ]
+
+- type: startingGear
+  id: GreenshieldGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficer
+    back: ClothingBackpackCentcomOficial
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesMedSec
+    ears: ClothingHeadsetAltCentCom
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitGreenshield
+    shoes: ClothingShoesBootsJackFilled
+    id: GreenshieldPDA
+    pocket1: WeaponTaser
+    pocket2: Flash
+    belt: ClothingBeltSecurityFilled
+  storage:
+    back:
+    - BoxSurvivalCentcom
+    - MedkitCombatFilled
+    - MagazinePistolSubMachineGunTopMounted
+    - MagazinePistolSubMachineGunTopMounted
+    - MagazinePistolSubMachineGunTopMounted
+    - FlashlightSeclite
+    - FlippoLighter
+    - TowelColorCentcom
+    - PinpointerUniversal
+    - WeaponSubMachineGunWt550

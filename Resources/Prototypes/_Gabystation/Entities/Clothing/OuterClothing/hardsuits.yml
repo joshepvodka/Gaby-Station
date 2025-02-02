@@ -1,0 +1,14 @@
+- type: entity
+  parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndie ]
+  id: ClothingOuterHardsuitGreenshield
+  name: hardsuit de greenshield
+  description: Armadura especial utilizada pelos guarda-costas ultra-elite da Central de Comando.
+  components:
+  - type: Sprite
+    sprite: _Gabystation/Clothing/OuterClothing/Hardsuits/greenshield.rsi
+  - type: Clothing
+    sprite: _Gabystation/Clothing/OuterClothing/Hardsuits/greenshield.rsi
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitGreenshield
