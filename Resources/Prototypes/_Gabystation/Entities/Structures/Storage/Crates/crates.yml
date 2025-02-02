@@ -1,6 +1,6 @@
 - type: entity
   parent: CrateBaseSecure
-  id: CrateCommandSecure
+  id: CrateCommandCentcomSecure
   name: caixa da central de comando
   suffix: Centcom
   components:
