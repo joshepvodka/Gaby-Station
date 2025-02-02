@@ -17,8 +17,8 @@
   name: caixa da central de comando
   components:
   - type: Icon
-    sprite: _GabystationStructures/Storage/Crates/centcom.rsi
+    sprite: _Gabystation/Structures/Storage/Crates/centcom.rsi
   - type: Sprite
-    sprite: _GabystationStructures/Storage/Crates/centcom.rsi
+    sprite: _Gabystation/Structures/Storage/Crates/centcom.rsi
   - type: AccessReader
     access: [["CentralCommand"]]
