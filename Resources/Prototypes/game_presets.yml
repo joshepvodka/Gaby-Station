@@ -6,7 +6,7 @@
   showInVote: true # Gabystation - melhor que dynamic
   description: survival-description
   rules:
-    - MeteorSwarmScheduler
+    #- MeteorSwarmScheduler #gabystation edit
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
 
@@ -69,7 +69,7 @@
     - BasicStationEventScheduler
     - KesslerSyndromeScheduler
     - MeteorSwarmMildScheduler
-    - MeteorSwarmScheduler
+    #- MeteorSwarmScheduler #gabystation edit
     - RampingStationEventScheduler
     - SpaceTrafficControlEventScheduler
     - SpaceTrafficControlFriendlyEventScheduler
@@ -86,7 +86,7 @@
   description: extended-description
   rules:
   - BasicStationEventScheduler
-  - MeteorSwarmScheduler
+  #- MeteorSwarmScheduler #gabystation edit
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -112,7 +112,6 @@
   description: secret-description
   rules:
     - Secret
-    - BasicStationEventScheduler
 
 - type: gamePreset
   id: SecretExtended #For Admin Use: Runs Extended but shows "Secret" in lobby.
@@ -123,7 +122,7 @@
   description: secret-description
   rules:
     - BasicStationEventScheduler
-    - MeteorSwarmScheduler
+    #- MeteorSwarmScheduler #gabystation edit
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
 
@@ -161,7 +160,7 @@
     - Traitor
     - SubGamemodesRule
     - BasicStationEventScheduler
-    - MeteorSwarmScheduler
+    #- MeteorSwarmScheduler #gabystation edit
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
 
@@ -189,7 +188,7 @@
     - Nukeops
     - SubGamemodesRule
     - BasicStationEventScheduler
-    - MeteorSwarmScheduler
+    #- MeteorSwarmScheduler #gabystation edit
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
 
@@ -206,7 +205,7 @@
     - Revolutionary
     - SubGamemodesRule
     - BasicStationEventScheduler
-    - MeteorSwarmScheduler
+    #- MeteorSwarmScheduler #gabystation edit
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
 
@@ -224,7 +223,7 @@
   rules:
   - Zombie
   - BasicStationEventScheduler
-  - MeteorSwarmScheduler
+  #- MeteorSwarmScheduler #gabystation edit
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
