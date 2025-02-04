@@ -9,8 +9,8 @@
   #- Cog # Goobstation - cog is broken
   - Core
   - Fland
-  #- Gate TODO: goob gate
-  - Loop
+  - Gate
+  #- Loop #Gabystation - mapa ruim
   - Marathon
   - Meta
   - Oasis
@@ -18,8 +18,8 @@
   - Origin
   - Saltern
   - Packed
-  - Reach
-  - Train # Goobstation - all my friends hate train
+  #- Reach # Gabystation - mapa ruim
+  #- Train # Gabystation - mapa ruim
   - FlandHighPop
   - OasisHighPop
   - Barratry # Goobstation - Re-add barratry
