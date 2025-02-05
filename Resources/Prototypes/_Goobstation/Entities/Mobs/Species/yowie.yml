@@ -40,6 +40,11 @@
   - type: Carriable 
     freeHandsRequired: 4 # easiest way to make them uncarriable without removing carriable from base mob
   - type: NoWieldNeeded
+  - type: OuterSlotPenalty
+    equippedSpeedMultiplier: 0.8
+    damage:
+      types:
+        Blunt: 4
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -56,4 +61,3 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
- 

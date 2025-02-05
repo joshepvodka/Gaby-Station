@@ -217,6 +217,9 @@
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-perma-brig
+  - type: SpawnPoint # Harmony: for perma prisoner spawning
+    spawn_type: Job
+    job_id: PermaPrisoner
 
 - type: entity
   parent: DefaultStationBeaconSecurity
@@ -542,6 +545,9 @@
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-bar
+  - type: ConditionalSpawner # Gabystation - bananilson spawn
+    prototypes:
+      - MobTucanoBananilson
 
 - type: entity
   parent: DefaultStationBeaconService
