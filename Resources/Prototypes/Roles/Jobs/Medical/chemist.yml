@@ -20,6 +20,9 @@
     components:
     - type: SurgerySpeedModifier
       speedModifier: 1.75
+  alternateTitles:
+  - ChemistTitlePharmacist
+
 
 - type: startingGear
   id: ChemistGear
@@ -32,3 +35,7 @@
   #storage:
     #back:
     #- Stuff
+
+- type: jobAlternateTitle
+  id: ChemistTitlePharmacist
+  name: job-name-alt-chemist-pharmacist

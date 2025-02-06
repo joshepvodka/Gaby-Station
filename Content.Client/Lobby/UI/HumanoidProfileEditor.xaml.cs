@@ -10,6 +10,7 @@ using Content.Client.Sprite;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.Guidebook;
 using Content.Shared.CCVar;
+using Content.Shared._Gabystation.CCVar;
 using Content.Shared.Clothing;
 using Content.Shared.GameTicking;
 using Content.Shared.Guidebook;
@@ -904,7 +905,7 @@ namespace Content.Client.Lobby.UI
 
                 Array.Sort(jobs, JobUIComparer.Instance);
 
-                var altJobTitlesEnable = _cfgManager.GetCVar(CCVars.ICAlternateJobTitlesEnable);
+                var altJobTitlesEnable = _cfgManager.GetCVar(GabyCVars.ICAlternateJobTitlesEnable);
 
                 foreach (var job in jobs)
                 {

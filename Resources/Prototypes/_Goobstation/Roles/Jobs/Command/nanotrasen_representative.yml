@@ -1,6 +1,6 @@
 - type: job
   id: NanotrasenRepresentative
-  name: Nanotrasen Representative
+  name: job-name-ntr
   description: "Represent NT, Send reports back to them on the station's situation, Inform the heads of anything CentCom orders them to do."
   playTimeTracker: JobNanotrasenRepresentative
   requirements:
@@ -34,6 +34,10 @@
     components:
       - type: CommandStaff
   whitelisted: true
+  alternateTitles:
+  - NanotrasenRepresentativeTitleLiason
+  - NanotrasenRepresentativeTitleInspector
+
 
 - type: startingGear
   id: NanotrasenRepresentativeGear
@@ -45,3 +49,11 @@
     back:
     - Flash
     - TelescopicBaton # Goobstation
+
+- type: jobAlternateTitle
+  id: NanotrasenRepresentativeTitleLiason
+  name: job-name-alt-nanotrasenrepresentative-liason
+
+- type: jobAlternateTitle
+  id: NanotrasenRepresentativeTitleInspector
+  name: job-name-alt-nanotrasenrepresentative-inspector

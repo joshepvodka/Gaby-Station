@@ -37,6 +37,12 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - HeadOfSecurityTitleGuard
+  - HeadOfSecurityTitleSheriff
+  - HeadOfSecurityTitleChief
+  - HeadOfSecurityTitleDirector
+
 
 - type: startingGear
   id: HoSGear
@@ -51,3 +57,19 @@
     - Flash
     - MagazinePistol
     - SecHypo # Goobstation
+
+- type: jobAlternateTitle
+  id: HeadOfSecurityTitleGuard
+  name: job-name-alt-hos-guard
+
+- type: jobAlternateTitle
+  id: HeadOfSecurityTitleSheriff
+  name: job-name-alt-hos-sheriff
+
+- type: jobAlternateTitle
+  id: HeadOfSecurityTitleChief
+  name: job-name-alt-hos-chief
+
+- type: jobAlternateTitle
+  id: HeadOfSecurityTitleDirector
+  name: job-name-alt-hos-director

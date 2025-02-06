@@ -13,6 +13,13 @@
   access:
   - Research
   - Maintenance
+  alternateTitles:
+  - ScientistTitleRoboticist
+  - ScientistTitleAnom
+  - ScientistTitleXeno
+  - ScientistTitleTech
+  - ScientistTitleTeacher
+
 
 - type: startingGear
   id: ScientistGear
@@ -21,3 +28,23 @@
   #storage:
     #back:
     #- Stuff
+
+- type: jobAlternateTitle
+  id: ScientistTitleRoboticist
+  name: job-name-alt-scientist-roboticist
+
+- type: jobAlternateTitle
+  id: ScientistTitleAnom
+  name: job-name-alt-scientist-anom
+
+- type: jobAlternateTitle
+  id: ScientistTitleXeno
+  name: job-name-alt-scientist-xeno
+
+- type: jobAlternateTitle
+  id: ScientistTitleTech
+  name: job-name-alt-scientist-tech
+
+- type: jobAlternateTitle
+  id: ScientistTitleTeacher
+  name: job-name-alt-scientist-teacher

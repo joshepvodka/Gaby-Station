@@ -12,6 +12,11 @@
   extendedAccess:
   - Salvage
   - External # goobstation
+  alternateTitles:
+  - CargoTechnitianTitleMail
+  - CargoTechnitianTitlePilot
+  - CargoTechnitianTitleStorage
+  - CargoTechnitianTitleRessuplier
 
 - type: startingGear
   id: CargoTechGear
@@ -22,3 +27,19 @@
   #storage:
     #back:
     #- Stuff
+
+- type: jobAlternateTitle
+  id: CargoTechnitianTitleMail
+  name: job-name-alt-cargotech-mail
+
+- type: jobAlternateTitle
+  id: CargoTechnitianTitlePilot
+  name: job-name-alt-cargotech-pilot
+
+- type: jobAlternateTitle
+  id: CargoTechnitianTitleStorage
+  name: job-name-alt-cargotech-storage
+
+- type: jobAlternateTitle
+  id: CargoTechnitianTitleRessuplier
+  name: job-name-alt-cargotech-ressuplier

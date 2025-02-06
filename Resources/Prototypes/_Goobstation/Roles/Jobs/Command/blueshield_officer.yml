@@ -1,6 +1,6 @@
 - type: job
   id: BlueshieldOfficer
-  name: Blueshield Officer
+  name: job-name-bs
   description: "Act as a bodyguard and advisor for Command and CentCom VIPs."
   playTimeTracker: JobBlueshieldOfficer
   requirements:
@@ -41,6 +41,11 @@
     components:
       - type: CommandStaff
   whitelisted: true
+  alternateTitles:
+  - BlueshieldTitleSentinel
+  - BlueshieldTitleGuard
+  - BlueshieldTitleSecurity
+
 
 - type: startingGear
   id: BlueshieldOfficerGear
@@ -60,3 +65,15 @@
     - BluespaceLifelineImplanter
     - WeaponEnergyRevolver
     - SecHypo
+
+- type: jobAlternateTitle
+  id: BlueshieldTitleSentinel
+  name: job-name-alt-blueshield-sentinel
+
+- type: jobAlternateTitle
+  id: BlueshieldTitleGuard
+  name: job-name-alt-blueshield-guard
+
+- type: jobAlternateTitle
+  id: BlueshieldTitleSecurity
+  name: job-name-alt-blueshield-security

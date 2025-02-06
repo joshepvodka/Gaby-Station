@@ -13,6 +13,11 @@
   - Kitchen
   extendedAccess:
   - Hydroponics
+  alternateTitles:
+  - ServiceWorkerTitleWorker
+  - ServiceWorkerTitleAssistant
+  - ServiceWorkerTitleWaiter
+
 
 - type: startingGear
   id: ServiceWorkerGear
@@ -23,3 +28,15 @@
   #storage:
     #back:
     #- Stuff
+
+- type: jobAlternateTitle
+  id: ServiceWorkerTitleWorker
+  name: job-name-alt-serviceworker-worker
+
+- type: jobAlternateTitle
+  id: ServiceWorkerTitleAssistant
+  name: job-name-alt-serviceworker-assistant
+
+- type: jobAlternateTitle
+  id: ServiceWorkerTitleWaiter
+  name: job-name-alt-serviceworker-waiter

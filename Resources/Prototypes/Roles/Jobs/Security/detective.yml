@@ -22,6 +22,11 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  alternateTitles:
+  - DetectiveTitleInvestigator
+  - DetectiveTitleExpert
+  - DetectiveTitleAnalist
+
 
 - type: startingGear
   id: DetectiveGear
@@ -37,3 +42,15 @@
     - ForensicPad
     - ForensicScanner
     - SecHypo # Goobstation
+
+- type: jobAlternateTitle
+  id: DetectiveTitleInvestigator
+  name: job-name-alt-detective-investigator
+
+- type: jobAlternateTitle
+  id: DetectiveTitleExpert
+  name: job-name-alt-detective-expert
+
+- type: jobAlternateTitle
+  id: DetectiveTitleAnalist
+  name: job-name-alt-detective-analist

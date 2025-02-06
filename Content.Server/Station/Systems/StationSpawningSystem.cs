@@ -10,6 +10,7 @@ using Content.Server.Station.Components;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.CCVar;
+using Content.Shared._Gabystation.CCVar;
 using Content.Shared.Clothing;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
@@ -196,7 +197,7 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
         {
             if (prototype != null)
             {
-                if (_configurationManager.GetCVar(CCVars.ICAlternateJobTitlesEnable))
+                if (_configurationManager.GetCVar(GabyCVars.ICAlternateJobTitlesEnable))
                 {
                     if (profile.JobAlternateTitles.TryGetValue(prototype.ID, out var altTitleId))
                         if (_prototypeManager.TryIndex(altTitleId, out var altTitle))

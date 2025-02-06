@@ -23,6 +23,12 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  alternateTitles:
+  - WardenTitleClerk
+  - WardenTitleChief
+  - WardenTitleDispacher
+  - WardenTitleManager
+
 
 - type: startingGear
   id: WardenGear
@@ -36,3 +42,19 @@
     - Flash
     - MagazinePistol
     - SecHypo # Goobstation
+
+- type: jobAlternateTitle
+  id: WardenTitleClerk
+  name: job-name-alt-warden-clerk
+
+- type: jobAlternateTitle
+  id: WardenTitleChief
+  name: job-name-alt-warden-chief
+
+- type: jobAlternateTitle
+  id: WardenTitleDispacher
+  name: job-name-alt-warden-dispacher
+
+- type: jobAlternateTitle
+  id: WardenTitleManager
+  name: job-name-alt-warden-manager

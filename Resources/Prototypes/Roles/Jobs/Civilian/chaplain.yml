@@ -13,6 +13,14 @@
   - !type:AddComponentSpecial
     components:
     - type: BibleUser #Lets them heal with bibles
+  alternateTitles:
+  - ChaplainTitleFather
+  - ChaplainTitleImam
+  - ChaplainTitleRabbi
+  - ChaplainTitleRabbiFem
+  - ChaplainTitleMonk
+  - ChaplainTitleInstructor
+
 
 - type: startingGear
   id: ChaplainGear
@@ -24,3 +32,28 @@
     back:
     - Bible
     - RubberStampChaplain
+
+- type: jobAlternateTitle
+  id: ChaplainTitleFather
+  name: job-name-alt-chaplain-father
+
+- type: jobAlternateTitle
+  id: ChaplainTitleImam
+  name: job-name-alt-chaplain-imam
+
+- type: jobAlternateTitle
+  id: ChaplainTitleRabbi
+  name: job-name-alt-chaplain-rabbi
+
+- type: jobAlternateTitle
+  id: ChaplainTitleRabbiFem
+  name: job-name-alt-chaplain-rabbi-fem
+
+- type: jobAlternateTitle
+  id: ChaplainTitleMonk
+  name: job-name-alt-chaplain-monk
+
+- type: jobAlternateTitle
+  id: ChaplainTitleInstructor
+  name: job-name-alt-chaplain-instructor
+

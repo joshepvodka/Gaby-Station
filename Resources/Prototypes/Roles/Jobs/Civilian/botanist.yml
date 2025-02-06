@@ -13,6 +13,10 @@
   extendedAccess:
   - Kitchen
   - Bar
+  alternateTitles:
+  - BotanistTitleGardener
+  - BotanistTitleTech
+  - BotanistTitleFarmer
 
 - type: startingGear
   id: BotanistGear
@@ -24,3 +28,16 @@
   #storage:
     #back:
     #- Stuff
+
+- type: jobAlternateTitle
+  id: BotanistTitleGardener
+  name: job-name-alt-botanist-gardener
+
+- type: jobAlternateTitle
+  id: BotanistTitleTech
+  name: job-name-alt-botanist-tech
+
+- type: jobAlternateTitle
+  id: BotanistTitleFarmer
+  name: job-name-alt-botanist-farmer
+

@@ -17,6 +17,10 @@
   - Salvage
   - Maintenance
   - External
+  alternateTitles:
+  - SalvageSpecialistTitleMiner
+  - SalvageSpecialistTitleTech
+  - SalvageSpecialistTitleExpedition
 
 - type: startingGear
   id: SalvageSpecialistGear
@@ -27,3 +31,15 @@
   #storage:
     #back:
     #- Stuff
+
+- type: jobAlternateTitle
+  id: SalvageSpecialistTitleMiner
+  name: job-name-alt-salv-miner
+
+- type: jobAlternateTitle
+  id: SalvageSpecialistTitleTech
+  name: job-name-alt-salv-tech
+
+- type: jobAlternateTitle
+  id: SalvageSpecialistTitleExpedition
+  name: job-name-alt-salv-expedition

@@ -28,6 +28,7 @@
   - AssistantTitleIntern
   - AssistantTitleTest
   - AssistantTitleArtist
+  - AssistantTitleAssistant
 
 - type: startingGear
   id: PassengerGear
@@ -73,3 +74,7 @@
 - type: jobAlternateTitle
   id: AssistantTitleArtist
   name: job-name-alt-assistant-artist
+
+- type: jobAlternateTitle
+  id: AssistantTitleAssistant
+  name: job-name-alt-assistant-assistant

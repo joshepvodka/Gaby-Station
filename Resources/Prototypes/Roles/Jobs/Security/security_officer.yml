@@ -21,6 +21,11 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  alternateTitles:
+  - SecurityOfficerTitleInstructor
+  - SecurityOfficerTitleGuard
+  - SecurityOfficerTitleVigilante
+
 
 - type: startingGear
   id: SecurityOfficerGear
@@ -33,3 +38,15 @@
     - Flash
     - MagazinePistol
     - SecHypo # Goobstation
+
+- type: jobAlternateTitle
+  id: SecurityOfficerTitleInstructor
+  name: job-name-alt-secoff-instructor
+
+- type: jobAlternateTitle
+  id: SecurityOfficerTitleGuard
+  name: job-name-alt-secoff-guard
+
+- type: jobAlternateTitle
+  id: SecurityOfficerTitleVigilante
+  name: job-name-alt-secoff-vigilante

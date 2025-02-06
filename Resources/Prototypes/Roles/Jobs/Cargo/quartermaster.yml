@@ -36,6 +36,11 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - QuarterMasterTitleChief
+  - QuarterMasterTitleAccountant
+  - QuarterMasterTitleSupervisor
+  - QuarterMasterTitleManager
 
 - type: startingGear
   id: QuartermasterGear
@@ -48,3 +53,19 @@
     back:
     - Flash
     - TelescopicBaton # Goobstation
+
+- type: jobAlternateTitle
+  id: QuarterMasterTitleChief
+  name: job-name-alt-qm-chief
+
+- type: jobAlternateTitle
+  id: QuarterMasterTitleAccountant
+  name: job-name-alt-qm-accountant
+
+- type: jobAlternateTitle
+  id: QuarterMasterTitleSupervisor
+  name: job-name-alt-qm-supervisor
+
+- type: jobAlternateTitle
+  id: QuarterMasterTitleManager
+  name: job-name-alt-qm-manager

@@ -14,6 +14,11 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: GarbageDay
     prototype: WeaponRevolverInspector
+  alternateTitles:
+  - JanitorTitleSteward
+  - JanitorTitleCleaner
+  - JanitorTitleTech
+
 
 - type: startingGear
   id: JanitorGear
@@ -35,3 +40,15 @@
     head: ClothingHeadHatCatEars
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
+
+- type: jobAlternateTitle
+  id: JanitorTitleSteward
+  name: job-name-alt-janitor-steward
+
+- type: jobAlternateTitle
+  id: JanitorTitleCleaner
+  name: job-name-alt-janitor-cleaner
+
+- type: jobAlternateTitle
+  id: JanitorTitleTech
+  name: job-name-alt-janitor-tech
