@@ -32,7 +32,7 @@ job-name-alt-clown-comedian = comediante
 job-name-alt-clown-actor = ator
 job-name-alt-clown-actress = atriz
 
-job-name-alt-mime-french = francês proficional
+job-name-alt-mime-french = francês profissional
 job-name-alt-mime-comedian = comediante físico
 job-name-alt-mime-pretend = senhor faz-de-conta
 job-name-alt-mime-expressionist = expressionista
