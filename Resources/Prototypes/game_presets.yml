@@ -160,7 +160,7 @@
     - Traitor
     - SubGamemodesRule
     - BasicStationEventScheduler
-    #- MeteorSwarmScheduler #gabystation edit
+    - MeteorSwarmScheduler
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
 
