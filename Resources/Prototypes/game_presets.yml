@@ -223,7 +223,7 @@
   rules:
   - Zombie
   - BasicStationEventScheduler
-  #- MeteorSwarmScheduler #gabystation edit
+  - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
