@@ -6,7 +6,7 @@
   showInVote: true # Gabystation - melhor que dynamic
   description: survival-description
   rules:
-    #- MeteorSwarmScheduler #gabystation edit
+    - MeteorSwarmScheduler
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
 
