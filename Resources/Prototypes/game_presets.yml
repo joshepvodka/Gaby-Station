@@ -86,7 +86,7 @@
   description: extended-description
   rules:
   - BasicStationEventScheduler
-  #- MeteorSwarmScheduler #gabystation edit
+  - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
