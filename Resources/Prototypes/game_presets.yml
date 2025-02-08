@@ -188,7 +188,7 @@
     - Nukeops
     - SubGamemodesRule
     - BasicStationEventScheduler
-    #- MeteorSwarmScheduler #gabystation edit
+    - MeteorSwarmScheduler
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
 
