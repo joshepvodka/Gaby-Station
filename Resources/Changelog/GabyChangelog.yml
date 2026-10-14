@@ -4373,3 +4373,9 @@ Entries:
       message: Artefatos dão a quantidade correta de fragmentos quando esmagados.
   id: 525
   time: '2026-10-14T22:21:45.0000000+00:00'
+- author: supernova
+  changes:
+    - type: Add
+      message: armas agora podem travar
+  id: 526
+  time: '2026-10-14T22:33:34.0000000+00:00'
