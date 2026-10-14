@@ -4355,3 +4355,9 @@ Entries:
       message: Ajustes em alguns ícones de interface do jogo.
   id: 522
   time: '2026-10-14T22:08:21.0000000+00:00'
+- author: Heartbeat
+  changes:
+    - type: Tweak
+      message: Punhos ingles foram rebalanceados.
+  id: 523
+  time: '2026-10-14T22:12:26.0000000+00:00'
