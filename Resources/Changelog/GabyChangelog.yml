@@ -4341,3 +4341,11 @@ Entries:
       message: Os replays estão devolta!
   id: 520
   time: '2026-10-14T17:21:29.0000000+00:00'
+- author: Lucasalemao10
+  changes:
+    - type: Tweak
+      message: >-
+        A bolsa de construção foi alterada para poder carregar barras de
+        ouro/prata.
+  id: 521
+  time: '2026-10-14T18:45:23.0000000+00:00'
