@@ -4335,3 +4335,9 @@ Entries:
         Chefe
   id: 519
   time: '2026-10-09T14:40:46.0000000+00:00'
+- author: AgentePanela
+  changes:
+    - type: Tweak
+      message: Os replays estão devolta!
+  id: 520
+  time: '2026-10-14T17:21:29.0000000+00:00'
