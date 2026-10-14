@@ -4349,3 +4349,9 @@ Entries:
         ouro/prata.
   id: 521
   time: '2026-10-14T18:45:23.0000000+00:00'
+- author: Crenissis e Criso
+  changes:
+    - type: Tweak
+      message: Ajustes em alguns ícones de interface do jogo.
+  id: 522
+  time: '2026-10-14T22:08:21.0000000+00:00'
