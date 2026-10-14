@@ -4367,3 +4367,9 @@ Entries:
       message: Alterado o óculos roundstart do Chem para MedChem.
   id: 524
   time: '2026-10-14T22:13:59.0000000+00:00'
+- author: Heartbeat
+  changes:
+    - type: Fix
+      message: Artefatos dão a quantidade correta de fragmentos quando esmagados.
+  id: 525
+  time: '2026-10-14T22:21:45.0000000+00:00'
