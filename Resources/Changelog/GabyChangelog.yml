@@ -4405,3 +4405,13 @@ Entries:
       message: Advanced anomaly generator
   id: 530
   time: '2026-10-15T19:22:22.0000000+00:00'
+- author: Heartbeat
+  changes:
+    - type: Remove
+      message: MP-17 "Guardian".
+    - type: Add
+      message: >-
+        RB-18 "Guardian". Uma arma que atira cartuchos de autoinjetor,
+        disponível para o Médico Chefe.
+  id: 531
+  time: '2026-10-15T19:55:09.0000000+00:00'
