@@ -4385,3 +4385,11 @@ Entries:
       message: 'Minérios agora providenciam mais recursos. '
   id: 527
   time: '2026-10-14T22:42:32.0000000+00:00'
+- author: cristalyssd
+  changes:
+    - type: Tweak
+      message: >-
+        Tritium agora não pega fogo na mesma temperatura que o plasma. Sem mais
+        subframes!
+  id: 528
+  time: '2026-10-15T02:36:25.0000000+00:00'
