@@ -4530,3 +4530,15 @@ Entries:
         livro guia.
   id: 537
   time: '2026-10-16T19:56:07.0000000+00:00'
+- author: Struater
+  changes:
+    - type: Add
+      message: >-
+        Adicionadas as áreas do Trauma/Monkey, pros mapeadores marcarem as salas
+        dos mapas.
+    - type: Add
+      message: >-
+        Música ambiente própria em cada departamento e em algumas salas, nos
+        mapas que tiverem áreas.
+  id: 538
+  time: '2026-10-16T22:36:26.0000000+00:00'
