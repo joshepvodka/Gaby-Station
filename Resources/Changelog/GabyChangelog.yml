@@ -4542,3 +4542,17 @@ Entries:
         mapas que tiverem áreas.
   id: 538
   time: '2026-10-16T22:36:26.0000000+00:00'
+- author: 'SrKolobanov '
+  changes:
+    - type: Add
+      message: Daengati agora tem resistência a solda.
+    - type: Add
+      message: Novo emote pro Daengati.
+    - type: Remove
+      message: Daengati não tem mais visão noturna.
+    - type: Tweak
+      message: Defesa de dano de calor do Daengati reduzida pela metade.
+    - type: Tweak
+      message: Daengatis agora podem ingerir carne crua e sangue.
+  id: 539
+  time: '2026-10-16T22:41:13.0000000+00:00'
