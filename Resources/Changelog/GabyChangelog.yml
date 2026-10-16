@@ -4500,3 +4500,21 @@ Entries:
       message: Abductor sofreu vários ajustes em seu loop de gameplay.
   id: 535
   time: '2026-10-16T18:14:19.0000000+00:00'
+- author: Crenissis
+  changes:
+    - type: Tweak
+      message: Apenas Pessoas Plasma conseguem usar trajes herméticos.
+    - type: Tweak
+      message: Ajuste de stats e funcionalidade de algumas peças herméticas.
+    - type: Fix
+      message: >-
+        Pessoas Plasma agora conseguem usar armaduras de herege e do culto
+        cósmico sem pegar fogo.
+    - type: Fix
+      message: Pessoas Plasmas não ficam mais doente (Eu espero).
+    - type: Fix
+      message: Arruma avatares do bitrunner para Pessoas Plasma.
+    - type: Fix
+      message: Arruma algumas interações com o Blob Pod e o capacete hermético.
+  id: 536
+  time: '2026-10-16T18:22:42.0000000+00:00'
