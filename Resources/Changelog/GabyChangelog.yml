@@ -4518,3 +4518,15 @@ Entries:
       message: Arruma algumas interações com o Blob Pod e o capacete hermético.
   id: 536
   time: '2026-10-16T18:22:42.0000000+00:00'
+- author: Struater
+  changes:
+    - type: Tweak
+      message: >-
+        Culto Cósmico recebeu uma atualização mediana. Vejam o livro guia para
+        mais detalhes.
+    - type: Tweak
+      message: >-
+        O culto cósmico foi traduzido para português, incluindo as entradas do
+        livro guia.
+  id: 537
+  time: '2026-10-16T19:56:07.0000000+00:00'
