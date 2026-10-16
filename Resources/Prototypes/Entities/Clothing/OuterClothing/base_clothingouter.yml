@@ -322,8 +322,8 @@
   - type: TemperatureProtection
     heatingCoefficient: 0.01
     coolingCoefficient: 0.01
-  - type: FireProtection 
-    reduction: 0.50 
+  - type: FireProtection
+    reduction: 0.50
   - type: IgniteFromGasImmunity
     parts:
     - Chest
@@ -376,7 +376,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - PlasmamanSafe # EE Plasmeme Change
+    - PlasmamanSafeOther # Dumont
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
   - type: DamageOnInteractProtection
@@ -451,7 +451,7 @@
     - jumpsuit
   - type: Tag
     tags:
-    - PlasmamanSafe # EE Plasmeme Change
+    - PlasmamanSafeOther # Dumont
   - type: StainBlocker
     slots: [INNERCLOTHING, FEET, GLOVES]
 
