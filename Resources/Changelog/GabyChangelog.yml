@@ -4492,3 +4492,11 @@ Entries:
       message: Lecters, Kammerers, Drozds, MK-58s nos mapas.
   id: 534
   time: '2026-10-16T17:54:39.0000000+00:00'
+- author: Struater
+  changes:
+    - type: Add
+      message: Adicionada cirurgia de cauda e asa.
+    - type: Tweak
+      message: Abductor sofreu vários ajustes em seu loop de gameplay.
+  id: 535
+  time: '2026-10-16T18:14:19.0000000+00:00'
