@@ -4568,3 +4568,9 @@ Entries:
       message: Cápsulas de fuga agora possuem limite de capacidade.
   id: 540
   time: '2026-10-17T01:23:33.0000000+00:00'
+- author: Heartbeat
+  changes:
+    - type: Fix
+      message: Borgs conseguem pegar aço.
+  id: 541
+  time: '2026-10-17T18:53:57.0000000+00:00'
