@@ -4556,3 +4556,15 @@ Entries:
       message: Daengatis agora podem ingerir carne crua e sangue.
   id: 539
   time: '2026-10-16T22:41:13.0000000+00:00'
+- author: Struater
+  changes:
+    - type: Tweak
+      message: >-
+        As cápsulas de fuga agora pousam em um planeta com uma dungeon e seus
+        inimigos, em vez de ir para a CentCom.
+    - type: Tweak
+      message: O objetivo do Ninja de sobreviver foi alterado para uma Extração.
+    - type: Add
+      message: Cápsulas de fuga agora possuem limite de capacidade.
+  id: 540
+  time: '2026-10-17T01:23:33.0000000+00:00'
