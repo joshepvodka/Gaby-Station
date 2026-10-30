@@ -26,16 +26,10 @@ using Robust.Shared.Timing;
 namespace Content.Server.Power.SMES;
 
 [UsedImplicitly]
-public sealed class SmesSystem : EntitySystem // goob edit - made public
+public sealed partial class SmesSystem : EntitySystem // goob edit - made public
 {
     [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
-    [Dependency] private readonly StationJobsSystem _stationJobsSystem = default!;
-    [Dependency] private readonly StationSystem _stationSystem = default!;
-    [Dependency] private readonly IPrototypeManager _protoMan = default!;
-    [Dependency] private readonly IConfigurationManager _cfg = default!;
-
-    private bool _selfRechargeEnabled = true;
 
     public override void Initialize()
     {
@@ -45,14 +39,16 @@ public sealed class SmesSystem : EntitySystem // goob edit - made public
 
         SubscribeLocalEvent<SmesComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<SmesComponent, ChargeChangedEvent>(OnBatteryChargeChanged);
-        SubscribeLocalEvent<SmesComponent, PlayerSpawnCompleteEvent>(OnNewPlayerSpawn);
-        SubscribeLocalEvent<SmesComponent, CryoSlotReturnedEvent>(OnSlotReturned);
-        _cfg.OnValueChanged(DumontCVars.SmesAutoRecharge, (value) => OnCvarChanged(value), true);
+        SubscribeLocalEvent<SmesComponent, PlayerSpawnCompleteEvent>(OnNewPlayerSpawn);             //Dumontstation change
+        SubscribeLocalEvent<SmesComponent, CryoSlotReturnedEvent>(OnSlotReturned);                  //Dumontstation change
+        _cfg.OnValueChanged(DumontCVars.SmesAutoRecharge, (value) => OnCvarChanged(value), true);   //Dumontstation change
     }
 
     private void OnMapInit(EntityUid uid, SmesComponent component, MapInitEvent args)
     {
         UpdateSmesState(uid, component);
+
+        //Dumontstation Change
         if (!_cfg.GetCVar(DumontCVars.SmesAutoRecharge))
         {
             ToggleSelfRecharge(false);
@@ -62,80 +58,6 @@ public sealed class SmesSystem : EntitySystem // goob edit - made public
     private void OnBatteryChargeChanged(EntityUid uid, SmesComponent component, ref ChargeChangedEvent args)
     {
         UpdateSmesState(uid, component);
-    }
-
-    private void OnNewPlayerSpawn(EntityUid uid, SmesComponent smes, PlayerSpawnCompleteEvent args)
-    {
-        if (_selfRechargeEnabled && args.JobId is not null)
-        {
-            bool isEngineer = false;
-
-            var engDept = _protoMan.Index<DepartmentPrototype>("Engineering");
-            foreach (var role in engDept.Roles)
-            {
-                if (role == args.JobId)
-                    isEngineer = true;
-            }
-
-            if (isEngineer)
-            {
-                ToggleSelfRecharge(false);
-            }
-        }
-    }
-
-    private void OnSlotReturned(EntityUid uid, SmesComponent smes, CryoSlotReturnedEvent args)
-    {
-        if (!_selfRechargeEnabled && _cfg.GetCVar(DumontCVars.SmesAutoRecharge))
-        {
-            if (GetEngineerCount() == 0)
-                ToggleSelfRecharge(true);
-        }
-    }
-
-    private void OnCvarChanged(bool value)
-    {
-        if (!value)
-        {
-            ToggleSelfRecharge(value);
-        }
-        else if (GetEngineerCount() == 0)
-        {
-            ToggleSelfRecharge(value);
-        }
-    }
-
-    private void ToggleSelfRecharge(bool value)
-    {
-        if (_selfRechargeEnabled == value)
-            return;
-
-        _selfRechargeEnabled = value;
-        var query = EntityQuery<SmesComponent, BatterySelfRechargerComponent>();
-        foreach (var (smes, selfRecharger) in query)
-        {
-            selfRecharger.AutoRecharge = value;
-        }
-    }
-
-    private int GetEngineerCount()
-    {
-        var stations = _stationSystem.GetStations();
-        int totalEngCount = 0;
-        foreach (var station in stations)
-        {
-            var jobs = _stationJobsSystem.GetJobs(station);
-            var engDept = _protoMan.Index<DepartmentPrototype>("Engineering");
-
-            foreach (var role in engDept.Roles)
-            {
-                jobs.TryGetValue(role, out var c);
-                if (c.HasValue)
-                    totalEngCount += c.Value;
-            }
-        }
-
-        return totalEngCount;
     }
 
     private void UpdateSmesState(EntityUid uid, SmesComponent smes)
